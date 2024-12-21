@@ -1,8 +1,8 @@
 name: Early Midnight
-image: early midnight>7
+image: early midnight>7.png
 image name: #[Early Midnight]
 white: true
-tags: project, visual, graphic, verse, people
+tags: project, visual, graphic
 title: An #[Early Midnight] is the predecessor intrasuit to the #[Successor Series] project.
 content: 
 
@@ -21,13 +21,13 @@ These helmets were procedurally modeled in their entirety in Houdini. Texture ma
 +
 Heavily inspired by @[Fernando Magalhaes>http://mgxs.co/]' procedural generation.
 
-&[early midnight>4]
-&[early midnight>12]
-&[early midnight>6]
-&[early midnight>13]
-&[early midnight>7]
-&[early midnight>8]
-&[early midnight>9]
-&[early midnight>10]
-&[early midnight>11]
-&[early midnight>1]
+&[early midnight>4.png]
+&[early midnight>12.jpg]
+&[early midnight>6.png]
+&[early midnight>13.png]
+&[early midnight>7.png]
+&[early midnight>8.png]
+&[early midnight>9.png]
+&[early midnight>10.png]
+&[early midnight>11.png]
+&[early midnight>1.png]

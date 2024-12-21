@@ -1,5 +1,5 @@
 name: Aquaform
-image: aquaform>1
+image: aquaform>1.jpg
 image name: #[Aquaform]
 white: true
 tags: project, visual, photography
@@ -7,22 +7,22 @@ title: #[Aquaform] - Water.
 content:
 ?[With each layer descended, you near the Abyss' core. Appreciate each depth; they can be seen but once.]
 
-&[aquaform>2]
-&[aquaform>3]
-&[aquaform>4]
-&[aquaform>5]
-&[aquaform>6]
-&[aquaform>7]
-&[aquaform>8]
-&[aquaform>9]
-&[aquaform>10]
-&[aquaform>11]
-&[aquaform>12]
-&[aquaform>13]
-&[aquaform>14]
-&[aquaform>15]
-&[aquaform>16]
-&[aquaform>17]
-&[aquaform>18]
-&[aquaform>19]
-&[aquaform>1]
+&[aquaform>2.jpg]
+&[aquaform>3.jpg]
+&[aquaform>4.jpg]
+&[aquaform>5.jpg]
+&[aquaform>6.jpg]
+&[aquaform>7.jpg]
+&[aquaform>8.jpg]
+&[aquaform>9.jpg]
+&[aquaform>10.jpg]
+&[aquaform>11.jpg]
+&[aquaform>12.jpg]
+&[aquaform>13.jpg]
+&[aquaform>14.jpg]
+&[aquaform>15.jpg]
+&[aquaform>16.jpg]
+&[aquaform>17.jpg]
+&[aquaform>18.jpg]
+&[aquaform>19.jpg]
+&[aquaform>1.jpg]

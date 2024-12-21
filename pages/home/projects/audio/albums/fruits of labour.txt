@@ -1,10 +1,10 @@
 name: Fruits of Labour
-image: fruits of labour>1
+image: fruits of labour>1.jpg
 image name: #[Fruits of Labour]
 white: true
 links: Director Documentation>https://www.opheliaspinosa.com/fruitsoflabour
 white: true
-tags: project, audio, album
+tags: project, audio, album, professional
 title: #[Fruits of Labour] is the soundtrack for the short documentary Fruits of Labour.
 content:
 @[Fruits of Labour>https://www.opheliaspinosa.com/fruitsoflabour] is a short documentary directed by @[Ophelia Spinosa>https://www.opheliaspinosa.com/].
@@ -16,8 +16,8 @@ My main role was based around scoring the movie with key pieces of music and mot
 +
 The soundtrack features orchestral instruments in lo-fi soundscapes, with slight usage of electronic elements. It outlines the relationship between father and daughter, and explores both the bitter and sweet sides of the particularities of their connection.
 
-^[fruits of labour>trailer ++ Trailer]
-^[fruits of labour>droplets ++ Droplets]
-^[fruits of labour>fields ++ Fields]
+^[fruits of labour>trailer.wav ++ Trailer]
+^[fruits of labour>droplets.wav ++ Droplets]
+^[fruits of labour>fields.wav ++ Fields]
 
-&[fruits of labour>3]
+&[fruits of labour>3.png]

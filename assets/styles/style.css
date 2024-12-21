@@ -10,7 +10,6 @@
 	--ultraDark: #777;
 }
 
-/*-----------GENERAL-----------*/
 html {
 	box-sizing: border-box;
 	font-weight: 400;
@@ -94,6 +93,7 @@ a.external:after {
 }
 
 /*-----------MOUSE-----------*/
+
 #mouseFar,
 #mouseIcon {
 	opacity: 0;
@@ -118,6 +118,7 @@ a.external:after {
 }
 
 /*-----------MEDIA-----------*/
+
 #vCanvas {
 	position: absolute;
 	width: 100px;
@@ -135,6 +136,7 @@ a.external:after {
 }
 
 /*-----------HEADER-----------*/
+
 #header {
 	position: relative;
 	width: 100%;
@@ -187,6 +189,7 @@ a.external:after {
 }
 
 /*-----------SIDEBAR-----------*/
+
 #sidebar {
 	display: inline-block;
 	position: relative;
@@ -202,7 +205,7 @@ a.external:after {
 
 .path-container {
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .side-title {
@@ -273,6 +276,7 @@ a.external:after {
 }
 
 /*-----------BODY-----------*/
+
 #full-container {
 	display: flex;
 	max-width: calc(320px + 900px);
@@ -290,40 +294,8 @@ a.external:after {
 	border-bottom: solid 1px var(--bright);;
 }
 
-/*-----------LO-GUIDE-----------*/
-#cli {
-	font-family: "Roboto Mono";
-	font-size: 13px;
-	width: 100%;
-}
-
-#lo-cli-input {
-	width: 85%;
-	font-family: "Roboto Mono";
-	background-color: var(--background);;
-	color: var(--ultraDark);
-	border: none;
-	line-height: normal;
-}
-
-#lo-cli-input:focus {
-	outline: none;
-}
-
-#cli-output {
-	margin-bottom: 20px;
-}
-
-#lo-cli-output {
-	line-height: normal;
-}
-
-#cli-symbol {
-	margin-right: 12px;
-	color: var(--ultraDark);
-}
-
 /*-----------CONTENT-----------*/
+
 #content {
 	width: 100%;
 	padding: 0 40px 0 40px;
@@ -472,6 +444,7 @@ li .annotation {
 }
 
 /*-----------LISTS-----------*/
+
 .condensed-list,
 .spacious-list {
 	width: 100%;
@@ -510,6 +483,7 @@ li .annotation {
 }
 
 /*-----------FOOTER-----------*/
+
 #footer {
 	width: 100%;
 	height: 90px;
@@ -571,6 +545,7 @@ li .annotation {
 }
 
 /*-----------MEDIA-----------*/
+
 #mobile-path {
 	display: none;
 }

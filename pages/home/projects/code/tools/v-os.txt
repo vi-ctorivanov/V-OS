@@ -1,5 +1,5 @@
 name: V-OS
-image: v-os>1
+image: v-os>1.png
 image name: #[V-OS]
 links: Github>https://github.com/v-exec/V-OS
 white: true

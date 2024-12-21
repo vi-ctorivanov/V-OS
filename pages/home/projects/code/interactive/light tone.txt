@@ -1,12 +1,12 @@
 name: Light Tone
-image: lighttone>1
+image: lighttone>1.png
 image name: #[Light Tone]
 links: Github>https://github.com/v-exec/LightTone
 tags: project, code, interactive, audio, single
 title: #[Light Tone] is an interactive audio sculpture and experimental musical instrument.
 content:#[Light Tone] allows users to play music on an imaginary piano roll in the air.
 
-,[light tone>1]
+,[light tone>1.mp4]
 
 #[Light Tone] aims to create an etheral feeling of playing music simply by extending one's hands, without touching anything, and to allow just about anyone to experience the joy of creating music on-the-fly.
 +

@@ -1,7 +1,7 @@
 name: Mythaphil
-image: mythaphil>1
+image: mythaphil>1.png
 image name: #[Mythaphil]
-tags: project, audio, single, verse, location
+tags: project, audio, single
 white: true
 title: #[Mythaphil] is the major region of a lush jungle planet sharing the same name.
 content:
@@ -12,4 +12,4 @@ In its current state, #[Mythaphil] is a relatively safe planet. It supports a fe
 
 /[di]
 
-^[mythaphil>1 ++ Mythaphil]
+^[mythaphil>1.wav ++ Mythaphil]

@@ -1,8 +1,0 @@
-name: Atmos
-image: atmos>1
-image name: #[Atmos]
-white: true
-tags: project, visual, graphic, verse, location
-title: The #[Atmos] is an iconic location logged due to its proximity to a #[Nihilim] phase point.
-content: A four-dimensional wreckage on an uninhabited desert planet.
-&[atmos>1]

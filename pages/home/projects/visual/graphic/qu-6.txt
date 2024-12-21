@@ -1,9 +1,9 @@
 name: QU-6
-image: qu-6>12
+image: qu-6>12.gif
 image name: #[QU-6]
 white: true
 links: Watch>https://youtu.be/LI9ENKTY4Q8
-tags: project, visual, graphic, verse, location
+tags: project, visual, graphic
 title: #[QU-6], m_struct #760.
 content:
 
@@ -15,20 +15,20 @@ dat: 40-05-34]
 
 Audio by @[Sanea Ima>https://pablosanea.com/].
 
-,[qu-6>1]
+,[qu-6>1.mp4]
 
 ~[The video above has a very high bitrate.
 +
 If you're having trouble loading it, please check out the @[compressed video on Youtube>https://youtu.be/LI9ENKTY4Q8].]
 
-&[qu-6>1]
-&[qu-6>2]
-&[qu-6>3]
-&[qu-6>4]
-&[qu-6>5]
-&[qu-6>6]
-&[qu-6>7]
-&[qu-6>8]
-&[qu-6>9]
-&[qu-6>10]
-&[qu-6>11]
+&[qu-6>1.png]
+&[qu-6>2.png]
+&[qu-6>3.png]
+&[qu-6>4.png]
+&[qu-6>5.png]
+&[qu-6>6.png]
+&[qu-6>7.png]
+&[qu-6>8.png]
+&[qu-6>9.png]
+&[qu-6>10.png]
+&[qu-6>11.png]

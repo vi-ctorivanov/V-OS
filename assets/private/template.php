@@ -50,7 +50,7 @@
 			</a>
 		</div>
 
-		<div class="header-image" style="background-image: url(/<?php echo $artifact->attributes['image'];?>)"></div>
+		<div class="header-image" style="background-image: url(<?php echo $artifact->attributes['image'];?>)"></div>
 	</div>
 
 	<div id="no-page-header"></div>
@@ -65,15 +65,6 @@
 					echo '</div>';
 				}
 				?>
-
-				<div id="cli">
-					<div id="cli-output">
-						<span id="lo-cli-output"></span>
-					</div>
-					<div id="cli-input">
-						<span id="cli-symbol">></span><input type="text" id="lo-cli-input" value="" onkeypress="guide(event)"></input>
-					</div>
-				</div>
 
 				<?php
 				echo '<div class="side-divider"></div>';
@@ -165,7 +156,6 @@
 
 <script src="/assets/scripts/logo.js"></script>
 <script src="/assets/scripts/mouse.js"></script>
-<script src="/assets/scripts/cli.js"></script>
 <script src="/assets/scripts/requestscript.js"></script>
 
 <?php checkWhite($artifact, false);?>

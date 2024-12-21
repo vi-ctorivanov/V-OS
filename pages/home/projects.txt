@@ -1,9 +1,9 @@
 name: Projects
-image: qu-6>9
+image: qu-6>9.png
 image name: #[Qu-6]
 white: true
 tags: nav
-title: The #[projects] section is a collection of all publicly documented projects.
+title: The #[projects] section is a collection of publicly documented projects.
 content:
 ![#[Visual]]
 /[visual]

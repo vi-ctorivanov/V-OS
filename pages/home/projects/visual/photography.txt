@@ -1,5 +1,5 @@
 name: Photography
-image: archform night>11
+image: archform night>11.png
 image name: #[Archform Night]
 white: true
 tags: nav

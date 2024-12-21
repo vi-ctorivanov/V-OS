@@ -1,6 +1,6 @@
 name: Example
 
-//image: example>di
+//image: example>di.png
 
 image name: #[Example]
 
@@ -134,25 +134,25 @@ Creates a stylized link to an artifact, if it exists.
 /[purity]
 
 %[======================================]
-& [dir>img _[optional] ++ text] image
+& [dir>img.extension _[optional] ++ text] image
 +
 +
 Creates an image, with an optional annotation.
-&[purity>2 ++ Annotation.]
+&[purity>2.png ++ Annotation.]
 
 %[======================================]
-^ [dir>audio  _[optional] ++ text] audio
+^ [dir>audio.extension  _[optional] ++ text] audio
 +
 +
 Creates an audio element, with an optional title.
-^[mythaphil>1 ++ Mythaphil]
+^[mythaphil>1.mp3 ++ Mythaphil]
 
 %[======================================]
-, [dir>video  _[optional] ++ text] video
+, [dir>video.extension  _[optional] ++ text] video
 +
 +
 Creates a video element, with an optional annotation.
-,[dotcycle>1 ++ DotCycle]
+,[dotcycle>1.mp4 ++ DotCycle]
 
 %[======================================]
 * [text] bold

@@ -1,13 +1,13 @@
 name: Expansion
-image: expansion>2
+image: expansion>2.gif
 image name: #[Expansion]
 white: true
 links: Watch>https://www.youtube.com/watch?v=oQ_9SPHta88
-tags: project, code, display
+tags: project, code, display, professional
 title: #[Expansion] is a realtime particle system-based audio visualizer.
 content:
 
-,[expansion>1]
+,[expansion>1.mp4]
 
 ~[The video above has a very high bitrate.
 +

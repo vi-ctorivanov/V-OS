@@ -1,5 +1,5 @@
 name: Visor
-image: visor>1
+image: visor>1.png
 image name: #[Visor]
 white: true
 links: Github>https://github.com/v-exec/Visor, Use Online>https://exp.v-os.ca/visor

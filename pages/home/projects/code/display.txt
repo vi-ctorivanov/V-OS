@@ -1,5 +1,5 @@
 name: Display
-image: nakade>3
+image: nakade>3.png
 image name: #[Nakade]
 white: true
 tags: nav

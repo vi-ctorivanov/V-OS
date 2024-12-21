@@ -1,5 +1,5 @@
 name: Iregular
-image: iregular>1
+image: iregular>1.jpg
 image name: #[Iregular]
 white: true
 links: Client Website>https://iregular.io/
@@ -7,15 +7,15 @@ tags: project, professional
 title: #[Iregular] is a collection of interactive installation and projection-mapping projects for @[Iregular>https://iregular.io/].
 content:
 
-&[iregular>2]
+&[iregular>2.jpg]
 
 I worked with the team at Iregular to produce a number of interactive artworks in their Our Common Home series. These works leverage facial and body recognition to drive interactive experiences that have been projected on the faces of iconic buildings around the world, including Montreal, Chicago, Dubai, and Los Angeles.
 +
 +
 My contribution were primarily related to working with our art director to execute their ideas on a technical level, producing visuals and programming interaction, working with engineers to interface with their tracking technology, and testing and iterating on pieces on-site at various exhibition locations.
 
-&[iregular>3]
-&[iregular>4]
+&[iregular>3.jpg]
+&[iregular>4.jpg]
 
 %[]
 
@@ -25,4 +25,4 @@ My contribution were primarily related to working with our art director to execu
 OUR COMMON HOME is an interactive public art exhibition that uses state-of-the-art AI and computer vision technologies to send one unified message about the impact of our individual decisions on the planet. Four interactive installations can be physically explored on giant digital monoliths spread across cities, while a fifth collective artwork extends the experience online.
 ]
 
-&[iregular>5]
+&[iregular>5.jpg]

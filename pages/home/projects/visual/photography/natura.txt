@@ -1,12 +1,12 @@
 name: Natura
-image: natura>3
+image: natura>3.jpg
 image name: #[Natura]
 white: true
 tags: project, visual, photography
 title: #[Natura] - Loxiolid.
 content:
-&[natura>1]
-&[natura>2]
-&[natura>3]
-&[natura>4]
-&[natura>5]
+&[natura>1.jpg]
+&[natura>2.jpg]
+&[natura>3.jpg]
+&[natura>4.jpg]
+&[natura>5.jpg]

@@ -1,7 +1,0 @@
-name: Research
-image: truli>6
-image name: #[Truli]
-tags: nav
-title: The #[research] section is the space destined for my research, and personal inquiries.
-content:
--[research]

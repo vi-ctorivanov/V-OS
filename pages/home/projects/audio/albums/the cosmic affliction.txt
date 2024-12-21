@@ -1,18 +1,19 @@
 name: The Cosmic Affliction
-image: the cosmic affliction>1
+image: the cosmic affliction>1.jpg
 image name: #[The Cosmic Affliction]
 white: true
 links: Bandcamp>https://v-exec.bandcamp.com/album/the-cosmic-affliction
-tags: project, audio, album, verse, phenomenon
+tags: project, audio, album
 title: #[The Cosmic Affliction] is a narrative-centric electronic album, following a #[Solemn] drifter of the planes.
 content:
 /[solemn]
 
-^[the cosmic affliction>Spacefarer ++ Spacefarer]
-^[the cosmic affliction>Thousand Year Dream ++ Thousand Year Dream]
-^[the cosmic affliction>Strider ++ Strider]
-^[the cosmic affliction>It Always Rains On Saturn ++ It Always Rains On Saturn]
-^[the cosmic affliction>Dark Dye ++ Dark Dye]
-^[the cosmic affliction>Entry 11842 - Delete These Records ++ Entry 11842 - Delete These Records]
+^[the cosmic affliction>Spacefarer.wav ++ Spacefarer]
+^[the cosmic affliction>Thousand Year Dream.wav ++ Thousand Year Dream]
+^[the cosmic affliction>Stride.wav ++ Strider]
+^[the cosmic affliction>It Always Rains On Saturn.wav ++ It Always Rains On Saturn]
+^[the cosmic affliction>Dark Dye.wav ++ Dark Dye]
+^[the cosmic affliction>Entry 11842 - Delete These Records.wav ++ Entry 11842 - Delete These Records]
 
-&[the cosmic affliction>3]
+&[the cosmic affliction>4.png]
+&[the cosmic affliction>3.png]

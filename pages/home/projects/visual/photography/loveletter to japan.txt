@@ -1,13 +1,13 @@
 name: Loveletter To Japan
-image: loveletter to japan>4
+image: loveletter to japan>4.jpg
 image name: #[Loveletter To Japan]
 white: true
 tags: project, visual, photography
 title: #[Loveletter To Japan] is a collection of night photos from my final evenings in Tokyo.
 content:
-&[loveletter to japan>1]
-&[loveletter to japan>2]
-&[loveletter to japan>3]
+&[loveletter to japan>1.jpg]
+&[loveletter to japan>2.jpg]
+&[loveletter to japan>3.jpg]
 
 At first, things were difficult. A language I didn't speak, a half-assed effort to fit into the foreign social protocols of a vastly different society, and no friends or acquaintances.
 +
@@ -21,10 +21,10 @@ I was used to sharing a portfolio and website as a conversation starter. Without
 +
 But what began as a social challenge became the greatest blessing.
 
-&[loveletter to japan>4]
-&[loveletter to japan>5]
-&[loveletter to japan>6]
-&[loveletter to japan>7]
+&[loveletter to japan>4.jpg]
+&[loveletter to japan>5.jpg]
+&[loveletter to japan>6.jpg]
+&[loveletter to japan>7.jpg]
 
 Productivity is all I cared for. But, in Japan, the way of life was simpler. Time didn't quite move as much, and the present remained in clear sight.
 +
@@ -39,15 +39,15 @@ Along with them, I let go of the burdens and anxieties that plague a reality whe
 I haven't let go of productivity, but now it shares my mental space with other fulfillment-breeding habits.
 The struggle is never-ending, but each day spent focusing on what one enjoys doing is a step closer to stripping your happiness away from the hands of others and claiming it for yourself.
 
-&[loveletter to japan>8]
-&[loveletter to japan>9]
-&[loveletter to japan>10]
-&[loveletter to japan>11]
-&[loveletter to japan>12]
-&[loveletter to japan>13]
-&[loveletter to japan>14]
-&[loveletter to japan>15]
-&[loveletter to japan>16]
+&[loveletter to japan>8.jpg]
+&[loveletter to japan>9.jpg]
+&[loveletter to japan>10.jpg]
+&[loveletter to japan>11.jpg]
+&[loveletter to japan>12.jpg]
+&[loveletter to japan>13.jpg]
+&[loveletter to japan>14.jpg]
+&[loveletter to japan>15.jpg]
+&[loveletter to japan>16.jpg]
 
 I yearn now for what I had in Japan.
 +
@@ -69,12 +69,12 @@ The trips through cities and mountains by car, and the exhausting hundreds of ki
 +
 In short, I yearn for what my time in Japan has taught me: to pursue not only creation, but also experience.
 
-&[loveletter to japan>17]
-&[loveletter to japan>18]
-&[loveletter to japan>19]
-&[loveletter to japan>20]
-&[loveletter to japan>21]
-&[loveletter to japan>22]
+&[loveletter to japan>17.jpg]
+&[loveletter to japan>18.jpg]
+&[loveletter to japan>19.jpg]
+&[loveletter to japan>20.jpg]
+&[loveletter to japan>21.jpg]
+&[loveletter to japan>22.jpg]
 
 This is all extremely cliché - more than I'd like to admit - but this was the best year of my life. I wanted an adventure, and the experience fulfilled and exceeded those expectations.
 +

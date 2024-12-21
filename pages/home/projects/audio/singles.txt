@@ -1,5 +1,5 @@
 name: Singles
-image: qurotema>1
+image: qurotema>1.png
 image name: #[Quro]
 white: true
 tags: nav

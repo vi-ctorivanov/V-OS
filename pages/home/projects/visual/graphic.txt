@@ -1,5 +1,5 @@
 name: Graphic
-image: ark simulation>1
+image: ark simulation>1.jpg
 image name: #[Ark Simulation]
 white: true
 tags: nav

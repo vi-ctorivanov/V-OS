@@ -1,12 +1,12 @@
 name: Fracas
-image: fracas>2
+image: fracas>2.gif
 image name: #[Fracas]
 links: Watch>https://www.youtube.com/watch?v=iI3iD-WkdaU
-tags: project, code, display
+tags: project, code, display, professional
 title: #[Fracas] is a realtime point cloud music video with photogrammetric flowers.
 content:
 
-,[fracas>1]
+,[fracas>1.mp4]
 
 ~[The video above has a very high bitrate.
 +

@@ -1,5 +1,5 @@
 name: Dpt
-image: dpt>1
+image: dpt>1.png
 image name: #[Dpt]
 white: true
 links: Website>https://dpt.co/

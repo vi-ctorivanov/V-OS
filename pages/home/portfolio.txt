@@ -1,12 +1,12 @@
 name: Portfolio
-image: early midnight>12
+image: early midnight>12.jpg
 image name: #[Early Midnight]
 white: true
 tags: personal
 title: Victor's #[portfolio].
 content:
 
-I'm Victor [vi], and I'm the creator of this space, currently residing in Tokyo. I've worked as a developer, artist, and technical artist for games, publicity, web, and art installations.
+I'm Victor Ivanov [vi], and I'm the creator of this space, currently residing in Tokyo. I've worked as a developer, artist, and technical artist for games, publicity, web, and art installations.
 +
 +
 I design, develop, and produce static and interactive media, focusing to create _[unique, innovative, aesthetically powerful, polished, and imaginative] experiences.
@@ -38,7 +38,7 @@ I craft stories and art often focused on alternate realities and fictional world
 
 %[]
 
-Check out my @[resume>media/downloads/portfolio/cv.pdf] for formal documentation of work experience and education.
+Check out my @[resume>filePath/portfolio/cv.pdf] for formal documentation of work experience and education.
 +
 +
 Send me an email at @[vi@v-os.ca>mailto:vi@v-os.ca] to get in touch!

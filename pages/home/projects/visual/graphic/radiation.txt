@@ -1,8 +1,8 @@
 name: RADIATION
-image: radiation>1
+image: radiation>1.gif
 image name: #[RADIATION]
 white: true
-links: Watch>#
+links: Watch>https://youtu.be/WN_UycM4ZjY
 tags: project, visual, graphic
 title: Records of #[RADIATION].
 content:
@@ -12,15 +12,15 @@ The mundane, forever changed.
 +
 Audio by @[FeltWork>https://feltwork.org/].
 
-,[radiation>1]
+,[radiation>1.mov]
 
 ~[The video above has a very high bitrate.
 +
-If you're having trouble loading it, please check out the @[compressed video on Youtube>#].]
+If you're having trouble loading it, please check out the @[compressed video on Youtube>https://youtu.be/WN_UycM4ZjY].]
 
-&[radiation>7]
-&[radiation>2]
-&[radiation>3]
-&[radiation>4]
-&[radiation>5]
-&[radiation>6]
+&[radiation>7.png]
+&[radiation>2.png]
+&[radiation>3.png]
+&[radiation>4.png]
+&[radiation>5.png]
+&[radiation>6.png]

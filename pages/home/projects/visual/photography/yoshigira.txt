@@ -1,16 +1,16 @@
 name: Yoshigira
-image: yoshigira>3
+image: yoshigira>3.jpg
 image name: #[Yoshigira]
 tags: project, visual, photography
 title: #[Yoshigira] is a small album feauturing the last park on the civilized globe.
 content:
-&[yoshigira>1]
-&[yoshigira>2]
-&[yoshigira>3]
-&[yoshigira>4]
-&[yoshigira>5]
-&[yoshigira>6]
-&[yoshigira>7]
-&[yoshigira>8]
-&[yoshigira>9]
-&[yoshigira>10]
+&[yoshigira>1.jpg]
+&[yoshigira>2.jpg]
+&[yoshigira>3.jpg]
+&[yoshigira>4.jpg]
+&[yoshigira>5.jpg]
+&[yoshigira>6.jpg]
+&[yoshigira>7.jpg]
+&[yoshigira>8.jpg]
+&[yoshigira>9.jpg]
+&[yoshigira>10.jpg]

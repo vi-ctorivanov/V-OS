@@ -1,13 +1,13 @@
 name: Jagged Orbit
-image: jagged orbit>1
+image: jagged orbit>1.gif
 image name: #[Jagged Orbit]
 white: true
 links: Watch>https://www.youtube.com/watch?v=CYOmMb62t6g&feature=youtu.be
-tags: project, code, display
+tags: project, code, display, professional
 title: #[Jagged Orbit] is a photogrammetry-based realtime particle system.
 content:
 
-,[jagged orbit>1]
+,[jagged orbit>1.mp4]
 
 ~[The video above has a very high bitrate.
 +
@@ -18,4 +18,4 @@ If you're having trouble loading it, please check out the @[compressed video on 
 +
 This project was created using photogrammetry of landscape videos taken with a drone, which were then used as force fields for various particle systems.
 
-&[jagged orbit>2]
+&[jagged orbit>2.jpg]

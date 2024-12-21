@@ -1,5 +1,5 @@
 name: Golden Bike
-image: golden bike>12
+image: golden bike>12.jpg
 image name: #[Golden Bike]
 white: true
 tags: project, visual, photography
@@ -9,22 +9,22 @@ content:
 
 Tomi, Taylor, and I decided to take advantage of the time we had between semesters in Japan by going on a biking trip.
 
-&[golden bike>1]
+&[golden bike>1.jpg]
 
 We debated over the sites we would visit. We initially thought about flying out from Tokyo over to Osaka, and then biking south to Hiroshima.
 
-&[golden bike>2]
+&[golden bike>2.jpg]
 
 "It's too inconvenient", we concluded. "The logistics of transporting a bike that far, or getting one there on short notice would be hard to manage."
 +
 +
 Taylor suggested an idea that immediately caught my interest. "Why not go to Fuji?"
 
-&[golden bike>3]
+&[golden bike>3.jpg]
 
 I loved the idea. And I thought about 富嶽三十六景 by 北斎 [36 Views of Mount Fuji, by Hokusai], a famous set of prints depicting Fuji and its surrounding landscapes, each taking a look at some element of Japanese culture and life. "Why not make our own?" I thought. Not as artsy, but more of a documentation of the landscapes we'd see. And so was spawned this album.
 
-&[golden bike>4]
+&[golden bike>4.jpg]
 
 We made the plan. Booked the AirBnBs. Acquired decent bikes and prepared the necessary equipment.
 
@@ -34,62 +34,62 @@ We made the plan. Booked the AirBnBs. Acquired decent bikes and prepared the nec
 東京; 鎌倉; 湯河原; 富士宮; 富士河口湖; 上野原; 東京.
 Tokyo; Kamakura; Yugawara; Fujinomiya; Fujikawaguchiko; Uenohara; Tokyo.]
 
-&[golden bike>5]
+&[golden bike>5.jpg]
 
 The first two days weren't too bad. We got tired, naturally, but nothing too painful. Some climbs were annoying, but we survived.
 
-&[golden bike>6]
+&[golden bike>6.jpg]
 
 But the third day was the real challenge. We decided to climb up Mount Hakone on our way to Fujinomiya. We got tired. _[Very tired].
 
-&[golden bike>7]
+&[golden bike>7.jpg]
 
 In fact, we nearly passed out. As it turns out, our preparation was not ideal, and we ran out of food and water halfway up.
 
-&[golden bike>8]
+&[golden bike>8.jpg]
 
 Though the sights were beautiful, they did little to motivate us when we had reached serious exhaustion. We had to take breaks every 5 minutes, where we would nearly fall asleep.
 
-&[golden bike>9]
+&[golden bike>9.jpg]
 
 Of course, at this point we were no longer biking. Only walking. It was not so much a challenge for the heart, but our legs could barely sustain our weight.
 
-&[golden bike>10]
+&[golden bike>10.jpg]
 
 I loved the challenge. Despite the discomfort, the feeling of putting all my focus and attention towards climbing this mountain gave me a sense of short-term purpose I could fully engage in.
 
-&[golden bike>11]
+&[golden bike>11.jpg]
 
 And, we pushed through. Eventually, we made it to the top.
 
-&[golden bike>12]
+&[golden bike>12.jpg]
 
 It was gorgeous. Hakone has a lake that's formed near its peak, rendering the scenery even prettier. The ride down was a blast, too. We rested for 2 hours, and sped through the rest of the day.
 
-&[golden bike>13]
+&[golden bike>13.jpg]
 
 It was then we saw Fuji for the first time. It never looked that big, since there are no other large nearby mountains to compare it to.
 
-&[golden bike>14]
+&[golden bike>14.jpg]
 
-&[golden bike>15]
+&[golden bike>15.jpg]
 
 But as we approached it, its scale became apparent.
 
-&[golden bike>16]
+&[golden bike>16.jpg]
 
 The next two days we visited lakes and roads surrounded by greenery.
 
-&[golden bike>17]
+&[golden bike>17.jpg]
 
 And we bonded over the distance we had crossed, the challenges we had conquered, and the time we had spent together.
 
-&[golden bike>18]
+&[golden bike>18.jpg]
 
 Upon returning, it felt like we had been on a month+ long trip. Physically exhausted, but strangely mentally charged.
 
-&[golden bike>19]
+&[golden bike>19.jpg]
 
 This was my first long-distance biking trip. It was without a doubt one of my best experiences in Japan. A true sense of adventure.
 
-&[golden bike>20]
+&[golden bike>20.jpg]

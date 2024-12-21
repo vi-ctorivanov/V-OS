@@ -1,5 +1,5 @@
 name: Fireform
-image: fireform>17
+image: fireform>17.jpg
 image name: #[Fireform]
 white: true
 tags: project, visual, photography
@@ -7,21 +7,21 @@ title: #[Fireform] - Primitive mastery.
 content:
 ?[And the technology they once discovered, they threw to the sky in honor of the star.]
 
-&[fireform>1]
-&[fireform>2]
-&[fireform>3]
-&[fireform>4]
-&[fireform>5]
-&[fireform>6]
-&[fireform>7]
-&[fireform>8]
-&[fireform>9]
-&[fireform>10]
-&[fireform>11]
-&[fireform>12]
-&[fireform>13]
-&[fireform>14]
-&[fireform>15]
-&[fireform>16]
-&[fireform>17]
-&[fireform>18]
+&[fireform>1.jpg]
+&[fireform>2.jpg]
+&[fireform>3.jpg]
+&[fireform>4.jpg]
+&[fireform>5.jpg]
+&[fireform>6.jpg]
+&[fireform>7.jpg]
+&[fireform>8.jpg]
+&[fireform>9.jpg]
+&[fireform>10.jpg]
+&[fireform>11.jpg]
+&[fireform>12.jpg]
+&[fireform>13.jpg]
+&[fireform>14.jpg]
+&[fireform>15.jpg]
+&[fireform>16.jpg]
+&[fireform>17.jpg]
+&[fireform>18.jpg]

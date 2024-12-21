@@ -1,5 +1,5 @@
 name: Cibo
-image: cibo>2
+image: cibo>2.gif
 image name: #[Cibo]
 white: true
 links: Watch>https://youtu.be/-Y01IHjy3w4?si=VqyQeA-zO_ZK3iOl
@@ -7,7 +7,7 @@ tags: project, visual, graphic
 title: Log 9: End's #[Cibo].
 content:
 
-,[cibo>1]
+,[cibo>1.mp4]
 
 ~[The video above has a very high bitrate.
 +
@@ -16,7 +16,7 @@ If you're having trouble loading it, please check out the @[compressed video on 
 This piece was created for @[Clinton Jones>https://www.youtube.com/channel/UCWIfzAYHyNSyHmT2AO-54yg]' @["Eternal Ascent" challenge>https://www.youtube.com/watch?v=UNjMSFLkMZA] over the course of a month, from concept to final render.
 Participants were given a template animation to work with. All models, textures, animations, and shaders beyond that were made for this challence.
 
-,[cibo>2]
+,[cibo>2.mp4]
 
 %[]
 ![Concept]
@@ -45,7 +45,7 @@ But, given this was an offline render it didn't feel too problematic.
 It gave me a lot of liberty over what input my shader was working with, so I could use a principled BSDF, for instance, and define PBR properties that would later be filtered through my shader.
 This gives Cibo her more metallic and reflective legs, and the environment its dry and rough surfaces.
 
-&[cibo>10]
+&[cibo>10.png]
 
 %[]
 *[Cel Shading & Hatching]
@@ -53,7 +53,7 @@ This gives Cibo her more metallic and reflective legs, and the environment its d
 +
 Traditionally, manga is printed in pure black and white. To emulate this, I use a simple threshold which determines whether a pixel will render white or black.
 
-&[cibo>11]
+&[cibo>11.png]
 
 This produces very clean and boring shapes, however, and it doesn't really match the more messy and chaotic scratchy style of Tsutomu's drawings.
 +
@@ -64,11 +64,11 @@ This means that I can orient my UVs to determine which direction the strokes mov
 +
 Multiplied with the RGB input, I now have a more textured and organic pen-stroke-like transition between black and white.
 
-&[cibo>12]
+&[cibo>12.png]
 
 Finally, to avoid creating clean shapes of light and darkness, I add some noise to the RGB input so that when it's wired into the cel shading, it helps mask the otherwise clean and perfect delineations of light and dark.
 
-&[cibo>13]
+&[cibo>13.png]
 
 There is a _[lot] of fiddling and tweaking that can go into getting the exact black-white transition for any given surface.
 
@@ -88,12 +88,12 @@ This screen space mapping makes sense in a manga context, because halftone patte
 +
 Because voronoi noise is a series of radial gradients, multiplying it with the RGB input acts as a scale multiplier of these gradients, making larger or smaller dots based on the RGB input's brightness.
 
-&[cibo>14]
+&[cibo>14.png]
 
 Regular patterns like these can produce moire patterns. These are artifacts which occur because of the interaction between two regular patterns (ex. the pixel grid of your screen, and the halftone grid in the shader), and they can be pretty distracting.
 Adding a smidge of randomness, and rotating the pattern so that it doesn't align with our screen pixel grid (~23 degrees in my case) works well to reduce the moire patterns. It doesn't fully eliminate them, but it's good enough.
 
-&[cibo>15]
+&[cibo>15.png]
 
 %[]
 *[Grease Pencil]
@@ -102,7 +102,7 @@ Adding a smidge of randomness, and rotating the pattern so that it doesn't align
 Blender's grease pencil is super useful for adding contour and intersection lines, which nicely emphasize modeled detail through line art.
 I kept mine animated each time the camera moved, though it could look good to make this line work more static if it suited the scene better.
 
-&[cibo>16]
+&[cibo>16.png]
 
 %[]
 *[Limited Framerate]
@@ -117,7 +117,7 @@ Because anime is usually animated at 12fps, limiting the framerate of camera mov
 Hand-drawn textures complement the shader very well as they look natural with the art style, and create texture where modeling is unreasonable.
 In the render, much of the background is a texture drawn onto the interior of a cylinder-like surface.
 
-&[cibo>17]
+&[cibo>17.png]
 
 %[]
 *[Effects]
@@ -127,7 +127,7 @@ I found that many effects (depth of field, bloom, soft shadows, contact shadows,
 They're all post processing in Eevee, meaning that they are (unfortunately) calculated later in the pipeline, after Blender's shader graph operations.
 This means that they aren't ran through the manga shader but instead are calculated after that, and many of them create a softness rarely seen in manga, or produce soft gradations which break the black-and-white-only rule.
 
-&[cibo>18]
+&[cibo>18.png]
 
 With that being said, I still made use of contact shadows, because they only affected the character, who doesn't take a lot of space on screen, and the shot isn't dynamic enough to notice contact shadows' drawbacks.
 +
@@ -144,8 +144,8 @@ Potentially injecting the manga shader after screen space effects like bloom and
 
 And that's about it! Lots of parameter tweaking, creating variants of the shader for different surfaces, and we have a fairly true to the source stylized shader!
 
-&[cibo>4]
-&[cibo>5]
-&[cibo>6]
-&[cibo>7]
-&[cibo>8]
+&[cibo>4.png]
+&[cibo>5.png]
+&[cibo>6.png]
+&[cibo>7.png]
+&[cibo>8.png]

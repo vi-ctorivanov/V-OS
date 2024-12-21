@@ -1,5 +1,5 @@
 name: Interactive
-image: cartographer>1
+image: cartographer>1.png
 image name: #[Cartographer]
 white: true
 tags: nav

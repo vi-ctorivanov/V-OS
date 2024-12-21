@@ -1,9 +1,9 @@
 name: Qurotema
-image: qurotema>4
+image: qurotema>4.gif
 image name: #[Qurotema]
 white: true
 links: Github>https://github.com/v-exec/Qurotema
-tags: project, code, interactive, verse, location, audio, single
+tags: project, code, interactive, audio, single
 title: #[Qurotema] is an off-limits construct universe.
 content:
 
@@ -11,7 +11,7 @@ content:
 
 ~[#[Qurotema] is currently in development.]
 
-,[qurotema>1]
+,[qurotema>1.mp4]
 
 %[]
 
@@ -52,7 +52,7 @@ On his seventh, and final trip, Dr. Sino had become entirely obsessed and consum
 +
 Current speculations say that #[Qurotema] is one of few artificial universes, ones created deliberately, and not as a simple effect of cosmic chaos. Besides the fact that it is essentially 'hidden' from the #[warp travel] coordinate system, and that it has gates that act as a supposed physical manifestation of what is assumed to be a security protocol, it also seems to behave strangely in terms of time, suggesting it isn't connected to #[Temporalis].
 
-&[qurotema>6]
+&[qurotema>6.jpg]
 
 During the Doctor's travels (which lasted 2 days on average, and not 4 hours, as his logs suggest), there were extremely long moments of silence, ranging from 2 hours to an entire day. The doctor's notes claimed that he documented everything by persistently talking with very few breaks. During the second trip, however, he spoke for over 9 hours in total, and logged only 4 hours of actual time spent in #[Qurotema] in his notes.
 +

@@ -8,9 +8,10 @@ new parsing criteria and features can seamlessly be introduced as a basic additi
 */
 class Parser {
 	//directories
-	private $imageDirectory = 'media/images';
-	private $soundDirectory = 'media/sounds';
-	private $videoDirectory = 'media/videos';
+	private $imageDirectory = 'https://v-os.nyc3.cdn.digitaloceanspaces.com/images';
+	private $soundDirectory = 'https://v-os.nyc3.cdn.digitaloceanspaces.com/sounds';
+	private $videoDirectory = 'https://v-os.nyc3.cdn.digitaloceanspaces.com/videos';
+	private $fileDirectory = 'https://v-os.nyc3.cdn.digitaloceanspaces.com/files';
 
 	//goes through all artifact attributes that are independant from other artifacts and formats each one according to existing formatting rules
 	public function firstFormat($artifact) {
@@ -37,6 +38,7 @@ class Parser {
 				$parts = explode('>', $artifact->links[$i]);
 				$parts[0] = trim($parts[0]);
 				$parts[1] = trim($parts[1]);
+				$parts[1] = str_replace('filePath', $this->fileDirectory, $parts[1]); //replace filePath keyword with file directory
 				array_push($newLinks, '<a href="' . $parts[1] . '" class="sidelink-holder"><span class="neutral-link sidelink">' . $parts[0] . '</span></a>');
 			}
 			$artifact->links = $newLinks;
@@ -250,6 +252,9 @@ class Parser {
 		$word = trim(substr($string, 0, $accessor));
 		$link = trim(substr($string, $accessor + 1, strlen($string)));
 
+		//replace keyword filePath with file directory
+		$link = str_replace('filePath', $this->fileDirectory, $link);
+
 		if ($this->artifactExist($link)) return '<a href="'.strtolower($link).'">'.$word.'</a>';
 		return '<a href="'.$link.'" class="external">'.$word.'</a>';
 	}
@@ -366,11 +371,6 @@ class Parser {
 			$image = $image.'/'.$strings[$i];
 		}
 
-		$image = $image.'.png';
-		if (!file_exists($image)) $image = substr($image, 0, strlen($image) - 4).'.jpg';
-		if (!file_exists($image)) $image = substr($image, 0, strlen($image) - 4).'.gif';
-		if (!file_exists($image)) $image = substr($image, 0, strlen($image) - 4).'.svg';
-
 		$image = str_replace(' ', '%20', $image);
 		$image = str_replace("'", "\'", $image);
 
@@ -398,11 +398,6 @@ class Parser {
 		for ($i = 0; $i < sizeof($strings); $i++) {
 			$image = $image.'/'.$strings[$i];
 		}
-
-		$image = $image.'.png';
-		if (!file_exists($image)) $image = substr($image, 0, strlen($image) - 4).'.jpg';
-		if (!file_exists($image)) $image = substr($image, 0, strlen($image) - 4).'.gif';
-		if (!file_exists($image)) $image = substr($image, 0, strlen($image) - 4).'.svg';
 
 		$image = str_replace(' ', '%20', $image);
 
@@ -434,11 +429,6 @@ class Parser {
 			$sound = $sound.'/'.$strings[$i];
 		}
 
-		$sound = $sound.'.mp3';
-		if (!file_exists($sound)) $sound = substr($sound, 0, strlen($sound) - 4).'.wav';
-		if (!file_exists($sound)) $sound = substr($sound, 0, strlen($sound) - 4).'.acc';
-		if (!file_exists($sound)) $sound = substr($sound, 0, strlen($sound) - 4).'.ogg';
-
 		$sound = str_replace(' ', '%20', $sound);
 		
 		if ($annotation != '') $aud = '</p><audio controls class="audio-annotated"><source class="audio-source" src="'.$sound.'"></audio>'.$annotation.'<p>';
@@ -468,11 +458,6 @@ class Parser {
 		for ($i = 0; $i < sizeof($strings); $i++) {
 			$video = $video.'/'.$strings[$i];
 		}
-
-		$video = $video.'.mp4';
-		if (!file_exists($video)) $video = substr($video, 0, strlen($video) - 4).'.webm';
-		if (!file_exists($video)) $video = substr($video, 0, strlen($video) - 5).'.ogg';
-		if (!file_exists($video)) $video = substr($video, 0, strlen($video) - 4).'.mov';
 
 		$video = str_replace(' ', '%20', $video);
 		

@@ -1,9 +1,9 @@
 name: TIMESCAPE
-image: timescape>1
+image: timescape>1.gif
 image name: #[TIMESCAPE]
 white: true
 links: Watch>https://www.youtube.com/watch?v=P2iOaK7cr-s
-tags: project, visual, graphic, verse, location
+tags: project, visual, graphic
 title: #[TIMESCAPE], a known future.
 content:
 
@@ -15,12 +15,12 @@ In #[TIMESCAPE], we explore a place untouched by human perception, time having o
 +
 Audio by @[Sanea Ima>https://pablosanea.com/].
 
-,[timescape>1]
+,[timescape>1.mp4]
 
 ~[The video above has a very high bitrate.
 +
 If you're having trouble loading it, please check out the @[compressed video on Youtube>https://www.youtube.com/watch?v=P2iOaK7cr-s].]
 
-&[timescape>4]
-&[timescape>2]
-&[timescape>3]
+&[timescape>4.png]
+&[timescape>2.png]
+&[timescape>3.png]

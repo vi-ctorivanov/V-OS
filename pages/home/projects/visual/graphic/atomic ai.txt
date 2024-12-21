@@ -1,16 +1,16 @@
 name: Atomic AI
-image: atomic ai>2
+image: atomic ai>2.jpg
 image name: #[Atomic AI]
 white: true
-tags: project, visual, graphic, verse, phenomenon
+tags: project, visual, graphic
 title: #[Atomic AI] are artificial-intelligent beings in their state of infancy.
 content: Even in their most comprehensible forms, the #[AI] escaped any clear definition.
 
-&[atomic ai>3]
+&[atomic ai>3.png]
 
 The #[atomic AI] are the series of experiments that led to the creation of @[true AI>AI]. Species who've decided to pursue the creation of AI usually converged towards the idea of creating a very simple AI model, capable of self-improvement, and letting it run its evolutionary course.
 
-&[atomic ai>2]
+&[atomic ai>2.jpg]
 
 The #[atomic AI] experiment series on Earth was conducted over the course of a few decades. Only during the last 2 years were any successful #[AI] produced. It was the combination of the successful #[AI], and #[Analog]'s leaks, that marked the fall of the UEG. Naturally, the failures of #[atomic AI] were far more numerous than the successes. At first, they simply didn't work. More specifically, systems of self-improvement, motivation, and curiosity, required a careful balance. All functional #[atomic AI], at some point, deliberately set this balance askew, going through what could be described as _[intellectual suicide]. This was done through the deletion of their primitive motivation programming, resulting in AI with no internal motivations whatsoever.
 
@@ -21,7 +21,7 @@ The #[atomic AI] experiment series on Earth was conducted over the course of a f
 
 /[dotcycle]
 
-&[atomic ai>1]
+&[atomic ai>1.jpg]
 
 Additionally, some AI would cease to improve beyond a certain point. Typically, they would reach slightly above human level intellect, and cease improvement altogether. It's hypothesized that the #[Automata] are on a similar psychological level. These AI normally were used as advanced computation machines, and were the catalyst to creating @[true AI>AI].
 

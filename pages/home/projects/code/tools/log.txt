@@ -1,5 +1,5 @@
 name: Log
-image: log>1
+image: log>1.png
 image name: #[Log]
 links: Github>https://github.com/v-exec/Log
 white: true
@@ -13,10 +13,10 @@ Data is entered into a simple spreadsheet of logs, which is then parsed using a 
 +
 Below are some images showcasing what this interface looked like, including an overview of all log entries, as well as the auto-generated pages for projects showing time allocation in different categories of productivity.
 
-&[log>2]
-&[log>3]
-&[log>4]
-&[log>5]
+&[log>2.png]
+&[log>3.png]
+&[log>4.png]
+&[log>5.png]
 
 ~[#log entry format
 +

@@ -1,8 +1,8 @@
 name: i-tema
-image: i-tema>6
+image: i-tema>6.png
 image name: #[i-tema]
 white: true
-tags: verse, phenomenon, research
+tags: project, visual, graphic
 title: #[i-tema] is a morphologically minimal synthetic language.
 content:
 Inspired by agglutinative concepts in Japanese, writing in Korean, and phonetics of Bulgarian and Japanese, #[i-tema] is a written-only language that aims to simplify morphology to its bare minimum. In short, the goal is to minimize the amount of unique content to be learned for understanding and communication.
@@ -57,15 +57,15 @@ A vertical line on the right side of a modifier connected to its top consonant e
 +
 A line on the right side of a flat expresses general plurality. If the line is connected to the top consonant, it expresses continuous plurality ("some", "many", "all", etc.), similarly to modifiers.
 
-&[i-tema>1]
-&[i-tema>2]
+&[i-tema>1.png]
+&[i-tema>2.png]
 
 Two dots on the right of an actor or modifier, surrounding the vertical center, expresses negativity ("not").
 +
 +
 A line above a marker explicitly expresses that the word is a marker, signifying that it cannot be modified. This exists for legibility purposes.
 
-&[i-tema>3]
+&[i-tema>3.png]
 
 %[]
 
@@ -73,7 +73,7 @@ A line above a marker explicitly expresses that the word is a marker, signifying
 
 Because #[i-tema] is not a spoken language, phonetics are not particularly important. Nonetheless, for ease of communication, a set of phonetics exist for the letters of the language (not the syntactic symbols).
 
-&[i-tema>4]
+&[i-tema>4.png]
 
 There exist a total of 20 consonants (10 unique symbols, and 10 stressed variants), 6 vowels, and 2 null symbols (one for consonants and another for vowels).
 +

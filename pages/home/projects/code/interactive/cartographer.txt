@@ -1,5 +1,5 @@
 name: Cartographer
-image: cartographer>1
+image: cartographer>1.gif
 image name: #[Cartographer]
 white: true
 links: Play Online>https://exp.v-os.ca/cartographer, Github>https://github.com/v-exec/Cartographer
@@ -9,4 +9,4 @@ content: #[Cartographer] is an exploration game centered around navigating biome
 +
 +
 Play it @[here>https://exp.v-os.ca/cartographer].
-&[cartographer>2]
+&[cartographer>2.png]

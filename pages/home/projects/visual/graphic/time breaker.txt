@@ -1,9 +1,9 @@
 name: Time Breaker
-image: time breaker>1
+image: time breaker>1.gif
 image name: #[Time Breaker]
 white: true
 links: Watch>https://www.youtube.com/watch?v=U7NFNhHuurE
-tags: project, visual, graphic, verse, event
+tags: project, visual, graphic
 title: The #[Time Breaker] is a sheathe capable of localized temporal distortion.
 content:
 Last seen in sector 288, Silo Teleport, the #[Time Breaker] is a sheathe created by now-defunct R&D lab Echolis, at #[Macro]. It was created as an experimental weapon against #[Nigh Successors] with the help of a far-link to #[Temporalis], giving it its distinct time distortion properties. Unfortunately, the weapon proved too dangerous for users, who often reported acute cases of extreme nausea, fatigue, and psychosis after only brief use.
@@ -12,14 +12,14 @@ Last seen in sector 288, Silo Teleport, the #[Time Breaker] is a sheathe created
 
 A lock system was installed on the prototype that authorizes its use exclusively in life-or-death circumstances as a precautious mechanism, officially marking the weapon as a failed experiment due to its narrow use-case and safety issues. The sheathe and its sword went missing soon after the abandonment of the project. "Good riddance", said ex-chief science officer Helgram at a press conference, "whoever decides to use it would die before they could actually hurt anyone".
 
-,[time breaker>1]
+,[time breaker>1.mp4]
 
 Eons after #[The Sphere]'s era, a ronin was spotted wielding the weapon on a lone moon. Onlooker scouts established contact, and were informed he was a pilgrim on a hunt to slay the young offspring of a mira fox, a species assumed extinct for millenia at the time.
 +
 +
 Following the hunter across the cold rock's surface, they found his target: a practically new-born young fox. Its mother was quickly tracked down by the scouts thereafter, revealing an entire live colony - and establishing a new technological era for The Sphere Sector: The Mira Resurgence.
 
-,[time breaker>2]
+,[time breaker>2.mp4]
 
 ~[The video above has a very high bitrate.
 +
@@ -41,4 +41,4 @@ Sound design: @[Sanea Ima>https://pablosanea.com/]
 +
 Music in breakdown video: Imbrium, by Ed harrison
 
-&[time breaker>2]
+&[time breaker>2.png]

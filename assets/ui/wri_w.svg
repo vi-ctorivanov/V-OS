@@ -1,14 +1,12 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 144 144" style="enable-background:new 0 0 144 144;" xml:space="preserve">
 <style type="text/css">
-	.st2{stroke:#ffffff;fill:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{stroke:#ffffff;fill:#ffffff;stroke-width:2;stroke-miterlimit:10;}
 </style>
-<g id="WRI">
-	<g>
-		<path class="st2" d="M27,72.5c0,1.5,0.1,2.5,0.2,4.5h89.6c0.1-2,0.2-3,0.2-4.5s-0.1-3.5-0.2-4.5H27.2C27.1,69,27,71,27,72.5z"/>
-		<path class="st2" d="M39.9,41h64.2c-3.6-4-7.8-7-12.5-9H52.4C47.7,34,43.5,37,39.9,41z"/>
-		<path class="st2" d="M29.1,86c1,3,2.3,6,4,9H111c1.6-3,3-6,4-9H29.1z"/>
-		<path class="st2" d="M33,50c-1.6,2-3,5-4,9h85.9c-1-4-2.3-7-4-9H33z"/>
-		<path class="st2" d="M39.9,104c3.6,3,7.8,6,12.5,9h39.3c4.7-3,8.9-6,12.5-9H39.9z"/>
-	</g>
+<g id="VER">
+	<path class="st5" d="M72,117c-24.8,0-45-20.2-45-45s20.2-45,45-45s45,20.2,45,45S96.8,117,72,117z M72,28.6
+		c-23.9,0-43.4,19.5-43.4,43.4c0,23.9,19.5,43.4,43.4,43.4c23.9,0,43.4-19.5,43.4-43.4C115.4,48.1,95.9,28.6,72,28.6z"/>
+	<circle fill="#ffffff" cx="41.5" cy="40" r="5.6"/>
+	<circle fill="#ffffff" cx="114.2" cy="59" r="5.6"/>
+	<circle fill="#ffffff" cx="98.5" cy="107.5" r="5.6"/>
 </g>
 </svg>

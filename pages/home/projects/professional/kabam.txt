@@ -1,5 +1,5 @@
 name: Kabam
-image: kabam>1
+image: kabam>1.jpg
 image name: #[Kabam]
 white: true
 links: Employer Website>https://kabam.com/
@@ -51,11 +51,11 @@ I worked at Kabam on a handful of Unity games as a technical artist, filling wha
 +
 - defined and communicated new practices and techniques to refine the art production pipeline.
 
-&[kabam>2]
-&[kabam>3]
+&[kabam>2.png]
+&[kabam>3.png]
 
 During downtime, I helped the Shop Titans(shipped & live ops) team with similar tasks.
 
-&[kabam>4]
+&[kabam>4.png]
 
 After Shadows of Valdora's cancellation, I focused on look dev (with an emphasis on technical implementations), rendering techniques, and designing and prototyping new art-tech for an unannounced title.

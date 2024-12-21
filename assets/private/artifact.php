@@ -250,7 +250,6 @@ function getRelated($artifact, $getName, $nameStyle, $titleStyle, $sameStyle) {
 
 function getSectorIconLink($artifact, $style, $forceWhite) {
 	$isRes = false;
-	$isVer = false;
 	$isAud = false;
 	$isVis = false;
 	$isCod = false;
@@ -263,7 +262,6 @@ function getSectorIconLink($artifact, $style, $forceWhite) {
 
 	for ($i = 0; $i < sizeof($path); $i++) {
 		if (trim($path[$i]) == 'research') $isRes = true;
-		if (trim($path[$i]) == 'verse') $isVer = true;
 		if (trim($path[$i]) == 'audio') $isAud = true;
 		if (trim($path[$i]) == 'visual') $isVis = true;
 		if (trim($path[$i]) == 'code') $isCod = true;
@@ -273,7 +271,6 @@ function getSectorIconLink($artifact, $style, $forceWhite) {
 	
 	echo '<a href="';
 	if ($isRes) echo 'research';
-	else if ($isVer) echo 'verse';
 	else if ($isAud) echo 'audio';
 	else if ($isVis) echo 'visual';
 	else if ($isCod) echo 'code';
@@ -284,7 +281,6 @@ function getSectorIconLink($artifact, $style, $forceWhite) {
 
 	echo '<img class="'. $style .'" src="assets/ui/';
 	if ($isRes) echo 'abs';
-	else if ($isVer) echo 'ver';
 	else if ($isAud) echo 'aud';
 	else if ($isVis) echo 'vis';
 	else if ($isCod) echo 'cod';
@@ -302,7 +298,6 @@ function getSectorIconLink($artifact, $style, $forceWhite) {
 
 function getSectorIcon($artifact, $style) {
 	$isRes = false;
-	$isVer = false;
 	$isAud = false;
 	$isVis = false;
 	$isCod = false;
@@ -315,7 +310,6 @@ function getSectorIcon($artifact, $style) {
 
 	for ($i = 0; $i < sizeof($path); $i++) {
 		if (trim($path[$i]) == 'research') $isRes = true;
-		if (trim($path[$i]) == 'verse') $isVer = true;
 		if (trim($path[$i]) == 'audio') $isAud = true;
 		if (trim($path[$i]) == 'visual') $isVis = true;
 		if (trim($path[$i]) == 'code') $isCod = true;
@@ -325,7 +319,6 @@ function getSectorIcon($artifact, $style) {
 	
 	echo '<img id="'. $style . '" src="/assets/ui/'; 
 	if ($isRes) echo 'abs';
-	else if ($isVer) echo 'ver';
 	else if ($isAud) echo 'aud';
 	else if ($isVis) echo 'vis';
 	else if ($isCod) echo 'cod';

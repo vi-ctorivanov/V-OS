@@ -1,12 +1,11 @@
 name: Quro
-image: qurotema>1
+image: qurotema>1.png
 image name: #[Quro]
 white: true
-links: Soundcloud>https://soundcloud.com/v_exec/quro
-tags: project, audio, single, verse, phenomenon
+tags: project, audio, single
 title: #[Quro], the celestial sailboat.
 content: The sound of a paradox universe relayed by Dr. Sino during his last visit to #[Qurotema].
 
 /[qurotema]
 
-^[quro>1 ++ Quro]
+^[quro>1.wav ++ Quro]

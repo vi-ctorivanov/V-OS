@@ -1,5 +1,5 @@
 name: Visual
-image: org proc>1
+image: org proc>1.jpg
 image name: #[Org_Proc]
 tags: nav
 title: The #[visual] division includes all still-image art and video #[projects].

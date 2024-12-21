@@ -1,5 +1,5 @@
 name: Albums
-image: keyde>5
+image: keyde>5.png
 image name: #[Keyde]
 tags: nav
 title: The #[albums] section includes sets of songs that were created to work as a cohesive narrative or technical unit, or projects that include multiple pieces of music.

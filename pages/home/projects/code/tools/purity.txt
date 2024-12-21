@@ -1,5 +1,5 @@
 name: Purity
-image: purity>2
+image: purity>2.jpg
 image name: #[Purity]
 white: true
 links: Github>https://github.com/v-exec/Purity

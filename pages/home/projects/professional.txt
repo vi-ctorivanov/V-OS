@@ -1,5 +1,5 @@
 name: Professional
-image: invictus>1
+image: invictus>1.gif
 image name: #[Invictus]
 white: true
 tags: nav

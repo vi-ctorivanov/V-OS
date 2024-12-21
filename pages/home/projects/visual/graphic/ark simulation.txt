@@ -1,8 +1,8 @@
 name: ARK Simulation
-image: ark simulation>1
+image: ark simulation>1.jpg
 image name: #[Ark Simulation]
 white: true
-tags: project, visual, graphic, verse, phenomenon
+tags: project, visual, graphic
 title: An #[ARK Simulation] is a custom instance of a digital Paradise for a select body of #[Automata].
 content:
 
@@ -21,4 +21,4 @@ _[Spawn Nodes] are produced in #[Dentatsuna]. Their manufacturing is meant to ke
 
 An issue associated with the _[Spawn Nodes]' manufacturing, as well as #[Dentatsuna] themselves, is that without maintenance (which often enough deteriorates eventually), hardware begins to fail. _[Spawn Nodes] become defective, and over time, the quantity of new data diminishes steadily. Most importantly, if too few nodes remain, and the #[Dentatsuna] acting as the hub of the simulation fails, then the simulation will be terminated indefinitely. Whether the #[Automata] know this, or have deliberately excluded it from their curiosities, is unknown.
 
-&[ark simulation>1]
+&[ark simulation>1.jpg]

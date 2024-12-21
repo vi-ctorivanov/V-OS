@@ -1,5 +1,5 @@
 name: Off
-image: off>1
+image: off>1.gif
 image name: #[Off]
 white: true
 links: Watch>https://www.youtube.com/watch?v=q7BsDrr9sQ4
@@ -7,7 +7,7 @@ tags: project, code, display
 title: #[Off] is a realtime point cloud audiovisual piece.
 content:
 
-,[off>1]
+,[off>1.mp4]
 
 ~[The video above has a very high bitrate.
 +
@@ -15,6 +15,6 @@ If you're having trouble loading it, please check out the @[compressed video on 
 
 #[Off] is a set of visuals created for an excerpt of @[Sanea Ima>https://pablosanea.com/]'s acoustmatic piece of the same name.
 
-&[off>2]
-&[off>3]
-&[off>4]
+&[off>2.png]
+&[off>3.png]
+&[off>4.png]

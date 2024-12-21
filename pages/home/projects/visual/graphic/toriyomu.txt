@@ -1,8 +1,8 @@
 name: Toriyomu
-image: toriyomu>1
+image: toriyomu>1.png
 image name: #[Toriyomu]
 white: true
-tags: project, visual, graphic, verse, phenomena
+tags: project, visual, graphic
 title: The #[Toriyomu] are semi-organic vehicles used by the @[Early Midnights>Early Midnight].
 content: 
 
@@ -23,8 +23,8 @@ These meshes were procedurally modeled in their entirety in Houdini. Texture map
 
 Originally created for racing and high-speed recon missions, early versions of the 200 series fell out of use and are now primarily seen as antique luxury vehicles for collectors.
 
-&[toriyomu>2]
-&[toriyomu>1]
+&[toriyomu>2.png]
+&[toriyomu>1.png]
 
 %[]
 ![Model 251]
@@ -34,24 +34,24 @@ Newer versions of the 200 series come equipped with a hyperlock drive for increa
 +
 Some military variants also boast high-range radar cloaking for advanced recon.
 
-&[toriyomu>3]
-&[toriyomu>4]
-&[toriyomu>5]
+&[toriyomu>3.png]
+&[toriyomu>4.png]
+&[toriyomu>5.png]
 
 %[]
 ![Model 614]
 
 Outfitted with heavy armor plating, ion cannons, and an EMF shield, the 600 series is known mostly for its military-oriented purposes. Coloquially known as "the tick", likely a double-entendre regarding both its shape, and (ironically) its size (W:15m, L:25m, H:7.5m).
 
-&[toriyomu>6]
-&[toriyomu>7]
-&[toriyomu>8]
-&[toriyomu>9]
+&[toriyomu>6.png]
+&[toriyomu>7.png]
+&[toriyomu>8.png]
+&[toriyomu>9.png]
 
 %[]
 ![Model 989]
 
 The 900 series focuses on transport of heavy payloads in both commercial and military settings, coming in low cost variants as well as high-speed shieled ones.
 
-&[toriyomu>10]
-&[toriyomu>11]
+&[toriyomu>10.png]
+&[toriyomu>11.png]
