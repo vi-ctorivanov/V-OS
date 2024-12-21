@@ -1,7 +1,7 @@
 name: Perfect Empathy
 image: perfect empathy>1.png
 image name: #[Perfect Empathy]
-links: Rules>filePath/perfect empathy/perfect_empathy_rules.pdf, Github>https://github.com/vi-ctor-vi/Perfect-Empathy, Play Online>https://exp.v-os.ca/perfect-empathy
+links: Rules>filePath/perfect empathy/perfect_empathy_rules.pdf, Github>https://github.com/vi-ctor-vi/Perfect-Empathy, Play>https://exp.v-os.ca/perfect-empathy
 tags: project, code, interactive
 title: #[Perfect Empathy] is a single player strategy and roguelike card game.
 content: #[Perfect Empathy] puts you, a cursed adventurer, in a dungeon. Your curse is in some ways a blessing, as it forces you and others to experience _[perfect empathy], that is, to feel pain and pleasure in equal degrees. You've mastered this curse, and strategically use self-harm to damage your targets in an effort to make your way through the dungeon.

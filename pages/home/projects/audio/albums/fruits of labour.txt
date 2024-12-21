@@ -2,7 +2,7 @@ name: Fruits of Labour
 image: fruits of labour>1.jpg
 image name: #[Fruits of Labour]
 white: true
-links: Director Documentation>https://www.opheliaspinosa.com/fruitsoflabour
+links: Visit>https://www.opheliaspinosa.com/fruitsoflabour
 white: true
 tags: project, audio, album, professional
 title: #[Fruits of Labour] is the soundtrack for the short documentary Fruits of Labour.

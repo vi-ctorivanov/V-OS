@@ -2,7 +2,7 @@ name: Chroniqueur
 image: chroniqueur>1.png
 image name: #[Chroniqueur]
 white: true
-links: Client Website>https://www.lablablab.net
+links: Visit>https://www.lablablab.net
 tags: project, professional
 title: #[Chroniqueur] is an emergent narrative experimentation platform built by @[LabLabLab>https://www.lablablab.net].
 content:

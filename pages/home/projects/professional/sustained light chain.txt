@@ -2,7 +2,7 @@ name: Sustained Light Chain
 image: sustained light chain>1.png
 image name: #[Sustained Light Chain]
 white: true
-links: Client Website>http://lucasparis.ca
+links: Visit>http://lucasparis.ca
 tags: project, professional
 title: #[Sustained Light Chain] is an AV performance project lead by @[Lucas Paris>http://lucasparis.ca].
 content:

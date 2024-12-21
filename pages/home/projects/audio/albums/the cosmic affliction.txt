@@ -2,7 +2,7 @@ name: The Cosmic Affliction
 image: the cosmic affliction>1.jpg
 image name: #[The Cosmic Affliction]
 white: true
-links: Bandcamp>https://v-exec.bandcamp.com/album/the-cosmic-affliction
+links: Listen>https://vi-ctor-vi.bandcamp.com/album/the-cosmic-affliction
 tags: project, audio, album
 title: #[The Cosmic Affliction] is a narrative-centric electronic album, following a #[Solemn] drifter of the planes.
 content:

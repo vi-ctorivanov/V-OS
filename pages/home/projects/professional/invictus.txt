@@ -2,7 +2,7 @@ name: Invictus
 image: invictus>1.gif
 image name: #[Invictus]
 white: true
-links: Client Website>https://www.invictusgloves.com, Collaborators>http://argosprod.com/
+links: Visit>https://www.invictusgloves.com, Collaborators>http://argosprod.com/
 tags: project, professional
 title: #[Invictus] is a collection of branding, publicity, and web projects for @[Invictus Gloves>https://www.invictusgloves.com].
 content:

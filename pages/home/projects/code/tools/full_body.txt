@@ -1,7 +1,7 @@
 name: Full_body
 image: full_body>4.png
 image name: #[full_body]
-links: Github>https://github.com/v-exec/full_body, Use Online>https://exp.v-os.ca/full_body
+links: Github>https://github.com/vi-ctor-vi/full_body, Visit>https://exp.v-os.ca/full_body
 tags: project, code, tool
 title: #[Full_body] is an exercise sequencer.
 content: #[Full_body] is a web app made to add variety and motivation to monotonous workout routines.

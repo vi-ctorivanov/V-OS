@@ -2,7 +2,7 @@ name: Sanea Ima
 image: sanea ima>3.png
 image name: #[Sanea Ima]
 white: true
-links: Visit Online>https://saneaima.com
+links: Visit>https://saneaima.com
 tags: project, code, interactive, professional
 title: #[Sanea Ima]'s portfolio.
 content:

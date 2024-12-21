@@ -2,7 +2,7 @@ name: Kabam
 image: kabam>1.jpg
 image name: #[Kabam]
 white: true
-links: Employer Website>https://kabam.com/
+links: Visit>https://kabam.com/
 tags: project, professional
 title: #[Kabam] is a collection of game projects at game studio @[Kabam Montreal>https://kabam.com/].
 content:

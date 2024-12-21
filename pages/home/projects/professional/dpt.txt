@@ -2,7 +2,7 @@ name: Dpt
 image: dpt>1.png
 image name: #[Dpt]
 white: true
-links: Website>https://dpt.co/
+links: Visit>https://dpt.co/
 tags: project, professional
 title: #[Dpt] is a collection of AR, VR, web, and interactive installation projects at studio @[Dpt>https://dpt.co/].
 content:

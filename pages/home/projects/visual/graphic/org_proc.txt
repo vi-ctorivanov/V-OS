@@ -1,7 +1,7 @@
 name: Org_Proc
 image: org proc>1.jpg
 image name: #[Org_Proc]
-links: Booklet>filePath/org_proc/Architecting_Worlds.pdf
+links: Read>filePath/org_proc/Architecting_Worlds.pdf
 tags: project, visual, graphic
 title: #[Org_Proc] is an organic synthesis model.
 content:

@@ -2,7 +2,7 @@ name: Qurotema
 image: qurotema>4.gif
 image name: #[Qurotema]
 white: true
-links: Github>https://github.com/v-exec/Qurotema
+links: Github>https://github.com/vi-ctor-vi/Qurotema
 tags: project, code, interactive, audio, single
 title: #[Qurotema] is an off-limits construct universe.
 content:

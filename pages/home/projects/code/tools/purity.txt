@@ -2,7 +2,7 @@ name: Purity
 image: purity>2.jpg
 image name: #[Purity]
 white: true
-links: Github>https://github.com/v-exec/Purity
+links: Github>https://github.com/vi-ctor-vi/Purity
 tags: project, code, tool
 title: #[Purity] is an authoring engine that acts as the back-end of #[V-OS].
 content: #[Purity] is a specialized wiki engine built in PHP, with the purpose of creating a minimalistic platform for complex, interwoven networks of data.

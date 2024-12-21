@@ -1,7 +1,7 @@
 name: Log
 image: log>1.png
 image name: #[Log]
-links: Github>https://github.com/v-exec/Log
+links: Github>https://github.com/vi-ctor-vi/Log
 white: true
 tags: project, code, tool
 title: The #[Log] is a timekeeping tool and data visualizer overseen by #[LOGO].

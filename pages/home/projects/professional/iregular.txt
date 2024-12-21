@@ -2,7 +2,7 @@ name: Iregular
 image: iregular>1.jpg
 image name: #[Iregular]
 white: true
-links: Client Website>https://iregular.io/
+links: Visit>https://iregular.io/
 tags: project, professional
 title: #[Iregular] is a collection of interactive installation and projection-mapping projects for @[Iregular>https://iregular.io/].
 content:
