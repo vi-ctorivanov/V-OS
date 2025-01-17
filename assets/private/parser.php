@@ -470,7 +470,7 @@ class Parser {
 	//subtitle (note: breaks flow of page, redeclaring '<p>' to keep flow)
 	private function createSubtitle($string) {
 		$string = $this->cleanString($string);
-		$string = '</p><h1>'.$string.'</h1><p>';
+		$string = '</p><h2>'.$string.'</h2><p>';
 		return $string;
 	}
 
