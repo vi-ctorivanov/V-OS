@@ -2,7 +2,7 @@ name: Visor
 image: visor>1.png
 image name: #[Visor]
 white: true
-links: Github>https://github.com/vi-ctor-vi/Visor, Use Online>https://exp.v-os.ca/visor
+links: Github>https://github.com/vi-ctorivanov/Visor, Use Online>https://exp.v-os.ca/visor
 tags: project, code, tool
 title: #[Visor] is a minimalistic presentation tool.
 content: #[Visor] is a presentation application made using javascript. It features a set of simple syntax rules for creating slides.

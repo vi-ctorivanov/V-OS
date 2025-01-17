@@ -124,7 +124,7 @@ Link to the #[index].
 Creates a custom link to any given URL.
 +
 +
-@[Custom link>https://github.com/v-exec/Purity]
+@[Custom link>https://github.com/vi-ctorivanov/Purity]
 
 %[======================================]
 / [project] styled link

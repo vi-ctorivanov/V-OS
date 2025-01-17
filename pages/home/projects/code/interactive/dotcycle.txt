@@ -2,7 +2,7 @@ name: DotCycle
 image: dotcycle>4.gif
 image name: #[DotCycle]
 white: true
-links: Download>filePath/dotcycle/dotcycle_windows.zip, Github>https://github.com/vi-ctor-vi/DotCycle
+links: Download>filePath/dotcycle/dotcycle_windows.zip, Github>https://github.com/vi-ctorivanov/DotCycle
 tags: project, code, interactive, audio, single
 title: #[DotCycle] is a narrative game taking place in archived memories of an #[atomic AI].
 content: ?[Operator, this is the most intact instance so far. I think it's our best chance at understanding why they keep offing themselves.]

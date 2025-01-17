@@ -1,7 +1,7 @@
 name: V-OS
 image: v-os>1.png
 image name: #[V-OS]
-links: Github>https://github.com/vi-ctor-vi/V-OS
+links: Github>https://github.com/vi-ctorivanov/V-OS
 white: true
 tags: project, code, tool
 title: #[V-OS] is a designed space for media, narrative, and philosophy.

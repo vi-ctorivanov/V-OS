@@ -2,7 +2,7 @@ name: Code
 image: qurotema>4.gif
 image name: #[Qurotema]
 white: true
-links: Github>https://github.com/v-exec
+links: Github>https://github.com/vi-ctorivanov
 tags: nav
 title: The #[code] division includes programming and multimedia composite #[projects].
 content:

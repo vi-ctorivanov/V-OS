@@ -66,9 +66,9 @@ For a full list of projects, please visit the #[projects] page.
 -[
 @[LinkedIn>https://www.linkedin.com/in/victor-ivanov/]: Professional profile containing work experience, education, skills, and other work-related information.
 ++
-@[GitHub>https://github.com/vi-ctor-vi]: Code projects repository.
+@[GitHub>https://github.com/vi-ctorivanov]: Code projects repository.
 ++
-@[Bandcamp>https://vi-ctor-vi.bandcamp.com/releases]: Released albums and featured music repository.
+@[Bandcamp>https://victorivanov.bandcamp.com/releases]: Released albums and featured music repository.
 ++
 @[vi@v-os.ca>mailto:vi@v-os.ca]: Email address.
 ]

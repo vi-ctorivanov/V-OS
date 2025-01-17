@@ -1,6 +1,6 @@
 name: Albums
-image: keyde>5.png
-image name: #[Keyde]
+image: the cosmic affliction>4.png
+image name: #[The Cosmic Affliction]
 tags: nav
 title: The #[albums] section includes sets of songs that were created to work as a cohesive narrative or technical unit, or projects that include multiple pieces of music.
 content:

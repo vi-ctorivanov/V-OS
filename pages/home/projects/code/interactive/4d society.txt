@@ -2,7 +2,7 @@ name: 4D SOCIETY
 image: 4d society>6.png
 image name: #[4D SOCIETY]
 white: true
-links: Github>https://github.com/vi-ctor-vi/4D-SOCIETY
+links: Github>https://github.com/vi-ctorivanov/4D-SOCIETY
 tags: project, code, interactive, audio, single
 title: #[4D SOCIETY] is a first person exploration game with navigational puzzles driven by experimental graphics.
 content:
