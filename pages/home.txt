@@ -3,7 +3,7 @@ image: cibo>7.png
 image name: #[Cibo]
 white: true
 tags: hub
-title: #[V-OS] is a virtual library of #[projects], @[narratives>https://exp.v-os.ca/voidnet], and experiments.
+title: #[V-OS] is a virtual library of #[projects], @[narratives>https://voidnet.ca], and experiments.
 content: This digital space is a virtual library of my work, and stories from #[VOIDNET].
 +
 +
