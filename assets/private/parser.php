@@ -26,7 +26,7 @@ class Parser {
 		if ($artifact->tags) {
 			$newTags = array();
 			for ($i = 0; $i < sizeof($artifact->tags); $i++) {
-				array_push($newTags, '<a href="tag-' . $artifact->tags[$i] . '" class="sidelink-holder"><span class="neutral-link sidelink">' . $artifact->tags[$i] . '</span></a>');
+				array_push($newTags, '<a href="tag-'.strtolower($artifact->tags[$i]).'" class="sidelink-holder"><span class="neutral-link sidelink">'.$artifact->tags[$i].'</span></a>');
 			}
 			$artifact->formattedTags = $newTags;
 		}
@@ -39,7 +39,7 @@ class Parser {
 				$parts[0] = trim($parts[0]);
 				$parts[1] = trim($parts[1]);
 				$parts[1] = str_replace('filePath', $this->fileDirectory, $parts[1]); //replace filePath keyword with file directory
-				array_push($newLinks, '<a href="' . $parts[1] . '" class="sidelink-holder"><span class="neutral-link sidelink">' . $parts[0] . '</span></a>');
+				array_push($newLinks, '<a href="'.strtolower($parts[1]).'" class="sidelink-holder"><span class="neutral-link sidelink">'.$parts[0].'</span></a>');
 			}
 			$artifact->links = $newLinks;
 		}
@@ -48,8 +48,8 @@ class Parser {
 		if ($artifact->path) {
 			$tempPath = "";
 			for ($i = 0; $i < sizeof($artifact->path); $i++) {
-				$tempPath = $tempPath . '<a href="' . $artifact->path[$i] . '" class="neutral-link">' . strtolower($artifact->path[$i]) . '</a>';
-				if ($i != sizeof($artifact->path) - 1) $tempPath = $tempPath . '<span>/</span>';
+				$tempPath = $tempPath.'<a href="'.strtolower($artifact->path[$i]).'" class="neutral-link">'.strtolower($artifact->path[$i]).'</a>';
+				if ($i != sizeof($artifact->path) - 1) $tempPath = $tempPath.'<span>/</span>';
 			}
 			$artifact->path = $tempPath;
 		}
@@ -325,7 +325,7 @@ class Parser {
 		//check if is custom list by checking if there are commas seperating text elements
 		if (strpos($string, '++') == false) {
 			for ($i = 0; $i < sizeof($artifacts); $i++) {
-				if ($artifacts[$i]->hasTag($string) && !$artifacts[$i]->hasTag('nav')) $list = $list.'<li><a href="'.$artifacts[$i]->attributes['name'].'">'.$artifacts[$i]->attributes['name'].'</a></li>';
+				if ($artifacts[$i]->hasTag($string) && !$artifacts[$i]->hasTag('nav')) $list = $list.'<li><a href="'.strtolower($artifacts[$i]->attributes['name']).'">'.$artifacts[$i]->attributes['name'].'</a></li>';
 			}
 		} else {
 			$strings = explode('++', trim($string));
@@ -354,7 +354,7 @@ class Parser {
 	//executes PHP code (use at your own risk)
 	private function executePHP($string) {
 		$string = $this->cleanString($string);
-		$string = '$string = ' . $string;
+		$string = '$string = '.$string;
 		eval($string);
 
 		return $string;
@@ -401,7 +401,7 @@ class Parser {
 
 		$image = str_replace(' ', '%20', $image);
 
-		if ($annotation != '') $img = '</p><img class="text-image-annotated" src="'.$image.'">' . $annotation . '<p>';
+		if ($annotation != '') $img = '</p><img class="text-image-annotated" src="'.$image.'">'.$annotation.'<p>';
 		else $img = '</p><img class="text-image" src="'.$image.'"><p>';
 
 		return $img;
@@ -527,12 +527,12 @@ class Parser {
 		//remove last opening paragraph tag if no text is present
 		if (substr($string, -3, 3) === '<p>') $string = substr($string, 0, strlen($string) - 4);
 		//add paragraph closer at end if paragraph tag not empty
-		else $string = $string . '</p>';
+		else $string = $string.'</p>';
 
 		//unclosed tags - ignore warnings when using DOMDocument for parsing
 		//add meta info to force utf-8 encoding
 		$doc = new DOMDocument();
-		@$doc->loadHTML('<?xml version="1.0" encoding="UTF-8"?>' . "\n" . $string);
+		@$doc->loadHTML('<?xml version="1.0" encoding="UTF-8"?>'."\n".$string);
 		$string = $doc->saveHTML();
 
 		//empty <p> tags
