@@ -2,6 +2,7 @@ name: Early Midnight
 image: early midnight>7.png
 image name: #[Early Midnight]
 white: true
+links: VOIDNET>https://voidnet.ca/#early midnight
 tags: project, visual, graphic
 title: An #[Early Midnight] is the predecessor intrasuit to the #[Successor Series] project.
 content: 
@@ -9,9 +10,9 @@ content:
 Made as extensions to human form, Early Midnights walked among people as another step towards the future. Originally used to make up for physical disabilities, they evolved to interface with their host human's cerebellum.
 +
 +
-Hardware and software advances in the coming decades saw this technology take off in unprecedented areas - interfacing with larger and higher functioning regions of the brain, allowing for cognitive and physical abilities beyond unaltered humans. The result eventually grew into the Successor Series.
-+
-+
+Read more about #[Early Midnight]s through @[VOIDNET>https://voidnet.ca/#early midnight].
+/[voidnet]
+
 The same underlying technology was used to create the #[Toriyomu].
 
 /[Toriyomu]

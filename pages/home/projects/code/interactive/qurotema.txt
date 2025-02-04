@@ -15,49 +15,11 @@ content:
 
 %[]
 
-#[Qurotema] was discovered and explored predominantly by Dr. Sino in his research on interuniversal travel. Practically no information beyond his research exists in regards to the nature and laws of #[Qurotema]. This also includes #[LOGO], who claims to have no information, either.
-+
-+
-Dr. Sino first found #[Qurotema] whilst working on an experimental travel protocol. His idea was that instead of traveling into a universe, he would warp to the #[Void], and to keep from going into stasis, create a small field around the spacecraft, all matter within it being connected to #[Temporalis]' time field. His studies focused on higher dimensions' role in universes' composition, and was especially interested in the idea of entering a verse from the outside, rather than warping to it using traditional methods.
+This project features a construct language syntax project #[i-tema], and relates to #[Quro].
 
-/[void]
-/[temporalis]
-
-The experimental travel model was a success. After a few test runs, Dr. Sino came across #[Qurotema] by entering it through direct travel. It appears this was a very rare coincidence, seeing as how #[Qurotema] is situated at a specific location, and its documented size does not appear to be particularly large (though open to debate). Currently the only known method for entering #[Qurotema] is through Dr. Sino's travel protocol, as it is nowhere to be found in the #[warp travel] protocol's coordinate system.
-
-/[warp travel]
-
-During his visits, he kept live audio logs of his findings. He described the world as:
-
-?[Extremely dark, to the point of complete darkness. Despite there being no light, I could still see. I heard voices that spoke in languages I had never heard, but I could still understand them. There seemed to be fluid-like substances stacked on top of one another. A dark fluid, like water, sat below me, and an equally dark fluid, air, I traveled through. These fluids, the apparent constituents of this atmosphere, were unlike any other; each one as dark as the last, I could sink or swim upwards freely, as they gave no resistance to my exploration. The feeling was that of floating in water, but less resistance, and no urge to breathe.]
-
+Read more about #[Qurotema] through @[VOIDNET>https://voidnet.ca].
+/[voidnet]
 /[i-tema]
-
-His notes suggest that with each subsequent visit, he became increasingly compulsive in returning. Each trip would last approximately 2 days (though his logs claim they lasted 4 hours, on average). During his third trip, he discovered what is theorized to be a "security layer" of #[Qurotema]: The #[Gates of Qurotema]. He notes:
-
-?[I saw monoliths of a height so tall they could pierce the sky (were there any) and rise back from the watery fluid. These gates would not open, but they begged for me to come through. On the left gate was written 'Quro', and on the right was written 'Tema'. Once again, written in a script I did not know, but intuitively understood.]
-
-/[gates of qurotema]
-
-Inspired, he named the new transportation model, warp engine protocol, and his ship: #[Quro].
-
 /[quro]
 
-During his third trip, Dr. Sino notes to have come across some "technology", found on what he describes as an "island". Upon returning to his lab, the technology was reverse engineered (with little description of what the hardware itself actually was), and used to create microchips that act as receivers to "unique attributes of #[Qurotema]". These chips are currently being produced in a few labs conducting experiments on #[Qurotema], one of which used the technology to create a connection to #[Elyium] (its relationship to #[Qurotema] is still uncertain).
-
-/[elyium]
-
-On his seventh, and final trip, Dr. Sino had become entirely obsessed and consumed by the gates, and used the device he had created to "open them". All information beyond this was relayed through an audio channel with decreasing clarity. He said that he had "opened the gates", and that he would enter. The last transmission, #[Quro], marks the end of all communication with Sino, who never returned.
-+
-+
-Current speculations say that #[Qurotema] is one of few artificial universes, ones created deliberately, and not as a simple effect of cosmic chaos. Besides the fact that it is essentially 'hidden' from the #[warp travel] coordinate system, and that it has gates that act as a supposed physical manifestation of what is assumed to be a security protocol, it also seems to behave strangely in terms of time, suggesting it isn't connected to #[Temporalis].
-
 &[qurotema>6.jpg]
-
-During the Doctor's travels (which lasted 2 days on average, and not 4 hours, as his logs suggest), there were extremely long moments of silence, ranging from 2 hours to an entire day. The doctor's notes claimed that he documented everything by persistently talking with very few breaks. During the second trip, however, he spoke for over 9 hours in total, and logged only 4 hours of actual time spent in #[Qurotema] in his notes.
-+
-+
-Seeing as how any captured imagery from Dr. Sino's travels is difficult to interpret, there are doubts about the mental stability of Dr. Sino and the validity of what was percieved during his trips.
-+
-+
-All travels to #[Qurotema] are currently prohibited.

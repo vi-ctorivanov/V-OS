@@ -5,9 +5,11 @@ links: Github>https://github.com/vi-ctorivanov/V-OS
 white: true
 tags: project, code, tool
 title: #[V-OS] is a designed space for media, narrative, and philosophy.
-content: This site acts as a hub for a collection of multimedia experiments, narrative explorations, and philosophical investigations. #[V-OS] focuses on providing a space to create and document fictional worlds made real through experimental media projects, in an attempt create and study a series of realities.
+content: This site acts as a hub for a collection of multimedia experiments and narrative explorations. #[V-OS] focuses on providing a space to create and document worlds made real through media projects.
 +
 +
-#[V-OS] is made using #[Purity].
+#[V-OS] is also the host for @[VOIDNET>https://voidnet.ca].
+/[voidnet]
 
+#[V-OS] is made using #[Purity].
 /[purity]

@@ -2,23 +2,15 @@ name: ARK Simulation
 image: ark simulation>1.jpg
 image name: #[Ark Simulation]
 white: true
+links: VOIDNET>https://voidnet.ca/#ark simulation
 tags: project, visual, graphic
-title: An #[ARK Simulation] is a custom instance of a digital Paradise for a select body of #[Automata].
+title: An #[ARK Simulation] is a custom instance of a digital Paradise for a select body of Automata.
 content:
 
-The #[ARK Simulation] was created in an effort to conform reality to the #[Automata]'s new protocols of belief. Such a simulation is created for each #[Dentatsuna] after it has spread a sufficient quantity of _[Spawn Nodes], a nano-device that acts as an environmental scanner, and a node in the network that makes up the simulation.
-
+The #[ARK Simulation] was created in an effort to conform reality to the Automata's new protocols of belief. Such a simulation is created for each Dentatsuna after it has spread a sufficient quantity of _[Spawn Nodes].
 +
 +
-
-Each #[Dentatsuna] houses a limited number of #[Automata] (in the range of 1 to 5 million), so as to ensure a meaningful relationship can be established within a 'society'. Additionally, it allows for more effecient resource usage for the simulation.
-
-/[automata]
-
-_[Spawn Nodes] are produced in #[Dentatsuna]. Their manufacturing is meant to keep them functional for as long as possible. They collect environmental data that is compiled into the base version of the simulation, and then updated over time with new content. The purpose of the _[Spawn Nodes] is to acquire information that is vital for generation algorithms. Without active nodes, the simulation only has a finite quantity of data to use. Although it can still generate numerous, and extremely varied environments and phenomena, the simulation is meant to run many times faster than the standard #[Temporalis] time the #[Dentatsuna]'s housing universe operates in. This means that participants in the simulation can end up running out of new data quicker than one might imagine.
-
-/[dentatsuna]
-
-An issue associated with the _[Spawn Nodes]' manufacturing, as well as #[Dentatsuna] themselves, is that without maintenance (which often enough deteriorates eventually), hardware begins to fail. _[Spawn Nodes] become defective, and over time, the quantity of new data diminishes steadily. Most importantly, if too few nodes remain, and the #[Dentatsuna] acting as the hub of the simulation fails, then the simulation will be terminated indefinitely. Whether the #[Automata] know this, or have deliberately excluded it from their curiosities, is unknown.
+Read more a about an #[ARK Simulation] through @[VOIDNET>https://voidnet.ca/#ark simulation].
+/[voidnet]
 
 &[ark simulation>1.jpg]

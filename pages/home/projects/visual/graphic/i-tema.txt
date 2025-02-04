@@ -2,6 +2,7 @@ name: i-tema
 image: i-tema>6.png
 image name: #[i-tema]
 white: true
+links: VOIDNET>https://voidnet.ca/i-tema
 tags: project, visual, graphic
 title: #[i-tema] is a morphologically minimal synthetic language.
 content:
@@ -11,6 +12,9 @@ Inspired by agglutinative concepts in Japanese, writing in Korean, and phonetics
 
 ~[#[i-tema] is the synthetic language found in #[Qurotema].]
 /[Qurotema]
+
+Read more about #[i-tema] through @[VOIDNET>https://voidnet.ca/#i-tema]
+/[voidnet]
 
 %[]
 

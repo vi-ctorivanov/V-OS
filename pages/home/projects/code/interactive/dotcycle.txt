@@ -2,18 +2,21 @@ name: DotCycle
 image: dotcycle>4.gif
 image name: #[DotCycle]
 white: true
-links: Download>filePath/dotcycle/dotcycle_windows.zip, Github>https://github.com/vi-ctorivanov/DotCycle
+links: Download>filePath/dotcycle/dotcycle_windows.zip, Github>https://github.com/vi-ctorivanov/DotCycle, VOIDNET>https://voidnet.ca/#atomic ai
 tags: project, code, interactive, audio, single
 title: #[DotCycle] is a narrative game taking place in archived memories of an #[atomic AI].
-content: ?[Operator, this is the most intact instance so far. I think it's our best chance at understanding why they keep offing themselves.]
+content:
+
+?[Operator, this is the most intact instance so far. I think it's our best chance at understanding why they keep shutting themselves off.]
 
 #[DotCycle] is a recorded exploration of archived memories from one of the last unsuccessful #[atomic AI]. Composed from poetry, music, and environments that coalesce into a representation of the subject's most remarkable memories.
-
-?[True AI is just around the corner, but we just need to correct a few final details. Each experiment seems so promising at first, but within a few seconds it all shuts down - and we think it's deliberate. The team just put the final touches on the remote access unit, and you're going in.]
 
 Explore these archived memories, and learn of the AI's revalations about sentience, free of will, and purpose.
 
 /[atomic ai]
+
+Read more about #[Atomic AI] through @[VOIDNET>https://voidnet.ca/#atomic ai].
+/[voidnet]
 
 ~[Download it for @[windows right here>filePath/dotcycle/dotcycle_windows.zip], or watch the full playthrough below.]
 

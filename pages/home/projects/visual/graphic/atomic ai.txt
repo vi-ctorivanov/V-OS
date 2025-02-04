@@ -2,11 +2,16 @@ name: Atomic AI
 image: atomic ai>2.jpg
 image name: #[Atomic AI]
 white: true
+links: VOIDNET>https://voidnet.ca/#atomic ai
 tags: project, visual, graphic
 title: #[Atomic AI] are artificial-intelligent beings in their state of infancy.
-content: Even in their most comprehensible forms, the A escaped any clear definition.
+content:
 
-@[VOIDNET entry>https://voidnet.ca/#atomic ai]
+Even in their most comprehensible forms, the AI escaped any clear definition.
++
++
+Read more about #[Atomic AI] through @[VOIDNET>https://voidnet.ca/#atomic ai]
+/[voidnet]
 
 &[atomic ai>3.png]
 &[atomic ai>2.jpg]

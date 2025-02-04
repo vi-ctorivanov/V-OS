@@ -4,7 +4,7 @@ image name: #[Log]
 links: Github>https://github.com/vi-ctorivanov/Log
 white: true
 tags: project, code, tool
-title: The #[Log] is a timekeeping tool and data visualizer overseen by #[LOGO].
+title: The #[Log] is a timekeeping tool and data visualizer.
 content: The #[Log] is a tool used for daily output logging and data analysis.  Its data can be found in the sidebar of all project pages logged in it (including this one).
 +
 +
@@ -26,4 +26,4 @@ Below are some images showcasing what this interface looked like, including an o
 
 %[]
 
-The purpose of the #[Log] is to study my work habits, spot patterns in the types of activities I engage in, and attempt to optimize my productivity. I've written about my design intent with the #[Log] in #[timekeeping]. #[Timekeeping] also covers design decisions I found interesting in regards to the #[Log], challenges I faced during its development, and the benefits it's brought to my lifestyle.
+The purpose of the #[Log] is to study my work habits, spot patterns in the types of activities I engage in, and attempt to optimize my productivity. In short, tracking my time has helped me become more aware of how I spend it.

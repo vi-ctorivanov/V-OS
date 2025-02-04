@@ -2,6 +2,7 @@ name: Toriyomu
 image: toriyomu>1.png
 image name: #[Toriyomu]
 white: true
+links: VOIDNET>https://voidnet.ca/#toriyomu
 tags: project, visual, graphic
 title: The #[Toriyomu] are semi-organic vehicles used by the @[Early Midnights>Early Midnight].
 content: 
@@ -9,7 +10,8 @@ content:
 Created from the same underlying technology as the @[Early Midnights>Early Midnight], the Toriyomu are a mix between hera flesh (a subspecies of horse), some hera neural tissue, and the nano symbiote that interfaces with neural tissue.
 +
 +
-The symbiote requires neural tissue as a source, but in time is able to grow mechanical components within and around this tissue, producing full bodies of non-organic material interlaced with organic tissue.
+Read more about #[Toriyomu] through @[VOIDNET>https://voidnet.ca/#toriyomu].
+/[voidnet]
 +
 +
 With the exception of some rare cases, unaltered humans cannot operate the Toriyomu as they require a cerebral interface to pilot. Naturally, this leaves @[Early Midnights>Early Midnight] as the primary operators.

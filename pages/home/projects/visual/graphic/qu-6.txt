@@ -7,11 +7,14 @@ tags: project, visual, graphic
 title: #[QU-6], m_struct #760.
 content:
 
-~[xyz:lun_sol, +2 cell
+~[xyzw: -29.7651, 42.9462, 10.9322, 0.0000
+lun_sol, +2 cell
 core struct [6]
 +
-parent: #[luna]
-dat: 40-05-34]
+parent: lynx]
+
+Read more about #[QU-6] through @[VOIDNET>https://voidnet.ca].
+/[voidnet]
 
 Audio by @[Sanea Ima>https://pablosanea.com/].
 

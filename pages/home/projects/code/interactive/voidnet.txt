@@ -1,0 +1,15 @@
+name: VOIDNET
+image: voidnet>1.png
+image name: #[VOIDNET]
+white: true
+links: VOIDNET>https://voidnet.ca
+tags: project, code, interactive, writing
+title: #[VOIDNET] is a wiki of narratives.
+content:
+
+#[VOIDNET] is an interactive web application housing hundreds of pages of inter-connected science fiction stories presented through an in-world interface.
++
++
+Visit and play it @[here>https://voidnet.ca]!
+
+&[voidnet>2.png]

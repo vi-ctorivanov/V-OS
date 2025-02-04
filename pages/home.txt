@@ -4,7 +4,7 @@ image name: #[Cibo]
 white: true
 tags: hub
 title: #[V-OS] is a virtual library of #[projects], @[narratives>https://voidnet.ca], and experiments.
-content: This digital space is a virtual library of my work, and stories from #[VOIDNET].
+content: This digital space is a virtual library of my digital artwork and related stories from #[VOIDNET].
 +
 +
 I'm Victor Ivanov [vi], and I'm the creator of this space. More about me in my #[portfolio].
