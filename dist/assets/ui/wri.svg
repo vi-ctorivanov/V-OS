@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 144 144" style="enable-background:new 0 0 144 144;" xml:space="preserve">
+<style type="text/css">
+	.st5{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g id="VER">
+	<path class="st5" d="M72,117c-24.8,0-45-20.2-45-45s20.2-45,45-45s45,20.2,45,45S96.8,117,72,117z M72,28.6
+		c-23.9,0-43.4,19.5-43.4,43.4c0,23.9,19.5,43.4,43.4,43.4c23.9,0,43.4-19.5,43.4-43.4C115.4,48.1,95.9,28.6,72,28.6z"/>
+	<circle cx="41.5" cy="40" r="5.6"/>
+	<circle cx="114.2" cy="59" r="5.6"/>
+	<circle cx="98.5" cy="107.5" r="5.6"/>
+</g>
+</svg>

@@ -37,7 +37,12 @@ const reader = readline.createInterface({
 
 reader.on('line', (line) => {
 	line = line.split(',').map(string => string.trim());
-	insert.run(line[0], line[1], line[2], line[3], line[4], line[5]);
+
+    let result = line.splice(0,5); //avoid splitting apart 'details'
+	result.push(line.join(','));
+	result[5] = result[5].replace(/"(.*)"/g, '$1'); //remove possible " (double quotes) around 'details'
+
+	insert.run(result[0], result[1], result[2], result[3], result[4], result[5]);
 });
 
 reader.on('close', build);
@@ -99,7 +104,7 @@ function parse(string, type) {
 		[/(?<!\\)\%\[([^\]]+)\]/g, '<span class="execute" execute="$1"></span>'],
 
 		//local link: @[]
-		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1.html" class="localLink">$1</a>'],
+		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1" class="localLink">$1</a>'],
 		
 		//external link: []()
 		[/(?<!\\)\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2">$1</a>'],
@@ -136,7 +141,7 @@ function parse(string, type) {
 		[/(?<!\\)\*\s?([^*]+)\*/g, '<i>$1</i>'],
 
 		//local link: @[]
-		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1.html" class="localLink">$1</a>'],
+		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1" class="localLink">$1</a>'],
 
 		//execute code (accompanied by post-process code): %[]
 		[/(?<!\\)\%\[([^\]]+)\]/g, '<span class="execute" execute="$1"></span>'],
@@ -150,7 +155,7 @@ function parse(string, type) {
 
 	const imageNameParseRules = [
 		//local link: @[]
-		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1.html" class="localLink">$1</a>'],
+		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1" class="localLink">$1</a>'],
 	];
 
 	switch (type) {
@@ -272,7 +277,7 @@ function tagList(tag, title=false) {
 			if (artifact.tags.includes(tag)) {
 				let item;
 				if (title) item = `<li>${artifact.title}</li>`;
-				else item = `<li><a href="${artifact.name}.html" class="localLink">${artifact.name}</a></li>`;
+				else item = `<li><a href="${artifact.name}" class="localLink">${artifact.name}</a></li>`;
 				items += item;
 			}
 		}
@@ -290,7 +295,7 @@ function stylizedLinks(string) {
 		for (let i = 0; i < artifacts.length; i++) {
 			if (artifacts[i].name.toLowerCase() === href.toLowerCase()) artifact = artifacts[i];
 		}
-		if (artifact != null) string = string.replace(elements[i][1], `<div class="pageCard"><a href="${href}.html" class="pageCardImage" href="${href}.html" style="background-image:url(${artifact.image})"></a><div class="pageCardTitle"><span>${artifact.title}</span></div></div>`);
+		if (artifact != null) string = string.replace(elements[i][1], `<div class="pageCard"><a href="${href}" class="pageCardImage" href="${href}" style="background-image:url(${artifact.image})"></a><div class="pageCardTitle"><span>${artifact.title}</span></div></div>`);
 	}
 
 	return string;
@@ -323,21 +328,17 @@ function getRecentLogs(string) {
 	const elements = [...string.matchAll(/(<div recentLogs="([^"]*?)"><\/div>)/gs)];
 
 	for (let i = 0; i < elements.length; i++) {
-		const entries = elements[i][2];
+		const entries = parseInt(elements[i][2]) + 1;
 
 		let query = db.prepare(`SELECT * FROM Productivity LIMIT ${entries}`).all();
 
 		let results = '';
-		for (let j = 0; j < query.length; j++) {
-			results += query[j].Date.substring(5).replace('-','.') + ' · ';
-			results += query[j].Time + 'h · ';
-			results += query[j].Project + ' · ';
-			results += query[j].Task + ' · ';
-			results += query[j].Details;
+		for (let j = 1; j < query.length; j++) {
+			results += `${query[j].Date.substring(5).replace('-','.')} · ${query[j].Time}h · ${query[j].Project} · ${query[j].Task} · ${query[j].Details}`;
 			if (j < query.length - 1) results += '<br><br>'
 		}
 
-		string = string.replace(elements[i][0], `<code class="codeBlock">${results}</code>`);
+		string = string.replace(elements[i][0], `<code class="codeBlock" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">${results}</code>`);
 	}
 
 	return string;
@@ -361,7 +362,7 @@ function formatHTMLPage(artifact) {
 	page = page.replace(/\$title/g, artifact.title);
 	page = page.replace(/\$headerTitle/g, artifact.imageName);
 	page = page.replace(/\$content/g, artifact.content);
-	page = page.replace(/\$lastModified/g, `${artifact.lastModified.getFullYear()} . ${(artifact.lastModified.getMonth()+1).toString().padStart(2, 0)} . ${artifact.lastModified.getDate().toString().padStart(2, 0)}`);
+	page = page.replace(/\$lastModified/g, `${artifact.lastModified.getFullYear()}.${(artifact.lastModified.getMonth()+1).toString().padStart(2, 0)}.${artifact.lastModified.getDate().toString().padStart(2, 0)}`);
 
 	//image
 	if (artifact.image != null) {
@@ -391,7 +392,7 @@ function formatHTMLPage(artifact) {
 		
 		if (artifact.name == 'Home') {
 			startDate = db.prepare("SELECT Date AS start FROM Productivity ORDER BY Date ASC LIMIT 1").all()[0].start.replaceAll('-', '.');
-			endDate = db.prepare("SELECT Date AS end FROM Productivity ORDER BY Date DESC LIMIT 1").all()[0].end.replaceAll('-', '.');
+			endDate = db.prepare("SELECT Date AS end FROM Productivity ORDER BY Date DESC LIMIT 2").all()[1].end.replaceAll('-', '.');
 
 			abstract = db.prepare("SELECT SUM(Time) AS abstract FROM Productivity WHERE DIVISION = 'Abstract'").all()[0].abstract;
 			audio = db.prepare("SELECT SUM(Time) AS audio FROM Productivity WHERE DIVISION = 'Audio'").all()[0].audio;
@@ -525,7 +526,7 @@ function formatHTMLPage(artifact) {
 				break;
 		}
 
-		tags += `<a href="home.html#${link}" class="sideLinkHolder"><span class="neutralLink sideLink">${artifact.tags[i]}</span></a>`;
+		tags += `<a href="home#${link}" class="sideLinkHolder"><span class="neutralLink sideLink">${artifact.tags[i]}</span></a>`;
 	}
 	page = page.replace(/\$tags/g, tags + '<div class="sideDivider"></div>');
 
@@ -593,4 +594,10 @@ function build() {
 	for (let i = 0; i < artifacts.length; i++) {
 		fs.writeFileSync(__dirname.concat('/dist/', artifacts[i].name, '.html'), formatHTMLPage(artifacts[i]));
 	}
+
+	//copy assets to /dist folder
+	fs.cpSync('assets/styles', 'dist/assets/styles', {recursive: true});
+	fs.cpSync('assets/scripts', 'dist/assets/scripts', {recursive: true});
+	fs.cpSync('assets/ui', 'dist/assets/ui', {recursive: true});
+	fs.copyFile('assets/htaccess/.htaccess', 'dist/.htaccess', () => {});
 }
