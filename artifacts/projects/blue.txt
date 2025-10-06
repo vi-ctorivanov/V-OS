@@ -1,0 +1,13 @@
+name: Blue
+image: blue/1.gif
+imageName: @[Blue]
+tags: project, audio, single
+title: @[Blue] begins the amber voyage.
+
+===
+
+After falling through the clouds, the blue ember found its mirror realm.
+
+![alt](blue/1.wav)
+
+![alt](blue/1.mov)

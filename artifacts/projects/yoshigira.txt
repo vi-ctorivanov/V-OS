@@ -1,0 +1,18 @@
+name: Yoshigira
+image: yoshigira/3.jpg
+imageName: @[Yoshigira]
+tags: project, visual, photography
+title: @[Yoshigira] is a small album featuring a park surrounded by civilization.
+
+===
+
+![Photograph of the trunk of a tree with other trees in the background.](yoshigira/1.jpg)
+![Sunny view of skyscrapers with a canopy of trees underneath in the foreground.](yoshigira/2.jpg)
+![Old-style Japanese building surrounded by trees on the edge of a pond with its reflection visible in the water.](yoshigira/3.jpg)
+![Sunny view of skyscrapers with a canopy of trees and a small grassy area underneath in the foreground.](yoshigira/4.jpg)
+![Sunny view of skyscrapers with a canopy of trees underneath in the foreground.](yoshigira/5.jpg)
+![Busy street at sunset with tall buildings on its sides, their facades filled with signs and panels.](yoshigira/6.jpg)
+![Side of a concrete building with metal pipes running alongside it.](yoshigira/7.jpg)
+![Side of a concrete building with balconies.](yoshigira/8.jpg)
+![Sunny view of a modern building with outdoor staircases and walkways.](yoshigira/9.jpg)
+![Side of a building with metal bars running vertically along it with interweaved viny vegetation on them.](yoshigira/10.jpg)

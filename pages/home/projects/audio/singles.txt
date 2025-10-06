@@ -1,7 +1,0 @@
-name: Singles
-image: qurotema>1.png
-image name: #[Quro]
-white: true
-tags: nav
-title: The #[singles] section includes singular songs, or projects that include a single piece of music.
-content: -[single]

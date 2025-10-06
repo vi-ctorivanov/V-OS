@@ -1,0 +1,38 @@
+name: You Are X
+image: you are x/1.jpg
+imageName: @[You Are X]
+links: [Code Repository](https://github.com/YOU-ARE-X/YOU-ARE-X), [Watch Video](https://www.youtube.com/watch?v=Pk6kRKgpXrQ)
+tags: project, code, interactive
+title: @[You Are X] is an interactive VR installation focusing on microscopic environments.
+
+===
+
+@[You Are X] is a minimalist installation and interactive VR simulation in which users embody, in a sequence of scenes, a series of different atomic elements and pieces of matter. These scenes showcase static matter, dynamic cellular life, and chemical reactions.
+
+![alt](you are x/1.mp4)
+
+```
+The video above is high bitrate and requires a good internet connection.
+
+If you're experiencing interruptions, please watch a [compressed version of the video on Youtube](https://www.youtube.com/watch?v=Pk6kRKgpXrQ).
+```
+
+For each scene, users are transported to an environment where the selected piece of matter would typically be found. Different visual profiles exist for various levels of magnification: standard microscopy, electron microscopy, and even abstract graphics for smaller sizes. In these scenes exist hotspots which reveal information about the material’s geographical origin, its current location, the processes required for its extraction and processing, and other information relevant to the material’s ecological impact.
+
+![Photograph of an installation sculpture shaped like a triangle with a light behind it in a dark room.](you are x/2.jpg)
+
+The installation requires the user to step onto a platform. Attatched to the platform, a simple but dignified monument bears a VR headset. On the other end is a vertical semi-transparent sheet onto which the experience is projected, allowing outside viewers to passively observe the project.
+
+![Computer-generated noisy image of grayscale cratered surfaces.](you are x/3.jpg)
+
+Once the headset is equipped, the user is taken on a journey through the life cycles of several elements. @[You Are X] seeks to do away with the limitations of the human eye, and redefine the relationship between user and matter by stripping them of their human perspective and replacing it with that of matter itself. This experience seeks to raise awareness of the path these materials take, from their conception to their unfortunate waste.
+
+---
+
+@[You Are X] was created in collaboration with:
+
+[Léa Demeule](https://leademeule.com/), graphics programming, audio co-production.
+[Jennifer Powroznyk](https://www.linkedin.com/in/jenpowroznyk/), 3D modeling, installation manufacturing.
+[Catherine Weng](mailto:cat.weng97@gmail.com), 3D modeling, inventory, finance management.
+
+![Photograph of an installation sculpture shaped like a triangle in a dark room and 4 people sitting in front of it, smiling.](you are x/4.jpg)

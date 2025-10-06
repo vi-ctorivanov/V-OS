@@ -1,0 +1,23 @@
+name: Archform Night
+image: archform night/12.png
+imageName: @[Archform Night]
+tags: project, visual, photography
+title: @[Archform Night] - Beaming highlights.
+
+===
+
+> Even in the sun's absence, the artificial roots of light spread deep.
+
+![Photograph of a close-up of a tall contempory building's concrete and glass facade, made up of concrete slabs and window panes placed chaotically.](archform night/1.jpg)
+![Street at night time with neon signs lining its edges.](archform night/2.jpg)
+![Close-up of a Japanese temple seen from the side at night with soft orange lighting from hanging lanterns.](archform night/3.jpg)
+![Dark and slick building roof and exterior staircase seen from below with the dark orange sky behind it.](archform night/4.jpg)
+![Black and white chaotic and tight alleyway with wires and pipes, two men sitting on the side.](archform night/5.jpg)
+![Black and white long modern street with a tiled road and Japanese signs on the buildings at its edges.](archform night/6.jpg)
+![Dark and slick building facade next to another facade with dark orange horizontal struts at its windows.](archform night/7.jpg)
+![Close-up of a dark green concrete building.](archform night/8.jpg)
+![Night time skyline view from a rooftop with bright green reflections in glass in the foreground.](archform night/9.jpg)
+![Night time view from a rooftop of modern buildings with bright green reflections in glass in the foreground.](archform night/10.jpg)
+![Night time view of a dark building with a bright orange screen around its corner, seen from above.](archform night/11.jpg)
+![Pale blue modern building facade at night with wires crossing the foreground.](archform night/12.png)
+![Dark landscape of green mountains fading into the fog in the distance.](archform night/13.jpg)

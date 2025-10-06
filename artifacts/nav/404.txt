@@ -1,0 +1,13 @@
+name: 404
+image: 404/1.png
+imageName: @[404]
+tags: nav
+title: Artifact not found.
+
+===
+
+Seems like LOGO hasn't indexed this artifact yet, sorry about that.
+
+If you're lost, return @[home].
+
+If you think this page should exist, please contact me through my [email](mailto:vi@v-os.ca). 

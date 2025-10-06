@@ -1,0 +1,32 @@
+name: DotCycle
+image: dotcycle/4.gif
+imageName: @[DotCycle]
+links: ![Download Game](dotcycle/dotcycle_windows.zip), [Code Repository](https://github.com/vi-ctorivanov/DotCycle), [VOIDNET](https://voidnet.ca/#atomic ai)
+tags: project, code, interactive, audio, single
+title: @[DotCycle] is a narrative game taking place in archived memories of an @[atomic AI].
+
+===
+
+> Operator, this is the most intact instance so far. I think it's our best chance at understanding why they keep shutting themselves off.
+
+@[DotCycle] is a recorded exploration of archived memories from one of the last unsuccessful @[atomic AI]. Composed from poetry, music, and environments that coalesce into a representation of the subject's most remarkable memories.
+
+Explore these archived memories, and learn of the AI's revalations about sentience, free of will, and purpose.
+
+&[atomic ai]
+
+Read more about @[Atomic AI] through [VOIDNET](https://voidnet.ca/#atomic ai).
+
+&[voidnet]
+
+```
+Download it for ![windows right here](dotcycle/dotcycle_windows.zip), or watch the full playthrough below.
+```
+
+![alt](dotcycle/1.mp4)
+
+---
+
+![Pixelated black and white corridor of triangles drawn in a rectangle framed in black.](dotcycle/1.png)
+![Abstract pixelated black and white thick diagonal line drawn in a rectangle framed in black.](dotcycle/2.png)
+![Pixelated black and white abstract circular building in the center of a black void.](dotcycle/3.png)

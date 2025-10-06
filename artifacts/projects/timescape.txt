@@ -1,0 +1,26 @@
+name: TIMESCAPE
+image: timescape/1.gif
+imageName: @[TIMESCAPE]
+links: [Watch Video](https://www.youtube.com/watch?v=P2iOaK7cr-s), [Visit Sanea Ima](https://saneaima.com/)
+tags: project, visual, graphic
+title: @[TIMESCAPE], a known future.
+
+===
+
+In our limited lives, it is difficult to perceive time at scales unfamiliar to us. Today, we face an unprecedented vision of the future.
+
+In @[TIMESCAPE], we explore a place untouched by human perception, time having overflowed into a new era. Deceptive contemplation. Regardless of how far we can see, should we claim responsibility  for a world whose past we directed?
+
+Audio by [Sanea Ima](https://saneaima.com/).
+
+![alt](timescape/1.mp4)
+
+```
+The video above has a very high bitrate.
+
+If you're having trouble loading it, please check out the [compressed video on Youtube](https://www.youtube.com/watch?v=P2iOaK7cr-s).
+```
+
+![Computer-generated image of a black landscape seen from directly above with white smoky strips running diagonally in parallel across it.](timescape/4.png)
+![Zoom-in to a metallic rectangle with subtle organic patterns.](timescape/2.png)
+![Black landscape seen from above with small sharp peaks and wispy clouds near its surface.](timescape/3.png)

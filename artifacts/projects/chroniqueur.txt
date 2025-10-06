@@ -1,0 +1,16 @@
+name: Chroniqueur
+image: chroniqueur/1.png
+imageName: @[Chroniqueur]
+links: [Visit LabLabLab](https://www.lablablab.net)
+tags: project, professional, code, interactive, visual, graphic
+title: @[Chroniqueur] is an emergent narrative experimentation platform built by [LabLabLab](https://www.lablablab.net).
+
+===
+
+![Computer video game screenshot of a 3D island surrounded by water with a sidebar of game information on the left of the frame, including a pixel-art character portrait and player choices for what actions to take.](chroniqueur/2.png)
+
+I worked on this Unity project as a technical artist with the goal of creating visual representations of procedrually generated content and helping define the map generation system for simulation purposes.
+
+This includes architecting and developing procedural island data and biome generation, 3D mesh generation and texturing, map decor and object population, 2D asset matching for character and environment representation.
+
+![Family tree with pixel art portraits and a sidebar with player choices for the upcoming in-game year.](chroniqueur/3.png)

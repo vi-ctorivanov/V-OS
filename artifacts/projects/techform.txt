@@ -1,0 +1,22 @@
+name: Techform
+image: techform/12.jpg
+imageName: @[Techform]
+tags: project, visual, photography
+title: @[Techform] - Advanced refinement.
+
+===
+
+> They saw, with their oil eyes, far into the ultraviolet.
+
+![Photograph of pixelated flower petals on a slanted surface.](techform/1.jpg)
+![Pixelated flower petals projected onto a wall and a man and woman standing in front of it.](techform/2.jpg)
+![Black and white wall with an array of spotlights focusing their visible beams of light onto a point in space.](techform/3.jpg)
+![Young girl looking down in a dark room while lights illuminate her back.](techform/4.jpg)
+![Young girl looking up with an open mouth and her hands stretched in front of her as light focuses on her palms.](techform/5.jpg)
+![Three beams of light, one vertical, another horizontal, and the last in depth, focusing on a single point in space.](techform/6.jpg)
+![Wall with an array of spotlights each emitting a sharp and focused beam of light, creating a grid in space.](techform/7.jpg)
+![Wall with an array of spotlights emitting beams of light.](techform/8.jpg)
+![Zoom-in to futuristic mechanical components with industrial graphics and text printed on them.](techform/9.jpg)
+![Room with a floor made of mirrors, hundreds of hanging LED strips, and a woman with her back to the camera walking forward.](techform/10.jpg)
+![Room with a floor and ceiling made of mirrors, a group of people is standing in it, the mirrors create an infinite repeating hall.](techform/11.jpg)
+![Room with a floor and ceiling made of mirrors, the man taking the photo is visible in the reflection of the floor, the mirrors create an infinite repeating hall.](techform/12.jpg)

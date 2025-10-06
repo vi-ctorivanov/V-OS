@@ -1,0 +1,22 @@
+name: 4D SOCIETY
+image: 4d society/6.png
+imageName: @[4D SOCIETY]
+links: [Code Repository](https://github.com/vi-ctorivanov/4D-SOCIETY)
+tags: project, code, interactive, audio, single
+title: @[4D SOCIETY] is a first person exploration game with navigational puzzles driven by experimental graphics.
+
+===
+
+Inspired by games like [Memories of a Broken Dimension](https://store.steampowered.com/app/544300/Memory_of_a_Broken_Dimension/), [Fugue In Void](https://moshelinke.itch.io/fugue-in-void), and [NaissanceE](https://store.steampowered.com/app/265690/NaissanceE/), @[4D SOCIETY] explores environments filled with large-scale brutalist architecture, disorienting and experimental graphics, and a narrative with questions surrounding an alien ideology.
+
+Currently, @[4D SOCIETY] is purely a proof of concept.
+
+![alt](4d society/1.mp4)
+
+You are Research Officer Jazz, sent on a mission to investigate a paranormal phenomenon. Explore environments hidden behind the veil. Uncover surfaces where you look, and paint the world around you into existence. Embody the essence of curiosity: venture as far as you can, learn about the nature of this space, navigate non-euclidian environments, and discover the entities who created this new world.
+
+![Computer-generated image of concrete platforms with vibrant color separation on their edges in a black void.](4d society/1.png)
+![Multiple multicolor striped patterns.](4d society/2.png)
+![Concrete staircases going in various directions with pale smears on their edges in a black void.](4d society/3.png)
+![Dark concrete tunnel, pale smears at its end blend into a black void.](4d society/4.png)
+![Tall concrete corridor with large slits in the wall where light shines from.](4d society/5.png)

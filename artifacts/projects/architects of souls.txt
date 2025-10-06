@@ -1,0 +1,10 @@
+name: Architects of Souls
+image: architects of souls/1.jpg
+imageName: @[Architects of Souls]
+tags: project, audio, album
+title: @[Architects of Souls] is a WIP album revolving around the creation of AI and its influence in the multiverse.
+
+===
+
+Track 1: Wherein Titans Fall.
+![alt](architects of souls/1.wav)

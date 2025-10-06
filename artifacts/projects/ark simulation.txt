@@ -1,0 +1,16 @@
+name: ARK Simulation
+image: ark simulation/1.jpg
+imageName: @[Ark Simulation]
+links: [VOIDNET](https://voidnet.ca/#ark simulation)
+tags: project, visual, graphic
+title: An @[ARK Simulation] is a custom instance of a digital Paradise for a select body of Automata.
+
+===
+
+The @[ARK Simulation] was created in an effort to conform reality to the Automata's new protocols of belief. Such a simulation is created for each Dentatsuna after it has spread a sufficient quantity of *Spawn Nodes*.
+
+Read more a about an @[ARK Simulation] through [VOIDNET](https://voidnet.ca/#ark simulation).
+
+&[voidnet]
+
+![Black and white computer-generated image of an abstract schematic blueprint with alien writing.](ark simulation/1.jpg)

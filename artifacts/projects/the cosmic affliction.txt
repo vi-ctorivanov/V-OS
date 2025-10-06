@@ -1,0 +1,29 @@
+name: The Cosmic Affliction
+image: the cosmic affliction/1.jpg
+imageName: @[The Cosmic Affliction]
+links: [Download Album](https://victorivanov.bandcamp.com/album/the-cosmic-affliction)
+tags: project, audio, album
+title: @[The Cosmic Affliction] is a narrative-centric electronic album, following a @[Solemn] drifter of the planes.
+
+===
+
+Track 1: Spacefarer.
+![alt](the cosmic affliction/Spacefarer.wav)
+
+Track 2: Thousand Year Dream.
+![alt](the cosmic affliction/Thousand Year Dream.wav)
+
+Track 3: Stride.
+![alt](the cosmic affliction/Stride.wav)
+
+Track 4: It Always Rains On Saturn.
+![alt](the cosmic affliction/It Always Rains On Saturn.wav)
+
+Track 5: Dark Dye.
+![alt](the cosmic affliction/Dark Dye.wav)
+
+Track 6: Entry 11842 - Delete These Records.
+![alt](the cosmic affliction/Entry 11842 - Delete These Records.wav)
+
+![Illustration of a pastel purple foggy landscape with a giant sun-like circle on the left of the frame and huge double-barred crosses in the distance. Includes a list of album track names.](the cosmic affliction/4.png)
+![Pastel purple foggy landscape with a giant sun-like circle on the left of the frame and huge double-barred crosses in the distance.](the cosmic affliction/3.png)

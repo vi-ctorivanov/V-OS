@@ -1,0 +1,19 @@
+name: Sanea Ima
+image: sanea ima/3.png
+imageName: @[Sanea Ima]
+links: [Visit Sanea Ima](https://saneaima.com)
+tags: project, code, interactive, professional
+title: @[Sanea Ima]'s portfolio.
+
+===
+
+Designed with and for friend and collaborator [Sanea Ima](https://saneaima.com).
+
+Developed with the help of [GRAV CMS](https://getgrav.org/).
+
+![Screenshot of website with a dark cover picture.](sanea ima/1.png)
+![Website project description.](sanea ima/2.png)
+![Image layout grid on website.](sanea ima/3.png)
+![Index side menu on website.](sanea ima/4.png)
+![Page with four large portrait images.](sanea ima/5.png)
+![Page with four large portrait images, one is moused over and is enlarged. On it reads "TIMESCAPE".](sanea ima/6.png)

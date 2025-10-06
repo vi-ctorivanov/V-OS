@@ -1,0 +1,22 @@
+name: Off
+image: off/1.gif
+imageName: @[Off]
+links: [Watch Video](https://www.youtube.com/watch?v=q7BsDrr9sQ4), [Visit Sanea Ima](https://saneaima.com/)
+tags: project, code, display
+title: @[Off] is a realtime point cloud audiovisual piece.
+
+===
+
+![alt](off/1.mp4)
+
+```
+The video above has a very high bitrate.
+
+If you're having trouble loading it, please check out the [compressed video on Youtube](https://www.youtube.com/watch?v=q7BsDrr9sQ4).
+```
+
+@[Off] is a set of visuals created for an excerpt of [Sanea Ima](https://saneaima.com/)'s acoustmatic piece of the same name.
+
+![Computer-generated abstract pattern of bright particles in a dark void.](off/2.png)
+![Abstract pattern of bright particles in a dark void.](off/3.png)
+![Abstract pattern of bright particles in a dark void.](off/4.png)

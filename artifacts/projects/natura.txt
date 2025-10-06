@@ -1,0 +1,13 @@
+name: Natura
+image: natura/3.jpg
+imageName: @[Natura]
+tags: project, visual, photography
+title: @[Natura] - Loxiolid.
+
+===
+
+![Photograph of black and white rocks on the coast of a rough sea.](natura/1.jpg)
+![Black and white rocks on the coast of a rough sea.](natura/2.jpg)
+![Black and white rocks on the coast of a rough sea.](natura/3.jpg)
+![Black and white rocks on the coast of a rough sea.](natura/4.jpg)
+![Black and white rocks on the coast of a rough sea.](natura/5.jpg)

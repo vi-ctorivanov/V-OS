@@ -1,8 +1,0 @@
-name: Tools
-image: seven>1.png
-image name: #[Seven]
-white: true
-tags: nav
-title: The #[tools] section features practical applications and artistry tools.
-content:
--[tool]

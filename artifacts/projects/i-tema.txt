@@ -1,0 +1,84 @@
+name: i-tema
+image: i-tema/6.png
+imageName: @[i-tema]
+links: [VOIDNET](https://voidnet.ca/i-tema)
+tags: project, visual, graphic
+title: @[i-tema] is a morphologically minimal synthetic language.
+
+===
+
+Inspired by agglutinative concepts in Japanese, writing in Korean, and phonetics of Bulgarian and Japanese, @[i-tema] is a written-only language that aims to simplify morphology to its bare minimum. In short, the goal is to minimize the amount of unique content to be learned for understanding and communication.
+
+---
+
+@[i-tema] is the synthetic language found in @[Qurotema].
+
+&[Qurotema]
+
+Read more about @[i-tema] through [VOIDNET](https://voidnet.ca/#i-tema)
+
+&[voidnet]
+
+---
+
+# Syntax
+
+The equivalent of a *noun* is called a *flat*.
+The equivalent of an *adjective* or *adverb* is called a *modifier*.
+The equivalent of a *verb* is called an *actor*.
+The equivalent of a *pronoun* is called a *subject*.
+The equivalent of a *preposition* is called a *marker*.
+Question words are called *questioners*.
+
+---
+
+@[i-tema] is read from top to bottom, left to right. Each phrase is a column, with the head of the phrase being at the bottom / end. A sentence is composed of at least one phrase. If this phrase is a flat phrase (head of the phrase is a flat), then a simple flat word is sufficient. If it is an actor phrase (head of the phrase is an actor), all of the actor’s compliments must be present, unless it is in the infinitive or imperative form.
+
+If a modifier is modified by another modifier phrase, that phrase’s head must be situated at the same verticality as the word it modifies. In case where this creates cramped space, phrases do not need to be directly horizontally adjectent to the word they describe.
+
+If the language is written from left to right, all rules are applied in opposed directions, but the letters are not flipped.
+
+Questions are expressed with a question word filling in the slot of the requested information.
+
+---
+
+In @[i-tema]'s written-only system, symbolic elements are used to describe a word in regards to plurality, determiners, tense, negativity, and degree. This means that the same word can be a flat ("beauty"), a modifier ("beautiful", "beautifully"), or an actor ("beautify") in various tenses - only by using dots and lines on the right side of the word! Only one word needs to be learned for all those forms.
+
+A dot on the bottom right of a flat is an expression of reference (“the”).
+
+A dot in the middle right of an action is an expression of present tense. Said dot with a dot on the top is the past tense, and a dot on the bottom is the future tense. If the middle dot is replaced with a line, it is the progressive tense (past / present / future depending on accompanying dots).
+
+A vertical line on the right side of a modifier connected to its top consonant expresses degree. A single dot at the top represents the minimum, a full line to the bottom of the word represents the maximum degree, and all line lengths in between represent the spectrum between those two ("barely funny", "somewhat funny", "the funniest").
+
+A line on the right side of a flat expresses general plurality. If the line is connected to the top consonant, it expresses continuous plurality ("some", "many", "all", etc.), similarly to modifiers.
+
+![Diagram explaining syntactical rules of i-tema.](i-tema/1.png)
+![Diagram explaining syntactical rules of plurality in i-tema.](i-tema/2.png)
+
+Two dots on the right of an actor or modifier, surrounding the vertical center, expresses negativity ("not").
+
+A line above a marker explicitly expresses that the word is a marker, signifying that it cannot be modified. This exists for legibility purposes.
+
+![Diagram explaining syntactical rules of i-tema.](i-tema/3.png)
+
+---
+
+# Phonetics & Writing
+
+Because @[i-tema] is not a spoken language, phonetics are not particularly important. Nonetheless, for ease of communication, a set of phonetics exist for the letters of the language (not the syntactic symbols).
+
+![Diagram explaining the phonetics of i-tema.](i-tema/4.png)
+
+There exist a total of 20 consonants (10 unique symbols, and 10 stressed variants), 6 vowels, and 2 null symbols (one for consonants and another for vowels).
+
+Each rune is made up of one consonant and one vowel. Words can be a single rune, or a combination of runes.
+
+If a rune has nothing but a vowel, the consonant space is taken up by Ø (null consonant). If a rune has nothing but a consonant, the vowel space is taken up by Ø (null vowel).
+
+Each letter is a path with clear directions marked by the curves in the path.
+
+Within and between runes, all paths not leading outwards must be connected.
+
+Path connections are stopped by stress markers on top left corner of consonant.
+
+Path connections do not exist between separate words.

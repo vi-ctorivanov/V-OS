@@ -1,8 +1,0 @@
-name: Interactive
-image: cartographer>1.png
-image name: #[Cartographer]
-white: true
-tags: nav
-title: The #[interactive] section features games and interactive media.
-content:
--[interactive]

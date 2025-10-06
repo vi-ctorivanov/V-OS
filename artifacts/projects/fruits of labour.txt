@@ -1,0 +1,27 @@
+name: Fruits of Labour
+image: fruits of labour/1.jpg
+imageName: @[Fruits of Labour]
+links: [Visit Website](https://www.opheliaspinosa.com/fruitsoflabour)
+tags: project, audio, album, professional
+title: @[Fruits of Labour] is the soundtrack for the short documentary Fruits of Labour.
+
+===
+
+[Fruits of Labour](https://www.opheliaspinosa.com/fruitsoflabour) is a short documentary directed by [Ophelia Spinosa](https://www.opheliaspinosa.com/).
+
+> Interplaying the metaphor of grapes, this father-daughter documentary is characterized by the labour of love it is to make wine, but also the labour of love that is love itself.
+
+My main role was based around scoring the movie with key pieces of music and motifs. During this project, I worked closely with Ophelia to determine instrumentation, composition, timing, and mixing.
+
+The soundtrack features orchestral instruments in lo-fi soundscapes, with slight usage of electronic elements. It outlines the relationship between father and daughter, and explores both the bitter and sweet particularities of their connection.
+
+Trailer track.
+![alt](fruits of labour/trailer.wav)
+
+Track 'droplets'.
+![alt](fruits of labour/droplets.wav)
+
+Track 'fields'.
+![alt](fruits of labour/fields.wav)
+
+![Poster for film "FRUITS OF LABOUR".](fruits of labour/3.png)

@@ -1,8 +1,0 @@
-name: Display
-image: nakade>3.png
-image name: #[Nakade]
-white: true
-tags: nav
-title: The #[display] section features coded visuals and installations.
-content:
--[display]

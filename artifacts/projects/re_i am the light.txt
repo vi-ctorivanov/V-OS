@@ -1,0 +1,12 @@
+name: RE_I AM THE LIGHT
+image: techform/1.jpg
+imageName: @[Techform]
+tags: project, writing, code, interactive
+links: ![Read Story](re_i am the light/re_i am the light.pdf)
+title: @[RE_I AM THE LIGHT].
+
+===
+
+@[RE_I AM THE LIGHT] is an experimental narrative that features an interactive website acting as an OS interface for the main character - played by you. A mundane job as a decryption specialist leads you to uncover what could be humanity's biggest screw-up.
+
+Read it ![here](re_i am the light/re_i am the light.pdf).

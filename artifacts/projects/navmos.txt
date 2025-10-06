@@ -1,0 +1,466 @@
+name: Navmos
+image: navmos/667.png
+imageName: @[Navmos]
+tags: project, visual, graphic, writing
+title: @[Navmos] is a deck of Tarot-inspired cards.
+
+===
+
+The @[Navmos] set is a work-in-progress set of Tarot-inspired cards, each depicting one of the many facets of reality, especially relating to the human world.
+
+In the @[Navmos] set, you play a major role in interpreting the meaning behind The Cards. The purpose of this Set is to guide introspection by proposing relationships between ideas you might not have naturally considered.
+
+When reading this Set, remember to stay open to the many possible meanings behind The Cards. For instance, a Card may speak simultaneously about your relationship with someone in particular, your relationship with society, your relationship with the world, and your relationship with yourself. Keep this example in mind as you read this Set. Find the unexplored connections of thoughts this Set provides and follow them down to their source.
+
+The Set provides suggestions for introspection, and it is your responsability do with those suggestions what you wish.
+
+---
+# Instructions
+
+To do a reading with the @[Navmos] set, first shuffle the cards in a way that allows for cards to be upside down.
+
+Think of a question or topic you feel has depth worth exploring. Something that's been on your mind a lot lately. Something beyond trivial matters.
+
+Lay down 3 cards face up, and examine the meaning of these cards both individually, and as a unit. Does their meaning apply to you and your topic in any way?
+
+Give yourself time to make unlikely connections between the cards and your topic of meditation. Explore the emerging connections, coming to new conclusions regarding your topic.
+
+---
+
+# 00 - The Student
+
+![Computer-generated image of a card with a featureless and faceless character holding a book and walking off a dark ledge in a gray boxy space. The bottom reads "THE STUDENT".](navmos/0.png)
+
+The Student is young, full of joy and excitement.
+She knows nothing of the world and look onto it with eager impatience.
+But she is also naive of the dangers of the world.
+She is a blank slate, with equal potential for joy and sorrow.
+
+1. **Upright**
+2. Curiosity
+3. Freedom
+4. Innocence
+5. **Reversed**
+6. Iconsideration
+7. Recklessness
+8. Bad judgement
+
+---
+
+# 01 - The Matrix
+
+![Card with a colorful teal mesh. The bottom reads "THE MATRIX".](navmos/1.png)
+
+The Matrix is the fabric which binds us together.
+It gives us the opportunity for connection with newfound sources of networking.
+But it also opens a path towards sin and harm through exploitation.
+
+1. **Upright**
+2. Connection
+3. Community
+4. Belonging
+5. **Reversed**
+6. Deception
+7. Exploitation
+8. Materialism
+
+---
+
+# 02 - The Machinist
+
+//![alt](navmos/2.png)
+
+The Machinist crafts pets and partners and infuses them with life.
+She raises them, grows up with them, and develops deep relationships with them.
+With so much power over her creations, they may grow to resent her.
+Or her pressure may grow into abuse and instill fear and doubt in their connection.
+
+
+1. **Upright**
+2. Union
+3. Friendship
+4. Support
+5. **Reversed**
+6. Disharmony
+7. Doubt
+8. Abuse
+
+---
+
+# 03 - The Maskmaker
+
+![Featureless and faceless character holding their hands to their face, the fabric of their sleeves sweeping up to the sides, and four masks floating above them. The bottom reads "THE MASKMAKER".](navmos/3.png)
+
+The Maskmaker intricately crafts emotional experiences. To entertain is her calling.
+To give others the ability to express themselves through her is her talent.
+But to let the emotions flow through so easily is a hard act to balance.
+When losing that stability, the emotions can become overwhelming, and the mask can break.
+
+1. **Upright**
+2. Entertainment
+3. Charisma
+4. Elegance
+5. **Reversed**
+6. Unsustainability
+7. Emotionality
+8. Sadness
+
+---
+
+# 04 - The City
+
+//![alt](navmos/4.png)
+
+The City is a testament to a control over chaos.
+It is a showcase of chaos under governence, as imperfect as it may be.
+It can instill safety in its residents.
+But it can also exploit those it aims to protect and shelter them from the truth they need.
+
+1. **Upright**
+2. Control
+3. Power over the unknown
+4. Safety
+5. **Reversed**
+6. Mismanagement
+7. Fear of the unknown
+8. Danger
+
+---
+
+# 05 - The Oculum
+
+//![alt](navmos/5.png)
+
+The Oculum upholds the biological laws of fairness.
+She holds a strong sense of justice, and fights for her ideals to reign supreme.
+These ideals involve equality of opportunity, and fairness in experiences for all living things.
+As with all strong senses of justice, only a small tinge of corruption can turn fairness to extremism.
+
+1. **Upright**
+2. Justice
+3. Saviorhood
+4. Equality
+5. **Reversed**
+6. Injustice
+7. Tyranny
+8. Cruelty
+
+---
+
+# 06 - The Traveler
+
+//![alt](navmos/6.png)
+
+The Traveler wanders through the world, looking for meaning.
+She explores uncharted territories and grows comfortable navigating a world without structure.
+Though with each step, she may also grow weary from her travels.
+She may become lost, or out of fear of the unknown, settle for unfulfilling safety.
+
+1. **Upright**
+2. Discovery
+3. Openness
+4. Coordination
+5. **Reversed**
+6. Aimlessness
+7. Conformity
+8. Routine
+
+---
+
+# 07 - The Void
+//![alt](navmos/7.png)
+
+The Void encompasses all.
+It existed before time, and will continue to exist beyond it.
+Out of it emerges everything, and into it falls everything.
+To accept it is to embrace that which is true.
+To fight it is to go against the very nature of reality.
+
+1. **Upright**
+2. Tranquility
+3. Creativity
+4. Acceptance
+5. **Reversed**
+6. Chaos
+7. Emptiness
+8. Fight against nature
+
+---
+
+# 08 - The Paradoxalist
+
+//![alt](navmos/8.png)
+
+The Paradoxalist stands in the face of absurdity and joins it in laughter.
+He is playful and sees the world for the chaos it is.
+But all rules in an absurd world have no meaning.
+The Paradoxalist struggles to find meaning in structure.
+He may fall into deep thinking of meaning and quickly lose his vision.
+
+1. **Upright**
+2. Happiness
+3. Playfulness
+4. Absurdity
+5. **Reversed**
+6. Rebellion
+7. Confusion
+8. Contemplation
+
+---
+
+# 09 - The Processor
+
+//![alt](navmos/9.png)
+
+The Processor is a hands-on machine ready to get the work done.
+He is diligent, dutiful, and responsable.
+With so many responsabilities comes an inevitable heaviness, however.
+This heaviness can cause wear and tear, and lead to coldness as defense, and high amounts of anxiety
+
+1. **Upright**
+2. Responsability
+3. Strength
+4. Determination
+5. **Reversed**
+6. Coldness
+7. Insecurity
+8. Anxiety
+
+---
+
+# 10 - The Linguist
+
+//![alt](navmos/10.png)
+
+The Linguist commits her life to studying the utterances of meaning between living things.
+She builds lexicons of empathy and strives to eradicate loneliness.
+Through this effort, she can build compassion towards a more connected world.
+Though she may find her efforts futile against a world of chaos and grow even more lonely and dissatisfied.
+
+1. **Upright**
+2. Understanding
+3. Compassion
+4. Patience
+5. **Reversed**
+6. Loneliness
+7. Selfishness
+8. Impatience
+
+---
+
+# 11 - The Twin Stars
+
+![Two featureless hands reaching for each other with a multicolor light-emitting ribbon wrapped around them both. The bottom reads "THE TWIN STARS".](navmos/11.png)
+
+The Twin Stars were born together, dependent on one another for stability.
+United, they hold together much of the space around them in balance.
+But through persistent company, they may grow bitter.
+Their qualities may clash, forming an unresolvable conflict between two ideals.
+
+1. **Upright**
+2. Love
+3. Balance
+4. Harmony
+5. **Reversed**
+6. Duality
+7. Repression
+8. Conflict
+
+---
+
+# 12 - The Technomancer
+
+//![alt](navmos/12.png)
+
+The Technomancer harnesses the world around him to create new complexity.
+He is organized and focused on making his vision become a reality.
+He is knowledgable and smart, but his wisdom can be at times lacking.
+Though intellectual, he falls victim to his own hubris, and fails to develop other parts of himself.
+
+1. **Upright**
+2. Confidence
+3. Intellect
+4. Focus
+5. **Reversed**
+6. Pompousness
+7. Boredom
+8. Lack of introspection
+
+---
+
+# 13 - The Reaper
+
+![Featureless character holding a glowing scythe with their head made of a bird's skull, draped with long robes and facing the camera. The bottom reads "THE REAPER".](navmos/13.png)
+
+The Reaper is an agent for the eternal motivator - Death.
+It is what brings about an end, and makes room for new beginnings.
+In comfort, it can bring motivation, purpose, and opportunities for things to grow again.
+In fear, it can lead to personal stagnation and feelings of meaninglessness.
+
+1. **Upright**
+2. Motivation
+3. Purpose
+4. New beginnings
+5. **Reversed**
+6. Stagnation
+7. Nihilism
+8. Loss
+
+---
+
+# 14 - The Singularity
+
+//![alt](navmos/14.png)
+
+The Singularity is a step in a direction of increased complexity.
+For the better or for worse, this change brings a new era to all of humanity.
+This acquisition of knowledge is also a step towards destroying the old in, at times, drastic ways.
+
+1. **Upright**
+2. Knowledge
+3. Ascension
+4. Novelty
+5. **Reversed**
+6. Destruction
+7. Drastic changes
+8. Complexity
+
+---
+
+# 15 - The Melancholist
+
+//![alt](navmos/15.png)
+
+The Melancholist ponders on the nature of reality.
+He lets the feelings associated with these thoughts pass through him.
+In moments of beautiful revelations, he is filled with hope.
+And in moments of sad realizations, he is filled with dread.
+
+1. **Upright**
+2. Philosophy
+3. Hope
+4. Realism
+5. **Reversed**
+6. Depression
+7. Weakness
+8. Futility
+
+---
+
+# 16 - The Daemon
+
+![Featureless character facing away from us, hung up by numerous multicolor glowing strands, their fingers weaving into the strands. The bottom reads "THE DAEMON".](navmos/16.png)
+
+The Daemon lives in the shadows, pulling strings which were thrown carelessly about.
+And when kept in check, the Daemon's influence is targeted towards healthy tasks.
+But when left unguarded, it sneaks through the cracks and takes control of anything it touches.
+
+1. **Upright**
+2. Subconsciousness
+3. Productivity
+4. Automation
+5. **Reversed**
+6. Lack of control
+7. Impulsivity
+8. Infection
+
+---
+
+# 17 - The Designer
+
+//![alt](navmos/17.png)
+
+The Designer weaves strands of experience for those who walk through his constructs.
+He is vigilant to keep an accurate vision of the future, and stays close to his principles.
+He is a true visionary, and as a result can lead others into enlightenment.
+But this vision is also the very cause of distraction from reality.
+It may breed unhealthy idealism and pressure, resulting in a fear of failure and a disconnect from reality.
+
+1. **Upright**
+2. Innovation
+3. Persistence
+4. Idealism
+5. **Reversed**
+6. Cowardice
+7. Laziness
+8. Ignorance
+
+---
+
+# 18 - The Soulkeeper
+
+//![alt](navmos/18.png)
+
+The Soulkeeper is connected to the ethereal realm like no other.
+Her own cognition slips between physical space and the immaterial.
+She helps others see share her vision.
+But as with all things immaterial, she cannot grasp them fully, nor internalize them with full clarity.
+
+1. **Upright**
+2. Guidance
+3. Spirituality
+4. Awakening
+5. **Reversed**
+6. Haziness
+7. Unclarity
+8. Vagueness
+
+---
+
+# 19 - The Corp
+
+//![alt](navmos/19.png)
+
+The Corp exudes confidence and stability.
+He leads others, and maintains loyalty towards everyone who he deems worthy of his respect.
+With tainted ideals, his resources turn to investments in conflict.
+And he wages wars with violence beyond natural means.
+
+1. **Upright**
+2. Diplomacy
+3. Obligation
+4. Leadership
+5. **Reversed**
+6. Violence
+7. War
+8. Betrayal
+
+---
+
+# 20 - The Hypervisor
+
+//![alt](navmos/20.png)
+
+The Hypervisor analyses and deconstructs the connection between body and mind.
+He is a scientist with an interest and familiarity of the ethereal.
+In exploring the world of the immaterial, he may find himself lost between truth and fiction.
+And he may grow resentful of his newfound knowledge of the limits of his physical self.
+
+1. **Upright**
+2. Intuition
+3. Introspection
+4. Mental health
+5. **Reversed**
+6. Constraint
+7. Dissatisfaction
+8. Obsession
+
+---
+
+# 21 - The Hash
+
+//![alt](navmos/21.png)
+
+The Hash is a key holder to worlds unknown.
+He respects each world's privacy, and lets them live on in isolation.
+The Hash's unbroken locks hold secrets and push away those who cannot open them.
+He himself is like these locks: inaccessible to those around him.
+
+1. **Upright**
+2. Mystery
+3. Privacy
+4. Solitude
+5. **Reversed**
+6. Rejection
+7. Distance
+8. Inaccessability

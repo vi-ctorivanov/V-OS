@@ -1,0 +1,14 @@
+name: Visor
+image: visor/1.png
+imageName: @[Visor]
+links: [Code Repository](https://github.com/vi-ctorivanov/Visor), [Use Online](https://exp.v-os.ca/visor)
+tags: project, code, tool
+title: @[Visor] is a minimalistic presentation tool.
+
+===
+
+@[Visor] is a presentation application made using javascript. It features a set of simple syntax rules for creating slides.
+
+@[Visor] allows for both image and solid color backgrounds, custom UI color schemes, section division in sidebar list, custom text color in content, custom link, bold, and italics formatting, indented content/bullet points, regular text with title layout, single title page layout, slide notes.
+
+Its markup language is a simplified version of @[Purity]'s.

@@ -1,0 +1,22 @@
+name: Papur
+image: papur/4.jpg
+imageName: @[Papur]
+tags: project, visual, photography
+title: @[Papur], the cosmic station.
+
+===
+
+> Megastructures, filled with intergalactic travellers, around a sun long extinguished.
+
+![Photograph of a paper page with writing on it, cut into a set of struts when folded.](papur/1.jpg)
+![Paper sculpture illuminated by a phone's flashlight placed under it, viewed from the side.](papur/2.jpg)
+![Triangularly folded paper on top of a crushed cloudy tissue.](papur/3.jpg)
+![Small lens held up to a tissue with two fingers at the edge of the frame, revealing small dots in the tissue.](papur/4.jpg)
+![Crumpled up tissue illuminated from beneath.](papur/5.jpg)
+![Folder paper coming to a point, placed on a wodden surface.](papur/6.jpg)
+![Zoom-in to a rectangularly folded tissue with the top torn off.](papur/7.jpg)
+![Paper sculpture illuminated by a phone's flashlight placed under it, viewed from above.](papur/8.jpg)
+![Paper with writing folded into a cone with smaller folded papers filling it and spilling out onto a dark mat.](papur/9.jpg)
+![Crumpled up piece of paper with writing on it.](papur/10.jpg)
+![Small piece of torn paper with writing on it, a pile behind it out of focus, with a blue light coming from the side.](papur/11.jpg)
+![Paper sculpture illuminated by a phone's flashlight placed under it, viewed from the side.](papur/12.jpg)

@@ -1,0 +1,18 @@
+name: Hypha
+image: hypha/1.gif
+imageName: @[Hypha]
+links: [Watch Video](https://www.youtube.com/watch?v=MR3D45DV93M)
+tags: project, code, display
+title: @[Hypha] is a real-time fungal growth simulation.
+
+===
+
+![alt](hypha/1.mp4)
+
+@[Hypha] is a realtime agent-based simulation of slime mold growth in both 2D and 3D. It's based on [Jeff Jones' paper on pattern formation in physarum transport networks](https://uwe-repository.worktribe.com/output/980579) and [Sage Jenson's explorations on the topic](https://sagejenson.com/physarum), and was created in Unity using compute shaders for agent behavior and volumetric rendering.
+
+![alt](hypha/2.mp4)
+![alt](hypha/3.mp4)
+![alt](hypha/4.mp4)
+
+![Computer-generated image of white worm-like lines clashing into each other and exploding.](hypha/2.png)

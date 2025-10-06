@@ -1,3 +1,0 @@
-<Files *.txt>
-	deny from all
-</Files>

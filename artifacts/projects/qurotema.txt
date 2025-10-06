@@ -1,0 +1,28 @@
+name: Qurotema
+image: qurotema/4.gif
+imageName: @[Qurotema]
+links: [Code Repository](https://github.com/vi-ctorivanov/Qurotema)
+tags: project, code, interactive, audio, single
+title: @[Qurotema] is an off-limits construct universe.
+
+===
+
+> The *remote operator* protocol's done, and we've prepared the travel entity. What do you say, Di? Time to explore @[Qurotema] for yourself?
+
+```
+@[Qurotema] is currently in development.
+```
+
+![alt](qurotema/1.mp4)
+
+---
+
+This project features a construct language syntax project @[i-tema], and relates to @[Quro].
+
+Read more about @[Qurotema] through [VOIDNET](https://voidnet.ca).
+
+&[voidnet]
+&[i-tema]
+&[quro]
+
+![Computer-generated image of a black oily landscape with a dark monolith with a glowing purple line running down its center. White alien letters hover in front of it.](qurotema/6.jpg)

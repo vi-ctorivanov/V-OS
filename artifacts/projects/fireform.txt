@@ -1,0 +1,28 @@
+name: Fireform
+image: fireform/17.jpg
+imageName: @[Fireform]
+tags: project, visual, photography
+title: @[Fireform] - Primitive mastery.
+
+===
+
+> They threw their technology to the sky in honor of the star.
+
+![Photograph of green, blue, and red fireworks mid-explosion.](fireform/1.jpg)
+![Green smoke from a firework with the silhouette of power poles and wires in the foreground.](fireform/2.jpg)
+![Green smoke and yellow points of light from a firework.](fireform/3.jpg)
+![Red and yellow firework mid-explosion.](fireform/4.jpg)
+![Multiple fireworks mid-explosion.](fireform/5.jpg)
+![Red firework mid-explosion.](fireform/6.jpg)
+![Red and purple fireworks mid-explosion.](fireform/7.jpg)
+![Red firework mid-explosion.](fireform/8.jpg)
+![Blue firework mid-explosion.](fireform/9.jpg)
+![Red firework mid-explosion.](fireform/10.jpg)
+![Red firework mid-explosion.](fireform/11.jpg)
+![Dark aftermath of firework explosions.](fireform/12.jpg)
+![Green fireworks mid-explosion.](fireform/13.jpg)
+![Green firework mid-explosion.](fireform/14.jpg)
+![Pink firework mid-explosion.](fireform/15.jpg)
+![Green firework mid-explosion.](fireform/16.jpg)
+![Cluster of pale blue fireworks mid-explosion.](fireform/17.jpg)
+![Zoom-in of firework explosion remenants falling and burning up in the sky.](fireform/18.jpg)

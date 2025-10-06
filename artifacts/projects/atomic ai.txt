@@ -1,0 +1,18 @@
+name: Atomic AI
+image: atomic ai/2.jpg
+imageName: @[Atomic AI]
+links: [VOIDNET](https://voidnet.ca/#atomic ai)
+tags: project, visual, graphic
+title: @[Atomic AI] are artificial-intelligent beings in their state of infancy.
+
+===
+
+Even in their most comprehensible forms, the AI escaped any clear definition.
+
+Read more about @[Atomic AI] through [VOIDNET](https://voidnet.ca/#atomic ai)
+
+&[voidnet]
+
+![Computer-generated image of a cube made up of dark reflective panels and a faint white light coming from its inside.](atomic ai/3.png)
+![Concentrated red glowing light inside a spherical mass of curvy soft dark gray shapes.](atomic ai/2.jpg)
+![Green-tinted white light at the center of a few layers of a sphere made of a reflective black liquid-like substance.](atomic ai/1.jpg)

@@ -1,0 +1,61 @@
+name: Home
+image: cibo/7.png
+imageName: @[Cibo]
+tags: nav
+title: @[V-OS] is a virtual library of projects, [narratives](https://voidnet.ca), and experiments.
+
+===
+
+This digital space is a virtual library of my digital artwork and related stories from @[VOIDNET].
+
+I'm Victor Ivanov [vi], and I'm the creator of this space. More about me in my @[portfolio].
+
+@[V-OS] is a wiki, where *all bold text is clickable*. Please enjoy exploring.
+Feel lost? Start by browing some projects down below.
+
+---
+
+# Recent
+
+*[7]
+?[3]
+
+---
+
+# Graphic
+=[graphic]
+
+# Photography
+=[photography]
+
+---
+
+# Single
+=[single]
+
+# Album
+=[album]
+
+---
+
+# Tool
+=[tool]
+
+# Interactive
+=[interactive]
+
+# Display
+=[display]
+
+---
+
+# Writing
+=[writing]
+
+//# Rsearch
+//=[research]
+
+---
+
+# Professional
+=[professional]

@@ -1,0 +1,13 @@
+name: Mythaphil
+image: mythaphil/1.png
+imageName: @[Mythaphil]
+tags: project, audio, single
+title: @[Mythaphil] is the major region of a lush jungle planet sharing the same name.
+
+===
+
+> Once filled with civilization, @[Mythaphil] is now nothing but overgrown vegetation and wildlife. Underneath the layers of plants lies the synthetic infrastructure of the world that used to be.
+> 
+> In its current state, @[Mythaphil] is a relatively safe planet. It supports a few million sentient inhabitants who have resorted to a primitive, but comfortable lifestyle. Among its small population, Di has been seen conducting what appears to be research in the last city of the planet.
+
+![alt](mythaphil/1.wav)

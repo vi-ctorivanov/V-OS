@@ -1,0 +1,30 @@
+name: Log
+image: log/1.png
+imageName: @[Log]
+links: [Code Repository](https://github.com/vi-ctorivanov/Log)
+tags: project, code, tool
+title: The @[Log] is a timekeeping tool and data visualizer.
+
+===
+
+The @[Log] is a tool used for daily output logging and data analysis.  Its data can be found in the sidebar of all project pages logged in it (including this one).
+
+Data is entered into a simple spreadsheet of logs, which is then parsed using a Python script into mySQL queries. The original version used PHP to generate visualizations, but has been deprecated in favor of a more streamlined pipeline using google sheets.
+
+Below are some images showcasing what this interface looked like, including an overview of all log entries, as well as the auto-generated pages for projects showing time allocation in different categories of productivity.
+
+![Screenshot of bar charts showcasing productivity over time.](log/2.png)
+![Ring pie charts showcasing productivity in different tasks.](log/3.png)
+![Ring pie charts showcasing productivity in different tasks.](log/4.png)
+![Bar chart showcasing productivity over time.](log/5.png)
+
+```
+log entry format
+
+DATE        TIME  PROJECT      TASK            DIVISION   DETAILS
+2017.08.30  1.0   V-OS         Development     Visual     Testing new headers.
+```
+
+---
+
+The purpose of the @[Log] is to study my work habits, spot patterns in the types of activities I engage in, and attempt to optimize my productivity. In short, tracking my time has helped me become more aware of how I spend it.

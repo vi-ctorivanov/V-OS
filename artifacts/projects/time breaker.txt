@@ -1,0 +1,37 @@
+name: Time Breaker
+image: time breaker/1.gif
+imageName: @[Time Breaker]
+links: [Watch Video](https://www.youtube.com/watch?v=U7NFNhHuurE), [Visit Sanea Ima](https://saneaima.com)
+tags: project, visual, graphic
+title: The @[Time Breaker] is a sheathe capable of localized temporal distortion.
+
+===
+
+> Last seen in sector 288, Silo Teleport, the @[Time Breaker] is a sheathe created by now-defunct R&D lab Echolis, at Macro. It was created as an experimental weapon against Nigh Successors with the help of a far-link to Temporalis, giving it its distinct time distortion properties. Unfortunately, the weapon proved too dangerous for users, who often reported acute cases of extreme nausea, fatigue, and psychosis after only brief use.
+> 
+> A lock system was installed on the prototype that authorizes its use exclusively in life-or-death circumstances as a precautious mechanism, officially marking the weapon as a failed experiment due to its narrow use-case and safety issues. The sheathe and its sword went missing soon after the abandonment of the project. "Good riddance", said ex-chief science officer Helgram at a press conference, "whoever decides to use it would die before they could actually hurt anyone".
+
+![alt](time breaker/1.mp4)
+
+> Eons after The Sphere's era, a ronin was spotted wielding the weapon on a lone moon. Onlooker scouts established contact, and were informed he was a pilgrim on a hunt to slay the young offspring of a mira fox, a species assumed extinct for millenia at the time.
+>
+> Following the hunter across the cold rock's surface, they found his target: a practically new-born young fox. Its mother was quickly tracked down by the scouts thereafter, revealing an entire live colony - and establishing a new technological era for The Sphere Sector: The Mira Resurgence.
+
+![alt](time breaker/2.mp4)
+
+```
+The video above has a very high bitrate.
+
+If you're having trouble loading it, please check out the [compressed video on Youtube](https://www.youtube.com/watch?v=U7NFNhHuurE).
+```
+
+This piece was created for [Clinton Jones](https://www.youtube.com/channel/UCWIfzAYHyNSyHmT2AO-54yg)' ["Boss Fight" challenge](https://www.youtube.com/watch?v=wgiRK8_iKdg) in 3 weeks, from concept to final render. This short timeframe required many optimizations which forced me out of the endless perfectionism that plagues some projects. Much of what is out of frame or occluded is very barebones in favor of maximizing detail and quality of what's visible, the result of which is seen in things like the boss' topology, uneven texel density, and the hero's entire frontside.
+
+Regardless, that pressure made for a very fun and rewarding experience!
+
+Original character model (before modification and retexturing): Mixamo
+All environmental assets, with the exception of a few shaders and the sky: Quixel Megascans
+Sound design: [Sanea Ima](https://saneaima.com/)
+Music in breakdown video: Imbrium, by Ed harrison
+
+![Computer-generated image of a large alien fox-like creature at night in a rainy rocky landscape, a man with a sword is standing between the creature and the camera.](time breaker/2.png)

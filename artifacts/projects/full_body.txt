@@ -1,0 +1,19 @@
+name: Full_body
+image: full_body/4.png
+imageName: @[full_body]
+links: [Code Repository](https://github.com/vi-ctorivanov/full_body), [Use Online](https://exp.v-os.ca/full_body)
+tags: project, code, tool
+title: @[Full_body] is an exercise sequencer.
+
+===
+
+@[Full_body] is a web app made to add variety and motivation to monotonous workout routines.
+
+Full documentation can be found in the [Github reposistory](https://github.com/vi-ctorivanov/full_body).
+
+![Screenshot of a bright UI which reads "HANDSTAND", "2 SETS OF 30 SECONDS", including a description of the exercise on the top right and a progress bar on the bottom.](full_body/1.png)
+
+@[Full-body] allows you to create an exercise sequence, randomizes it, gives you generated text for each movement, shows you your progress, and tracks time over the course of your workout. It's simple and practical. I've used it for years with great success as I feel the gamification of the app helps motivate me to get through my workouts.
+
+![Bright UI which reads "ROW", "2 SETS OF 20 REPS ON EACH SIDE", including a description of the exercise on the top right and a progress bar on the bottom.](full_body/2.png)
+![Bright UI with a list of exercises with settings for sets and reps.](full_body/3.png)

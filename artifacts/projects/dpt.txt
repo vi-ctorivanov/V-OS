@@ -1,0 +1,20 @@
+name: Dpt
+image: dpt/1.png
+imageName: @[Dpt]
+links: [Visit Dpt](https://dpt.co/)
+tags: project, professional, code, interactive, display, visual, graphic
+title: @[Dpt] is a collection of AR, VR, web, and interactive installation projects at studio [Dpt](https://dpt.co/).
+
+===
+
+I worked at Dpt on various projects as a technical artist, producing content in collaboration with and for clients like Meta, Jeld-Wen, NASA, Mandai Wildlife Reserve, Felix & Paul, and Calgary Stampede.
+
+---
+
+As a technical artist, my work involved:
+
+\- programming (game systems, shaders), asset production (VFX, level design, lighting), optimization (rendering, assets), integration - Unity, Unreal, and web platforms.
+
+\- asset production (3D models, textures rigging, technical animations) - Maya, Blender, Substance and Adobe suites, and others.
+
+\- project management, client requirements, technical documentation, supervision of other technical artists.

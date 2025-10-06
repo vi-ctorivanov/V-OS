@@ -1,0 +1,61 @@
+name: Toriyomu
+image: toriyomu/1.png
+imageName: @[Toriyomu]
+links: [VOIDNET](https://voidnet.ca/#toriyomu)
+tags: project, visual, graphic
+title: The @[Toriyomu] are semi-organic vehicles used by the @[Early Midnight]s.
+
+===
+
+Created from the same underlying technology as the @[Early Midnight]s, the Toriyomu are a mix between hera flesh (a subspecies of horse), some hera neural tissue, and the nano symbiote that interfaces with neural tissue.
+
+Read more about @[Toriyomu] through [VOIDNET](https://voidnet.ca/#toriyomu).
+
+&[voidnet]
+
+With the exception of some rare cases, unaltered humans cannot operate the Toriyomu as they require a cerebral interface to pilot. Naturally, this leaves @[Early Midnight] as the primary operators.
+
+&[Early Midnight]
+
+These meshes were procedurally modeled in their entirety in Houdini. Texture maps were produced in Substance Designer, and materials and rendering were done in Blender.
+
+---
+
+# Model 218
+
+Originally created for racing and high-speed recon missions, early versions of the 200 series fell out of use and are now primarily seen as antique luxury vehicles for collectors.
+
+![Computer-generated image of a dark room with a floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/2.png)
+![Dark room with a floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/1.png)
+
+---
+
+# Model 251
+
+Newer versions of the 200 series come equipped with a hyperlock drive for increased stability at supersonic speeds.
+
+Some military variants also boast high-range radar cloaking for advanced recon.
+
+![Dark room with a long floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/3.png)
+![Dark room with a long floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/4.png)
+![Dark room with a long floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/5.png)
+
+---
+
+# Model 614
+
+Outfitted with heavy armor plating, ion cannons, and an EMF shield, the 600 series is known mostly for its military-oriented purposes. Coloquially known as "the tick", likely a double-entendre regarding both its shape, and (ironically) its size (W:15m, L:25m, H:7.5m).
+
+![Dark room with a long floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/6.png)
+![Dark room with a long floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/7.png)
+![Dark room with a long floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/8.png)
+![Dark room with a long floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/9.png)
+
+---
+
+# Model 989
+
+The 900 series focuses on transport of heavy payloads in both commercial and military settings, coming in low cost variants as well as high-speed shieled ones.
+
+![Dark room with a long floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/10.png)
+![Dark room with a long floating vehicle made up of chaotic organic shapes, metallic and organic materials, and small scattered orange lights.](toriyomu/11.png)

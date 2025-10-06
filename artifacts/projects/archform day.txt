@@ -1,0 +1,31 @@
+name: Archform Day
+image: archform day/14.jpg
+imageName: @[Archform Day]
+tags: project, visual, photography
+title: @[Archform Day] - Shining strata.
+
+===
+
+> On the surface, they mastered the synthesis between man and machine. Their environment bent to their will. A perfect suit for their bodies.
+
+![Photograph of a residential concrete building with a facade decorated with slightly reflective yellow tiles and a trees lining the left and bottom of the foreground.](archform day/1.jpg)
+![Rooftop terrace of a metallic building, the roof over it held up by a pillar in each corner, seen from below.](archform day/2.jpg)
+![Low-contrast blue-tinted view of a set of modern concrete buildings one next to the other, their rooftops filled with satelitted dishes, antennas, and wires.](archform day/3.jpg)
+![Grungy concrete building squeezed between two other buildings on the side of the frame with their shadows casted on it.](archform day/4.jpg)
+![Low-contrast blue-tinted view of a rooftop of a glass and modern concrete building, seen from below.](archform day/5.jpg)
+![Pale facade of a contemporary building featuring a geometric criss-cross wave pattern pinching at the center near its windows.](archform day/6.jpg)
+![Modern concrete building made up of vertical and horizontal pillars with windows and large gaps between them.](archform day/7.jpg)
+![Ferris wheel seen from below.](archform day/8.jpg)
+![Black roof of a white Japanese castle with the blue sky behind it.](archform day/9.jpg)
+![Two red and white cranes on top of and next to a modern skyscraper with the blue sky behind them.](archform day/10.jpg)
+![Wide alleyway with pale orange light reflecting on its white walls.](archform day/11.jpg)
+![Canal with bright modern buildings surrounding it.](archform day/12.jpg)
+![Construction site with cranes working on a work-in-progress wide multi-story building.](archform day/13.jpg)
+![Wide bay surrounded by modern piers on its sides with a bridge crossing it in the distance, seen from a high vantage point.](archform day/14.jpg)
+![Bright orange sky with many modern buildings going into the horizon, seen from a high vantage point with metal structures in the foreground.](archform day/15.jpg)
+![Roof of a buddhist temple, seen from below, six people walking below it on a staircase.](archform day/16.jpg)
+![Front of buddhist temple's roof in the distance, hidden by dark green trees.](archform day/17.jpg)
+![Roof of a buddhist temple seen from below.](archform day/18.jpg)
+![Many Japanese shrines and gates, each standing on dark green platforms of different heights made of rocks.](archform day/19.jpg)
+![Dense city of short pale buildings seen from the top of a mountain, with another mountain in the distance, behind it the blue sky.](archform day/20.jpg)
+![Dark rock surrounded by a small patch of grass, surrounded by small white rocks raked in a zen garden fashion.](archform day/21.jpg)

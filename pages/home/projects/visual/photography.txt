@@ -1,9 +1,0 @@
-name: Photography
-image: archform night>11.png
-image name: #[Archform Night]
-white: true
-tags: nav
-title: The #[photography] section features all photographic work.
-content: 
-
--[photography]

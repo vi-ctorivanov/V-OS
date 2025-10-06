@@ -1,0 +1,57 @@
+name: Portfolio
+image: portfolio/1.png
+imageName: @[Portfolio]
+tags: personal
+links: Download Resume>https://v-os.nyc3.cdn.digitaloceanspaces.com/files/portfolio/cv.pdf
+title: Victor's @[portfolio].
+
+===
+
+I'm Victor Ivanov [vi], and I'm the creator of this space, currently residing in Japan. I've worked as a developer, artist, and technical artist for games, publicity, web, and art installations.
+
+I design, develop, and produce static and interactive media, focusing to create *unique, innovative, aesthetically powerful, polished, and imaginative* experiences.
+
+In my %[new Date().getFullYear() - 2019;] years of work, I've put my artistic and programming skills to use across the realm of digital media for various clients and studios, tackling challenges that balance technical expertise and artistic expression.
+
+My experience covers:
+
+\- Development of full stack websites and realtime 3D web applications
+\- Offline and realtime rendering for games and video
+\- Full pipeline offline and realtime 3D art production
+\- Realtime shaders and VFX
+\- Procedural generation systems, 3D pipeline design, and tool development
+
+I love all digital media, and I value creative exploration and novelty in my work. I feel most motivated and fulfilled when I'm forced to learn new things and solve problems I'm not familiar with. I'm always looking for new opportunities to create something original and innovative, and to solve unique problems with unique solutions.
+
+I also keep my traditional art skillsets sharp by producing a lot of personal work, found on the @[home] page. I craft stories and art often focused on alternate realities and fictional worlds where technology is used as a narrative catalyst to explore existential questions.
+
+---
+
+Check out my ![resume](portfolio/cv.pdf) for more formal documentation of my work experience.
+
+If you'd like to get in touch, please send me an email at [vi@v-os.ca](mailto:vi@v-os.ca)!
+
+---
+
+# Curated Projects
+
+For a full list of projects, please visit the @[home] page.
+
+&[Dpt]
+&[Kabam]
+&[Iregular]
+&[Chroniqueur]
+&[Invictus]
+&[Time Breaker]
+&[Jagged Orbit]
+&[QU-6]
+&[Toriyomu]
+
+---
+
+# Links
+
+1. [LinkedIn](https://www.linkedin.com/in/victor-ivanov/): Professional profile containing work experience, education, skills, and other work-related information.
+2. [GitHub](https://github.com/vi-ctorivanov): Code projects repository.
+3. [Bandcamp](https://victorivanov.bandcamp.com/releases): Released albums and featured music repository.
+4. [vi@v-os.ca](mailto:vi@v-os.ca): Email address.

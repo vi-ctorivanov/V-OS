@@ -1,0 +1,24 @@
+name: Sustained Light Chain
+image: sustained light chain/1.png
+imageName: @[Sustained Light Chain]
+links: [Visit Lucas Paris](http://lucasparis.ca)
+tags: project, professional, code, interactive, tool
+title: @[Sustained Light Chain] is an AV performance project lead by [Lucas Paris](http://lucasparis.ca).
+
+===
+
+![alt](sustained light chain/1.mp4)
+
+My role for this project involved creating tools and systems in Unity to help Lucas produce the set-pieces and visuals of his performance through a VR interface, as well as interfacing with OSC output streams from his own systems.
+
+---
+
+# Lucas' Artist Statement
+
+> The AV performance Sustained Light Chain is a digital environment of complexity fusing textures of morphing light, signal networks, chain reactions and virtual botany into a real time audiovisual instrument.
+> The technique behind the work was inspired by ecosystem activity, exponentiality, mycelium, permaculture, bio-design and the ways we are navigating contemporary choices in a context of climate change. It also stems from the efforts of creating a virtual environment and its rules with a conscious effort to move the use of game engines beyond adversity, conflict, attack, evaluation and reward, and towards care, reflection, attention and perception.
+> The work embraces fluidity between virtual and real, and between human technicality and nature.
+>
+> Commissioned by PARADISE ART SPACE, Co-produced by ELEKTRA MONTREAL. Producer and Curator Jay Bang, Co-producer Alain Thibault
+> Additional Unity programming by Victor Ivanov
+> Research funded by the Canada Council for the Arts

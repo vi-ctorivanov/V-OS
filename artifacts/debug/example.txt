@@ -1,0 +1,173 @@
+name: Example
+//image: example/image.png
+imageName: @[Example]
+tags: debug
+title: The @[example] page covers all the *rules* of @[V-OS].
+
+===
+
+This page showcases all supported markup syntax in @[V-OS].
+
+The markup language supports nesting and is based off of Markdown, but includes a few of its own custom rules.
+
+---
+
+=\[tag] link list
+
+Creates a list of artifacts that have this tag.
+
+-[visual]
+
+---
+
+-\[tag] title list
+
+Creates a list of artifacts' titles that have this tag.
+
+=[visual]
+
+---
+
+\- condensed
+\- list
+
+Creates a custom condensed list of text items.
+
+- text1
+- text2
+
+---
+
+\1. spacious
+\2. list
+
+Creates a custom spacious list of text items.
+
+1. text1
+2. text2
+
+---
+
+\> text indented quote
+
+Creates indented quotation.
+
+> Quotation here.
+
+---
+
+\`codeblock\`
+
+Creates an inline codeblock.
+
+Text with `code` in it.
+
+---
+
+\`\`\`
+multiline
+codeblock
+\`\`\`
+
+Creates a multiline codeblock.
+
+```
+codeblock
+with
+*multiple lines*
+```
+
+---
+
+\%[code]
+
+Executes JS code.
+
+Result of '2 + 2', calculated with javascript: %[(2 + 2);]
+
+---
+
+\# subtitle
+
+Creates a subtitle.
+
+# Subtitle.
+
+---
+
+\## small subtitle
+
+Creates a small subtitle.
+
+## Small subtitle.
+
+---
+
+$ [artifact>attribute]
+
+Takes an artifact's attribute and outputs it. In this case, we're referencing @[V-OS]' *title* attribute.
+
+$[index>title]
+
+---
+
+\@[artifact]
+
+Creates a link to an artifact.
+
+Link to @[aquaform].
+
+---
+
+\[text](link)
+
+Creates a custom link to any given URL.
+
+[Custom link](https://github.com/vi-ctorivanov/Purity)
+
+---
+
+\&[artifact]
+
+Creates a stylized link to an artifact.
+&[purity]
+
+---
+
+\!\[alt text](directory/fileName.extension)
+
+Creates a media element, supports images, videos, audio, and files. The root directory of these files must be defined in the bundler.
+
+![alt](aquaform/1.jpg)
+![alt](mythaphil/1.mp3)
+![alt](dotcycle/1.mp4)
+
+---
+
+\*\*bold\*\*
+
+Makes text bold.
+
+**Bold text.**
+
+---
+
+\*italic\*
+
+Makes text italic.
+
+*Italic text.*
+
+---
+
+\*\*\*italibold\*\*\*
+
+Makes text italic and bold.
+
+***Italic and bold text.***
+
+---
+
+\-\-\-
+
+Creates custom styled divider, as seen numerous times in this page.

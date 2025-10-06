@@ -1,6 +1,0 @@
-name: Writing
-image: ethera's word>1.png
-image name: #[Ethera's Word]
-tags: nav
-title: The #[writing] division includes all writing #[projects].
-content: -[writing]

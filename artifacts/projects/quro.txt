@@ -1,0 +1,17 @@
+name: Quro
+image: qurotema/1.png
+imageName: @[Quro]
+tags: project, audio, single
+title: @[Quro], the celestial sailboat.
+
+===
+
+The sound of a paradox universe relayed by Dr. Sino during his last visit to @[Qurotema].
+
+&[qurotema]
+
+Read more about @[Quro] through [VOIDNET](https://voidnet.ca).
+
+&[voidnet]
+
+![alt](quro/1.wav)

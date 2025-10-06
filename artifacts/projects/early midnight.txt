@@ -1,0 +1,33 @@
+name: Early Midnight
+image: early midnight/7.png
+imageName: @[Early Midnight]
+links: [VOIDNET](https://voidnet.ca/#early midnight)
+tags: project, visual, graphic
+title: An @[Early Midnight] is the predecessor intrasuit to the Successor Series project.
+
+=== 
+
+Made as extensions to human form, @[Early Midnight]s walked among people as another step towards the future. Originally used to make up for physical disabilities, they evolved to interface with their host human's cerebellum.
+
+Read more about @[Early Midnight]s through [VOIDNET](https://voidnet.ca/#early midnight).
+
+&[voidnet]
+
+The same underlying technology was used to create the @[Toriyomu].
+
+&[toriyomu]
+
+These helmets were procedurally modeled in their entirety in Houdini. Texture maps were produced in Substance Designer, and materials and rendering were done in Blender.
+
+Inspired by a study of [Fernando Magalhaes](http://mgxs.co/)' procedural generation techniques.
+
+![Computer-generated metallic futuristic helmet facing head-on with teal and pink accents.](early midnight/4.png)
+![Metallic futuristic helmet with purple accents facing head-on.](early midnight/12.jpg)
+![Metallic futuristic helmet with orange accents facing to the right.](early midnight/6.png)
+![Large metallic matte futuristic helmet with teal and pink accents facing head-on.](early midnight/13.png)
+![Metallic futuristic helmet with red accents facing head-on with cables running from its face to behind its head and a red glass eye made up of a cluster of red lights.](early midnight/7.png)
+![Metallic futuristic helmet with red accents facing to the right.](early midnight/8.png)
+![Dark metallic futuristic helmet with subtle blue lights facing head-on.](early midnight/9.png)
+![Dark metallic futuristic helmet with subtle blue lights facing to the right.](early midnight/10.png)
+![Metallic futuristic helmet colored in sandy colors with a desert background.](early midnight/11.png)
+![Metallic futuristic helmet with a screen as its face showing technical information with the name 'ANALOG'.](early midnight/1.jpg)

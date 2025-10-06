@@ -1,0 +1,27 @@
+name: RADIATION
+image: radiation/1.gif
+imageName: @[RADIATION]
+links: [Watch Video](https://youtu.be/WN_UycM4ZjY), [Visit FeltWork](https://feltwork.org/)
+tags: project, visual, graphic
+title: Records of @[RADIATION].
+
+===
+
+> The mundane, forever changed.
+
+Audio by [FeltWork](https://feltwork.org/).
+
+![alt](radiation/1.mov)
+
+```
+The video above has a very high bitrate.
+
+If you're having trouble loading it, please check out the [compressed video on Youtube](https://youtu.be/WN_UycM4ZjY).
+```
+
+![Computer-generated pixelated image of a wristwach on a dimly lit arm.](radiation/7.png)
+![Pixelated Japanese writing.](radiation/2.png)
+![Black silhouette and shadow of a man with a suitcase, a bright light shining behind him.](radiation/3.png)
+![Pixelated mushroom cloud.](radiation/4.png)
+![Abstract glitchy texture.](radiation/5.png)
+![Abstract glitchy texture with long vertical lines.](radiation/6.png)

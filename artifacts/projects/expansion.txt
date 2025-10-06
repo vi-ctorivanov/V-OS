@@ -1,0 +1,20 @@
+name: Expansion
+image: expansion/2.gif
+imageName: @[Expansion]
+links: [Watch Video](https://www.youtube.com/watch?v=oQ_9SPHta88)
+tags: project, code, display, professional
+title: @[Expansion] is a realtime particle system-based audio visualizer.
+
+===
+
+![alt](expansion/1.mp4)
+
+```
+The video above has a very high bitrate.
+
+If you're having trouble loading it please check out the [compressed video on Youtube](https://www.youtube.com/watch?v=oQ_9SPHta88).
+```
+
+@[Expansion] is a music video for Ascendant's [Expansion](https://synphaera.bandcamp.com/track/expansion) which explores the abstract story of passive observations and eventual influence.
+
+@[Expansion] was made using a combination of particle physics, webcam input, and audio analysis. The entirety of @[Expansion] is made in a single realtime take.

@@ -1,0 +1,42 @@
+name: QU-6
+image: qu-6/12.gif
+imageName: @[QU-6]
+links: [Watch Video](https://youtu.be/LI9ENKTY4Q8), [Visit Sanea Ima](https://saneaima.com/)
+tags: project, visual, graphic
+title: @[QU-6], m_struct #760.
+
+===
+
+```
+xyzw: -29.7651, 42.9462, 10.9322, 0.0000
+lun_sol, +2 cell
+core struct [6]
+
+parent: lynx
+```
+
+Read more about @[QU-6] through [VOIDNET](https://voidnet.ca).
+
+&[voidnet]
+
+Audio by [Sanea Ima](https:/saneaima.com/).
+
+![alt](qu-6/1.mp4)
+
+```
+The video above has a very high bitrate.
+
+If you're having trouble loading it, please check out the [compressed video on Youtube](https://youtu.be/LI9ENKTY4Q8).
+```
+
+![Computer-generated image of an abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/1.png)
+![Abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/2.png)
+![abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/3.png)
+![abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/4.png)
+![abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/5.png)
+![abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/6.png)
+![abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/7.png)
+![abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/8.png)
+![abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/9.png)
+![abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/10.png)
+![abstract set of semi-reflective panels and metallic struts chaotically laid out with a perfectly white light hiding in the structure.](qu-6/11.png)

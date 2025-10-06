@@ -1,0 +1,27 @@
+name: Big Mountain
+image: big mountain/2.jpg
+imageName: @[Big Mountain]
+links: [Video Documentation](https://www.youtube.com/watch?v=vUZ6y4Li-co)
+tags: project, visual, photography
+title: @[Big Mountain] is a documentation of a visit to Banff.
+
+===
+
+![Photograph of a river with a rocky mountain behind it.](big mountain/1.jpg)
+![River flowing through a valley between two rocky mountains.](big mountain/2.jpg)
+![Calm lake with a large rocky slanted mountain far behind it.](big mountain/3.jpg)
+![Teal blue lake surrounded by rocky mountains.](big mountain/4.jpg)
+![Girl flipping her hair as she stands on a stone near a teal blue lake behind her, surrounded by rocky mountains.](big mountain/5.jpg)
+![Girl standing on sandy dirt with shallow puddles of water and a giant rocky mountain behind her.](big mountain/6.jpg)
+![Vibrant blue lake with rocky mountains surrounding it and fern trees around the edges of the foreground.](big mountain/7.jpg)
+![Valley with a golf course between a tall rocky mountain and a river running parallel to it, seen from halfway up the mountain's height.](big mountain/8.jpg)
+![Lake with a large rocky mountain behind it and trees at its foundation.](big mountain/9.jpg)
+![Lake with huge rocky mountain behind it with bits of snow on a plateau halfway up.](big mountain/10.jpg)
+![Rocky mountains overlooking a blue lake, seen from halfway up the mountain's height.](big mountain/11.jpg)
+![Valley lined with rocky mountains, seen from a mountain on the opposite side of the valley.](big mountain/12.jpg)
+![Close-up of a rock with green fungus-like spots and dots.](big mountain/13.jpg)
+![Valley with a giant sweeping rocky mountain on each side and a road passing below, seen from halfway up the mountains' height.](big mountain/14.jpg)
+![Valley followed by a distant rocky mountain range and a slightly cloudy sky with rays of light passing through it, seen from the top of a mountain.](big mountain/15.jpg)
+![Girl standing on a mountain plateau and looking towards a large valley with small lakes and rocky mountains in the distance.](big mountain/16.jpg)
+![Small concrete bridge above a ravine with water rushing far below it, trees sit above the winding ravine walls.](big mountain/17.jpg)
+![Rocky hiking trail moving behind short fern trees on a sunny day.](big mountain/18.jpg)
