@@ -22,46 +22,6 @@ const artifactDirectory = 'artifacts';
 
 const artifacts = [];
 
-//create database from log csv
-const db = new DatabaseSync(':memory:');
-
-db.exec("CREATE TABLE Productivity (Date TEXT, Time TEXT, Project TEXT, Task TEXT, Division TEXT, Details TEXT) STRICT");
-const insert = db.prepare("INSERT INTO Productivity (Date, Time, Project, Task, Division, Details) VALUES (?, ?, ?, ?, ?, ?)");
-
-const reader = readline.createInterface({
-  input: fs.createReadStream(logPath),
-  output: process.stdout,
-  console: false,
-  terminal: false
-});
-
-reader.on('line', (line) => {
-	line = line.split(',').map(string => string.trim());
-
-    let result = line.splice(0,5); //avoid splitting apart 'details'
-	result.push(line.join(','));
-	result[5] = result[5].replace(/"(.*)"/g, '$1'); //remove possible " (double quotes) around 'details'
-
-	insert.run(result[0], result[1], result[2], result[3], result[4], result[5]);
-});
-
-reader.on('close', build);
-
-//===
-
-//file data format functions
-function normalizeLineEndings(string) {
-	return string.replace(/[ \t]*(\r?\n|\r)/g, '\n');
-}
-
-function removeComments(string) {
-	return string.replace(/[ \t]*(?<![\\:])\/\/.*/g, ''); //keep // preceeded by a \ (escape) or : (colon, useful for links)
-}
-
-function trimMultiline(string) {
-	return string.replace(/^s+|\s+$/, '');
-}
-
 function parse(string, type) {
 	//these rules try to preserve whitespace and line breaks as much as possible as they are used later to create line breaks,
 	//and because deleting them can cause problems for some rules later down the line
@@ -373,7 +333,7 @@ function formatHTMLPage(artifact) {
 	//log data
 	let sector = 'DEF';
 
-	if (db.prepare(`SELECT EXISTS(SELECT * FROM Productivity WHERE lower(Project) = '${artifact.name.toLowerCase().replace(/\'/g,"''")}') AS logs`).all()[0].logs > 0 && !artifact.tags.includes('professional') || artifact.name == 'Home') { //escape single quote by doubling it
+	if (db.prepare(`SELECT EXISTS(SELECT * FROM Productivity WHERE lower(Project) = '${artifact.name.toLowerCase().replace(/\'/g,"''")}') AS logs`).all()[0].logs > 0 && !artifact.tags.includes('professional') || artifact.name.toLowerCase() == 'home') { //escape single quote by doubling it
 		const a = artifact.name.toLowerCase().replace(/\'/g,"''");
 
 		let startDate = null;
@@ -390,7 +350,7 @@ function formatHTMLPage(artifact) {
 		let days = null;
 		let hoursPerDay = null;
 		
-		if (artifact.name == 'Home') {
+		if (artifact.name.toLowerCase() == 'home') {
 			startDate = db.prepare("SELECT Date AS start FROM Productivity ORDER BY Date ASC LIMIT 1").all()[0].start.replaceAll('-', '.');
 			endDate = db.prepare("SELECT Date AS end FROM Productivity ORDER BY Date DESC LIMIT 2").all()[1].end.replaceAll('-', '.');
 
@@ -537,7 +497,43 @@ function formatHTMLPage(artifact) {
 	return page;
 }
 
-//===
+//file data format functions
+function normalizeLineEndings(string) {
+	return string.replace(/[ \t]*(\r?\n|\r)/g, '\n');
+}
+
+function removeComments(string) {
+	return string.replace(/[ \t]*(?<![\\:])\/\/.*/g, ''); //keep // preceeded by a \ (escape) or : (colon, useful for links)
+}
+
+function trimMultiline(string) {
+	return string.replace(/^s+|\s+$/, '');
+}
+
+//create database from log csv
+const db = new DatabaseSync(':memory:');
+
+db.exec("CREATE TABLE Productivity (Date TEXT, Time TEXT, Project TEXT, Task TEXT, Division TEXT, Details TEXT) STRICT");
+const insert = db.prepare("INSERT INTO Productivity (Date, Time, Project, Task, Division, Details) VALUES (?, ?, ?, ?, ?, ?)");
+
+const reader = readline.createInterface({
+  input: fs.createReadStream(logPath),
+  output: process.stdout,
+  console: false,
+  terminal: false
+});
+
+reader.on('line', (line) => {
+	line = line.split(',').map(string => string.trim());
+
+    let result = line.splice(0,5); //avoid splitting apart 'details'
+	result.push(line.join(','));
+	result[5] = result[5].replace(/"(.*)"/g, '$1'); //remove possible " (double quotes) around 'details'
+
+	insert.run(result[0], result[1], result[2], result[3], result[4], result[5]);
+});
+
+reader.on('close', build);
 
 function build() {
 	//format file data
@@ -592,7 +588,7 @@ function build() {
 
 	//write .html files
 	for (let i = 0; i < artifacts.length; i++) {
-		fs.writeFileSync(__dirname.concat('/dist/', artifacts[i].name, '.html'), formatHTMLPage(artifacts[i]));
+		fs.writeFileSync(__dirname.concat('/dist/', artifacts[i].name.toLowerCase(), '.html'), formatHTMLPage(artifacts[i]));
 	}
 
 	//copy assets to /dist folder
