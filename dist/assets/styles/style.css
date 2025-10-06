@@ -83,8 +83,9 @@ a[href^='http']:after {
 	font-weight: 400;
 }
 
-.neutralLink[href^='http']:after {
-	content: '' !important;
+a[href^='http'].sideLinkHolder:after,
+a[href^='http'].neutralLink:after {
+	content: '';
 }
 
 ::-moz-selection {

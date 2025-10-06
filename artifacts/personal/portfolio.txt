@@ -2,7 +2,7 @@ name: Portfolio
 image: portfolio/1.png
 imageName: @[Portfolio]
 tags: personal
-links: Download Resume>https://v-os.nyc3.cdn.digitaloceanspaces.com/files/portfolio/cv.pdf
+links: ![Download Resume](https://v-os.nyc3.cdn.digitaloceanspaces.com/files/portfolio/cv.pdf)
 title: Victor's @[portfolio].
 
 ===

@@ -411,7 +411,7 @@ function formatHTMLPage(artifact) {
 			break;
 
 		case 'AUD':
-			link = 'Album';
+			link = 'Single';
 			break;
 
 		case 'COD':
@@ -459,7 +459,7 @@ function formatHTMLPage(artifact) {
 			case 'audio':
 			case 'album':
 			case 'single':
-				link = 'Album';
+				link = 'Single';
 				break;
 
 			case 'code':
