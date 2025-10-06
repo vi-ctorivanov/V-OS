@@ -419,7 +419,7 @@ function formatHTMLPage(artifact) {
 			break;
 
 		case 'PRO':
-			link = 'Graphic';
+			link = 'Professional';
 			break;
 
 		case 'VIS':
