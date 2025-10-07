@@ -1,0 +1,78 @@
+#sidebar {
+	display: inline-block;
+	position: relative;
+	width: 320px;
+	padding: var(--gap);
+	vertical-align: top;
+	font-size: 13px;
+}
+
+#sidebar * {
+	color: var(--ultraDark);
+}
+
+.sideTitle {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.sideText {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.sideBox {
+	display: block;
+	font-weight: 400;
+}
+
+.sideDivider {
+	display: block;
+	width: 100%;
+	background-color: var(--bright);
+	height: 0.7px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sidebarRelatedTitle {
+	display: block;
+	margin-bottom: 20px;
+}
+
+#sidebar .sidebarRelatedSame,
+#sidebar .sidebarRelatedSame a {
+	color: var(--medium);
+}
+
+.logStat {
+	display: inline-block;
+	vertical-align: top;
+	width: 30px;
+	margin-bottom: 20px;
+}
+
+.logBar {
+	display: inline-block;
+	vertical-align: top;
+	height: 15px;
+	margin-bottom: 20px;
+	background-color: var(--bright);;
+	border-radius: 2px;
+}
+
+.sideLink:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.sideLinkHolder {
+	display: inline-block;
+	padding: 6px;
+	margin-right: 4px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-radius: 2px;
+	border: solid 1px var(--bright);;
+	color: var(--ultraDark);
+}

@@ -1,0 +1,56 @@
+#footer {
+	width: 100%;
+	height: 90px;
+	background-color: var(--default);
+}
+
+#footerContent {
+	max-width: 900px;
+	height: 100%;
+    position: relative;
+    overflow: auto;
+	margin: auto;
+}
+
+.footerLeft,
+.footerRight {
+	display: inline-block;
+	position: absolute;
+	vertical-align: top;
+	color: var(--antiDefault);
+	font-size: 13px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.footerLeft a,
+.footerRight a {
+	color: var(--antiDefault);
+}
+
+.footerLeft a:hover,
+.footerRight a:hover {
+	background-color: var(--ultraDark);
+}
+
+.footerLeft {
+	left: var(--gap);
+}
+
+.footerRight {
+	right: var(--gap);
+	text-align: right;
+}
+
+.footerCenter {
+	position: absolute;
+	height: 50px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	filter: invert(1);
+}
+
+.footerCenter img {
+	height: 30px;
+}

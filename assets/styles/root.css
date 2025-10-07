@@ -1,0 +1,125 @@
+:root {
+	--default: #000;
+	--antiDefault: #fff;
+
+	--background: #f7f7f7;
+	--highlight: #dadada;
+	--bright: #ccc;
+	--medium: #aaa;
+	--dark: #bbb;
+	--ultraDark: #777;
+
+	--gap: 40px;
+	--radius: 3px;
+}
+
+html {
+	box-sizing: border-box;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	background-color: var(--default);
+	scrollbar-width: thin;
+	scrollbar-color: var(--dark) var(--background);
+}
+
+*,:before,:after {
+	box-sizing: inherit;
+	font-weight: inherit;
+}
+
+body {
+	font-family: 'Roboto';
+	color: var(--default);
+	background-color: var(--background);
+	overflow-x: hidden;
+}
+
+p {
+	font-size: 18px;
+	font-family: 'Merriweather';
+	line-height: 36px;
+	margin-bottom: var(--gap);
+	margin-top: 0;
+	padding: 0 0 0 0;
+}
+
+h1,
+h2,
+h3 {
+	font-size: 36px;
+	margin: 0;
+	padding: 0 0 var(--gap) 0;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+a {
+	display: inline;
+	text-decoration: none;
+	color: var(--default);
+	font-weight: 700;
+	transition: background-color 0.2s;
+}
+
+a:hover {
+	background-color: var(--highlight);
+}
+
+a[href^='http']:after {
+	content: ' ⊷';
+}
+
+.neutralLink,
+.neutralText {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.neutralLink:hover {
+	font-weight: 400;
+}
+
+a[href^='http'].sideLinkHolder:after,
+a[href^='http'].neutralLink:after {
+	content: '';
+}
+
+::-moz-selection {
+	color: var(--default);
+	background: var(--bright);
+}
+
+::selection {
+	color: var(--default);
+	background: var(--bright);
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--dark);
+}
+
+#fullContainer {
+	display: flex;
+	max-width: calc(320px + 900px);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#body {
+	position: relative;
+	width: 100%;
+	padding-right: 320px;
+	background-color: var(--background);
+	z-index: 1;
+	border-top: solid 1px var(--bright);;
+	border-bottom: solid 1px var(--bright);;
+}

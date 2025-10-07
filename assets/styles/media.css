@@ -1,0 +1,41 @@
+@media (max-width: 1620px) {
+	#body {
+		padding-right: 0;
+	}
+
+	#fullContainer {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 1200px) {
+	.spaciousList {
+		columns: 1;
+		-webkit-columns: 1;
+		-moz-columns: 1;
+	}
+}
+
+@media (max-width: 900px) {
+	#sidebar {
+		display: none;
+	}
+
+	h1 {
+		border-top: solid 1px var(--bright);
+	}
+
+	.condensedList {
+		columns: 3;
+		-webkit-columns: 3;
+		-moz-columns: 3;
+	}
+}
+
+@media (max-width: 540px) {
+	.condensedList {
+		columns: 2;
+		-webkit-columns: 2;
+		-moz-columns: 2;
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "v-os",
+	"version": "1.0.0",
+	"description": "Wiki-format personal website.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"bundle": "node main.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vi-ctorivanov/V-OS.git"
+	},
+	"author": "victor ivanov",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vi-ctorivanov/V-OS/issues"
+	},
+	"homepage": "https://github.com/vi-ctorivanov/V-OS#readme"
+}
