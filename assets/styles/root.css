@@ -10,7 +10,7 @@
 	--ultraDark: #777;
 
 	--gap: 40px;
-	--radius: 3px;
+	--radius: 2px;
 }
 
 html {
@@ -61,6 +61,7 @@ a {
 	text-decoration: none;
 	color: var(--default);
 	font-weight: 700;
+	border-radius: var(--radius);
 	transition: background-color 0.2s;
 }
 

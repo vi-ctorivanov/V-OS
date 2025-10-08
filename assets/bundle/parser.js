@@ -48,7 +48,7 @@ export function parse(string, type) {
 		[/(?<!\\)\%\[([^\]]+)\]/g, '<span class="execute" execute="$1"></span>'],
 
 		//local link: @[]
-		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1" class="localLink">$1</a>'],
+		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1">$1</a>'],
 		
 		//external link: []()
 		[/(?<!\\)\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2">$1</a>'],
@@ -85,7 +85,7 @@ export function parse(string, type) {
 		[/(?<!\\)\*\s?([^*]+)\*/g, '<i>$1</i>'],
 
 		//local link: @[]
-		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1" class="localLink">$1</a>'],
+		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1">$1</a>'],
 
 		//execute code (accompanied by post-process code): %[]
 		[/(?<!\\)\%\[([^\]]+)\]/g, '<span class="execute" execute="$1"></span>'],
@@ -99,7 +99,7 @@ export function parse(string, type) {
 
 	const imageNameParseRules = [
 		//local link: @[]
-		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1" class="localLink">$1</a>'],
+		[/(?<!\\)\@\[([^\]]+)\]/g, '<a href="$1">$1</a>'],
 	];
 
 	switch (type) {
@@ -221,7 +221,7 @@ function tagList(tag, title=false) {
 			if (artifact.tags.includes(tag)) {
 				let item;
 				if (title) item = `<li>${artifact.title}</li>`;
-				else item = `<li><a href="${artifact.name}" class="localLink">${artifact.name}</a></li>`;
+				else item = `<li><a href="${artifact.name}">${artifact.name}</a></li>`;
 				items += item;
 			}
 		}

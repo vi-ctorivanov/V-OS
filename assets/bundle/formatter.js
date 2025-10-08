@@ -82,8 +82,8 @@ export function formatHTMLPage(artifact) {
 		result += `<span class="sideText">${startDate} · ${endDate}</span>`;
 		for (let i = 0; i < divisions.length; i++) {
 			if (divisions[i].hours != null) {
-				const percent = divisions[i].hours / hours * 100;
-				result += `<span class="logStat">${divisions[i].DIV}</span><div class="logBar" style="width: calc(${percent}% - ${percent/100 * 30}px);"></div><br>`;
+				const percent = divisions[i].hours / divisions[0].hours * 100;
+				result += `<span class="logStat">${divisions[i].DIV}</span><div class="logBar" style="width: calc(${percent}% - ${percent/100 * 35}px);"></div><br>`;
 			}
 		}
 		result += `<span class="sideText">${hours} hours · ${logs} logs</span>`;

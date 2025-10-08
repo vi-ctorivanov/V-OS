@@ -66,9 +66,8 @@ li .textImage {
 	width: 20%;
 	max-width: 180px;
 	min-width: 65px;
-	border-top-left-radius: 4px;
-	border-bottom-left-radius: 4px;
 	border-right: solid 1px var(--bright);
+	border-radius: 0;
 	background-size: cover;
 	background-position: center;
 	transition: filter 0.2s;
@@ -92,7 +91,7 @@ code,
 	font-size: 14px;
 	background-color: var(--default);
 	color: var(--antiDefault);
-	border-radius: 2px;
+	border-radius: var(--radius);
 	padding: 0 4px 0 4px;
 }
 
@@ -103,7 +102,6 @@ code,
 	margin: 0 0 var(--gap) 0;
 	line-height: normal;
 	white-space: pre-wrap;
-	border-radius: var(--radius);
 }
 
 .codeBlock a {
