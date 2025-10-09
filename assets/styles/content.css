@@ -1,6 +1,4 @@
 #content {
-	display: inline-block;
-	width: 100%;
 	max-width: var(--contentWidth);
 	padding: var(--gap) var(--gap) 0 var(--gap);
 	background-color: var(--background);

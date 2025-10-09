@@ -110,6 +110,14 @@ a[href^='http'].neutralLink:after {
 	background-color: var(--dark);
 }
 
+/*
+#body pushes from the right with a padding the size of the sidebar
+while #fullContainer stays centered in the remaining space
+so that #fullContainer is offset in a way that makes the central content centered in the window
+
+this is removed once the window is too tight for it to be necessary
+*/
+
 #fullContainer {
 	display: flex;
 	max-width: calc(var(--sidebarWidth) + var(--contentWidth));
