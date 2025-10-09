@@ -1,4 +1,4 @@
-@media (max-width: 1620px) {
+@media (max-width: 1550px) {
 	#body {
 		padding-right: 0;
 	}
@@ -19,10 +19,6 @@
 @media (max-width: 900px) {
 	#sidebar {
 		display: none;
-	}
-
-	h1 {
-		border-top: solid 1px var(--bright);
 	}
 
 	.condensedList {

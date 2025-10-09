@@ -11,6 +11,9 @@
 
 	--gap: 40px;
 	--radius: 2px;
+
+	--contentWidth: 900px;
+	--sidebarWidth: 320px;
 }
 
 html {
@@ -48,8 +51,7 @@ h1,
 h2,
 h3 {
 	font-size: 36px;
-	margin: 0;
-	padding: 0 0 var(--gap) 0;
+	margin: 0 0 var(--gap) 0;
 }
 
 h3 {
@@ -110,7 +112,7 @@ a[href^='http'].neutralLink:after {
 
 #fullContainer {
 	display: flex;
-	max-width: calc(320px + 900px);
+	max-width: calc(var(--sidebarWidth) + var(--contentWidth));
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -118,9 +120,9 @@ a[href^='http'].neutralLink:after {
 #body {
 	position: relative;
 	width: 100%;
-	padding-right: 320px;
+	padding-right: var(--sidebarWidth);
 	background-color: var(--background);
 	z-index: 1;
-	border-top: solid 1px var(--bright);;
-	border-bottom: solid 1px var(--bright);;
+	border-top: solid 1px var(--bright);
+	border-bottom: solid 1px var(--bright);
 }

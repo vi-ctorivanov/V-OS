@@ -1,20 +1,10 @@
 #content {
-	width: 100%;
-	padding: 0 var(--gap) 0 var(--gap);
-}
-
-#bodyContent {
 	display: inline-block;
 	width: 100%;
-	max-width: 900px;
-	background-color: var(--background);;
-	border-left: solid 1px var(--bright);;
-}
-
-h1 {
-	display: block;
-	padding: var(--gap);
-	overflow: auto;
+	max-width: var(--contentWidth);
+	padding: var(--gap) var(--gap) 0 var(--gap);
+	background-color: var(--background);
+	border-left: solid 1px var(--bright);
 }
 
 hr {
@@ -63,9 +53,8 @@ li .textImage {
 .pageCardImage {
 	display: inline-block;
 	height: 100%;
-	width: 20%;
-	max-width: 180px;
-	min-width: 65px;
+	width: 33.33%;
+	min-width: 80px;
 	border-right: solid 1px var(--bright);
 	border-radius: 0;
 	background-size: cover;

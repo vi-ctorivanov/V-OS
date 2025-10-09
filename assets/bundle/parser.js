@@ -282,7 +282,7 @@ function getRecentLogs(string) {
 			if (j < query.length - 1) results += '<br><br>'
 		}
 
-		string = string.replace(elements[i][0], `<code class="codeBlock" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">${results}</code>`);
+		string = string.replace(elements[i][0], `<code class="codeBlock">${results}</code>`);
 	}
 
 	return string;

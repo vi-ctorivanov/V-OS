@@ -1,9 +1,9 @@
 #sidebar {
 	display: inline-block;
-	position: relative;
 	width: 320px;
-	padding: var(--gap);
+	min-width: 250px;
 	vertical-align: top;
+	padding: var(--gap);
 	font-size: 13px;
 }
 
