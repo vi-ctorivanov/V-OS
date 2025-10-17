@@ -32,7 +32,9 @@ Self hosting is hosting a web service on your own private computer as opposed to
 
 I also think that not *everything* needs to be hosted.
 
-To further push for simplicity, does everyone *really* benefit from uninturrupted online access to a media library, or data tracking apps, or an office suite, or streamable games? It's certainly useful for individual cases, but but the obsession with having every document and movie at our fingertips at all times on our dozen devices feels excessive. Lots of those 'services' can be just as effective while remaining a local file accessible on only one machine, backed up for safety. I think that's a system worth considering.
+To further push for simplicity, does everyone *really* benefit from uninturrupted online access to a media library, or data tracking apps, or an office suite, or streamable games? It's certainly useful for individual cases, but but the obsession with having every document and movie at our fingertips at all times on our dozen devices feels excessive. Lots of those 'services' can be just as effective while remaining a local file accessible on only one machine, backed up for safety.
+
+I think that's a simple system worth considering.
 
 ---
 

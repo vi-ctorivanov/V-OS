@@ -2,11 +2,11 @@ name: Home
 image: cibo/7.png
 imageName: @[Cibo]
 tags: nav
-title: @[V-OS] is a virtual library of projects, [narratives](https://voidnet.ca), and experiments.
+title: @[V-OS] is a virtual library of [projects](#Graphic), [narratives](https://voidnet.ca), and experiments.
 
 ===
 
-This digital space is a virtual library of my digital artwork and related stories from @[VOIDNET].
+This space is a virtual library of my digital artwork and related stories from @[VOIDNET].
 
 I'm Victor Ivanov [vi], and I'm the creator of this space. More about me in my @[portfolio].
 

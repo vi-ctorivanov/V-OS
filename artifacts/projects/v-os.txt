@@ -7,17 +7,17 @@ title: @[V-OS] is a wiki site.
 
 ===
 
-This site hosts a collection of my multimedia projects along with some personal writing relating to the more abstract aspects of my processes. It's structured like a wiki, where each page links to other relevant projects, building an interconnected network that's fun to navigate and get lost browsing. Currently, it holds %[globals.artifacts.count;] pages.
+This site hosts a collection of my multimedia projects along with some personal writing relating to the more abstract aspects of my processes. It's structured like a wiki, where each page links to other relevant projects, building an interconnected network that's fun to navigate and get lost browsing. Currently, it holds %[globals.artifacts.length;] pages.
 
 This format and design was inspired by the personal websites of members of [Merveilles](https://merveilles.town/about).
 
 ---
 
-@[V-OS] was originally made using @[Purity], a PHP-based wiki authoring engine. It's since been simplified into a statically generated website, as a result of my efforts to maximize @[simplicity] in my software. Its code available [here](https://github.com/vi-ctorivanov/V-OS).
+@[V-OS] was originally made using @[Purity], a PHP-based wiki authoring engine. It's since been simplified into a statically generated website, as a result of my efforts to maximize @[simplicity] in my software. Its code is available [here](https://github.com/vi-ctorivanov/V-OS).
 
 &[purity]
 
-Here's an old screenshot of @[V-OS] in its infancy.
+Here's @[V-OS] in its infancy.
 
 ![Screenshot of website with a dark banner image at the top and introductory text in the center.](v-os/2.png)
 
@@ -27,4 +27,4 @@ Here's an old screenshot of @[V-OS] in its infancy.
 
 &[voidnet]
 
-Around half of @[V-OS] used to be narrative pages which explored the stories that both inspired and were inspired by much of the media projects here. As the narratives grew it became too difficult to navigate, and I wanted to create separate spaces to accomodate an evolving list of projects (@[V-OS]) and a rapidly growing number of intertwined stories @[VOIDNET].
+Around half of @[V-OS] used to be narrative pages which explored the stories that both inspired and were inspired by much of the media projects here. As the narratives grew it became too difficult to navigate. The previously dozen navigation pages were simplified down to a more streamlined experience, and the narratives were moved to @[VOIDNET] where they now continue to evolve.
