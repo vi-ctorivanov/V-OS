@@ -94,9 +94,9 @@ export function formatHTMLPage(artifact) {
 	} else page = page.replace(/\$logData/g, '');
 
 	//sector
-	if (artifact.tags.includes('writing') && sector == 'ABS') sector = 'WRI';
-	if (artifact.tags.includes('professional')) sector = 'PRO';
 	if (!artifact.tags.includes('project')) sector = 'DEF';
+	if ((artifact.tags.includes('writing') && sector == 'ABS') || artifact.tags.includes('research')) sector = 'WRI';
+	if (artifact.tags.includes('professional')) sector = 'PRO';
 	page = page.replace(/\$sectorIcon/g, `../assets/ui/${sector.toLowerCase()}.svg`);
 
 	let link = '';
@@ -138,7 +138,7 @@ export function formatHTMLPage(artifact) {
 	let related = '';
 	for (let i = 0; i < globals.artifacts.length; i++) {
 		const intersection = artifact.tags.filter(value => globals.artifacts[i].tags.includes(value));
-		const filtered = intersection.filter((value) => value !== 'project' && value !== 'nav' && value !== 'debug' && value !== 'research' && value !== 'personal');
+		const filtered = intersection.filter((value) => value !== 'project' && value !== 'nav' && value !== 'debug' && value !== 'personal');
 		if (filtered.length > 0) {
 			if (globals.artifacts[i] == artifact) related += `<span class="sidebarRelatedTitle sidebarRelatedSame">${globals.artifacts[i].title}</span>`;
 			else related += `<span class="sidebarRelatedTitle">${globals.artifacts[i].title}</span>`;

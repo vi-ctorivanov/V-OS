@@ -13,7 +13,7 @@ Inspired by agglutinative concepts in Japanese, writing in Korean, and phonetics
 
 @[i-tema] is the synthetic language found in @[Qurotema].
 
-&[Qurotema]
+&[qurotema]
 
 Read more about @[i-tema] through [VOIDNET](https://voidnet.ca/#i-tema)
 

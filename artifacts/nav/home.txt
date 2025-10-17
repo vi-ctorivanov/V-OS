@@ -52,8 +52,8 @@ Feel lost? Start by browing some projects down below.
 # Writing
 =[writing]
 
-//# Rsearch
-//=[research]
+# Research
+=[research]
 
 ---
 

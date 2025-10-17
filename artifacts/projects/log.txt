@@ -1,30 +1,40 @@
 name: Log
 image: log/1.png
 imageName: @[Log]
-links: [Code Repository](https://github.com/vi-ctorivanov/Log)
+links: [PHP Code Repository](https://github.com/vi-ctorivanov/Log), [Obsidian Vault Repository](https://github.com/vi-ctorivanov/SQLSeal-Charts-Examples)
 tags: project, code, tool
 title: The @[Log] is a timekeeping tool and data visualizer.
 
 ===
 
-The @[Log] is a tool used for daily output logging and data analysis.  Its data can be found in the sidebar of all project pages logged in it (including this one).
+The @[Log] is a tool used for daily productivity logging and data visualization. Its data can be found in the sidebar of all project pages logged in it (including this one).
 
-Data is entered into a simple spreadsheet of logs, which is then parsed using a Python script into mySQL queries. The original version used PHP to generate visualizations, but has been deprecated in favor of a more streamlined pipeline using google sheets.
+I've written about the @[Log] and my thoughts on @[time tracking here], after tracking my productivity every day for the last %[new Date().getFullYear() - 2017;](!) years.
 
-Below are some images showcasing what this interface looked like, including an overview of all log entries, as well as the auto-generated pages for projects showing time allocation in different categories of productivity.
+&[time tracking]
 
-![Screenshot of bar charts showcasing productivity over time.](log/2.png)
-![Ring pie charts showcasing productivity in different tasks.](log/3.png)
-![Ring pie charts showcasing productivity in different tasks.](log/4.png)
-![Bar chart showcasing productivity over time.](log/5.png)
+The @[Log] is a long-running project that's gone through *many* iterations as a result of my evolving ideas around @[simplicity].
+
+&[simplicity]
+
+It began as a `.txt` file formatted more or less like a `.csv`, which was later transferred into an SQL database and visualized with PHP (code repository found [here](https://github.com/vi-ctorivanov/Log)), which was deprecated in favor of a more streamlined pipeline using google sheets, which was abandoned when I began to escape the google ecosystem and replaced again with a `.csv` file and an implementation in [obsidian](https://obsidian.md) with the [sqlseal plugin](https://github.com/h-sphere/sql-seal) (code repository found [here](https://github.com/vi-ctorivanov/SQLSeal-Charts-Examples)).
+
+The data format has thankfully stayed consistent.
 
 ```
-log entry format
-
 DATE        TIME  PROJECT      TASK            DIVISION   DETAILS
 2017.08.30  1.0   V-OS         Development     Visual     Testing new headers.
 ```
 
----
+Below are images of what the current obsidian-based visualization interface looks like.
 
-The purpose of the @[Log] is to study my work habits, spot patterns in the types of activities I engage in, and attempt to optimize my productivity. In short, tracking my time has helped me become more aware of how I spend it.
+![Screenshot of a bar and line chart showcasing monthly productivity over time.](log/6.png)
+![Calendar chart showcasing daily productivity over time.](log/7.png)
+![Treemap chart showcasing productivity time for different projects.](log/8.png)
+
+Below are some images showcasing what the old PHP interface looked like, featuring an overview of all log entries and auto-generated pages for projects showing time allocation in different categories of productivity.
+
+![Bar charts showcasing productivity over time.](log/2.png)
+![Ring pie charts showcasing productivity in different tasks.](log/3.png)
+![Ring pie charts showcasing productivity in different tasks.](log/4.png)
+![Bar and ring pie charts showcasing productivity over time.](log/5.png)

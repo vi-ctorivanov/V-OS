@@ -15,7 +15,7 @@ Read more about @[Toriyomu] through [VOIDNET](https://voidnet.ca/#toriyomu).
 
 With the exception of some rare cases, unaltered humans cannot operate the Toriyomu as they require a cerebral interface to pilot. Naturally, this leaves @[Early Midnight] as the primary operators.
 
-&[Early Midnight]
+&[early midnight]
 
 These meshes were procedurally modeled in their entirety in Houdini. Texture maps were produced in Substance Designer, and materials and rendering were done in Blender.
 

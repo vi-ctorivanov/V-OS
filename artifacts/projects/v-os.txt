@@ -3,16 +3,28 @@ image: v-os/1.png
 imageName: @[V-OS]
 links: [Code Repository](https://github.com/vi-ctorivanov/V-OS)
 tags: project, code, tool
-title: @[V-OS] is a designed space for media, narrative, and philosophy.
+title: @[V-OS] is a wiki site.
 
 ===
 
-This site acts as a hub for a collection of multimedia experiments and narrative explorations. @[V-OS] focuses on providing a space to create and document worlds made real through media projects.
+This site hosts a collection of my multimedia projects along with some personal writing relating to the more abstract aspects of my processes. It's structured like a wiki, where each page links to other relevant projects, building an interconnected network that's fun to navigate and get lost browsing. Currently, it holds %[globals.artifacts.count;] pages.
 
-@[V-OS] is also the host for [VOIDNET](https://voidnet.ca).
+This format and design was inspired by the personal websites of members of [Merveilles](https://merveilles.town/about).
+
+---
+
+@[V-OS] was originally made using @[Purity], a PHP-based wiki authoring engine. It's since been simplified into a statically generated website, as a result of my efforts to maximize @[simplicity] in my software. Its code available [here](https://github.com/vi-ctorivanov/V-OS).
+
+&[purity]
+
+Here's an old screenshot of @[V-OS] in its infancy.
+
+![Screenshot of website with a dark banner image at the top and introductory text in the center.](v-os/2.png)
+
+---
+
+@[V-OS] is also the host for [VOIDNET](https://voidnet.ca), the narrative counterpart to this site.
 
 &[voidnet]
 
-@[V-OS] is made using @[Purity].
-
-&[purity]
+Around half of @[V-OS] used to be narrative pages which explored the stories that both inspired and were inspired by much of the media projects here. As the narratives grew it became too difficult to navigate, and I wanted to create separate spaces to accomodate an evolving list of projects (@[V-OS]) and a rapidly growing number of intertwined stories @[VOIDNET].

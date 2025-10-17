@@ -1,0 +1,134 @@
+name: Time Tracking
+image: log/9.png
+imageName: @[Log]
+tags: research
+title: Thoughts on @[time tracking].
+
+===
+
+In 2017, I had the formative experience of joining [Merveilles](https://merveilles.town/about), a group of people who I felt were brought together by a common interest in a moody high-contrast aesthetic and futurist philosophy.
+
+A few people there had developed a hobby of tracking their productivity (myself included), noting down how much they had worked each day in various categories of work. Depending on who you ask, I imagine you'd get a different list of motives for this interest: understanding our habits, gamifying productivity, attempting to take control of our time, compulsively collecting data as a means to fool ourselves into feeling productive.
+
+So I've now tracked my daily productivity for the last %[new Date().getFullYear() - 2017;] years, with more technical details found in the @[Log].
+
+&[log]
+
+I started because it felt like a fun project at the time, because of a desire to connect with other members of the community, and probably an optimistic hope that I'd become ridiculously productive. Despite the ignorantly-hopeful intentions, I've clearly stuck with it for a while, so here are some of my thoughts.
+
+---
+
+# Why Track?
+
+As much as I'd like to argue that tracking my time has definitively made me more productive, it's a hard to confidently draw that conclusion from only a handful of self-reports. I don't have a control group to compare with either, for all I know I'd be just as productive without any tracking. I do *feel* though, on a more general level, that it's helpful to track something if you're interested in controlling it, specifically because of the *awareness* that it brings.
+
+Tracking is an opportunity to gain valuable insights, to spot trends, and to manage what you're tracking.
+
+When I struggle to build up momentum on a project, a low number of hours of work I've put in this month can motivate me to get started. When I try to make some music and feel demotivated, I can see that I've only put a fraction of my time toward music versus other disciplines. I can be easier on myself; of course my skills in a certain activity won't be as developed if I don't put time into it. It's a good reflection on reality. Or maybe my job is draining and I haven't yet realized it, or I tend to be really inspired and motivated after certain activities. Tracking and visualizing the data can help spot these correlations so I can plan ahead to make the most of my time.
+
+---
+
+# Compulsive Tracking
+
+Everything so far is applicable to all sorts of tracking. Calories, sleep, mood, fitness, media consumption, food, health, finances, productivity, whatever. And I encourage everyone to find the things they really care about and try to maximize them in their lives. It doesn't need to be *productivity*.
+
+What I want to stress is that this tracking can also be a *compulsive* behavior, at which point it's more harm than good.
+
+Productivity, whatever you decide that even means for you, is not the absolute goal. For me, it's a means to achieving other fulfilling and self-actualizing goals, like making art, or improving my quality of life and that of others. Not to mention the anxiety-inducing and reality-warping downsides of compulsive tracking of health and body.
+
+It's really important to know *why* we're tracking, so we don't fall into the trap of enabling existing insecurities and harmful habits.
+
+---
+
+# How To Track
+
+If you're still with me, here are some tips on how to track effectively.
+
+## Simplicity
+
+If tracking takes 5 minutes every day, that's easy at first when the excitement and novelty drive you. But that 5 minutes is *30 hours a year*, and the daily friction can make quitting tempting. Are you more likely to stop exercising if your workouts last 1 hour, or 5 minutes?
+
+The simpler the system, the better. We want tracking to be *as quick, accessible, and easy as possible*.
+
+Maybe it's a file on your desktop, or an automated system that tracks what application you have open, an app that extracts data from pictures and organizes it, or a wall of sticky notes. This is a personal decision that depends on what you're tracking and how you've organized your life in general.
+
+It's also a trade-off. If you want to capture a lot of data, it will naturally take longer to input it into your system. Daily journaling, for example, is a lot of data (though very useful), but it's often more than a 5 second affair. I encourage journaling too, but I recognize that it needs to be a habit that's highly integrated in your routine to stay consistent. If we can make tracking easier, chances are it'll be easier to stick to.
+
+## Data
+
+So what exactly do we track?
+
+To start, a date makes sense if it's daily tracking. And then we have... everything else. Activity-specific data.
+
+Let's use mood as an example. Unlike calories or finances, mood is not inherently quantifiable, so we need to translate it somehow. Maybe we can just have 3 categories: `happy`, `neutral`, `unhappy`.
+
+```
+DATE            MOOD
+
+2025-04-02      Neutral
+2025-04-01      Happy
+```
+
+I think it's not granular enough for me. What if I'm angry? My mood and the emotions I feel are kinda different too, I can be happy but anxious, or unhappy but reflective. And what if my mood in the morning is really different from the evening? Maybe I'd also want to write down some more details when I have something more specific to say about my mood. Let's try again.
+
+```
+DATE            TIME        MOOD (/5)   EMOTION     DETAILS (optional)
+
+2025-04-02      0900        3           Neutral
+2025-04-01      1600        5           Excited     Cooking new recipe.
+2025-04-01      0900        3           Tired
+```
+
+Here we have the time of day to better ground my mood in time, and a mood rating out of 5 (10 would feel too granular) with emotions defined separately (it's good to have a pre-defined list of possible values in the emotion column so I'm not redefining all my emotions every day). The details column also helps us add relevant data, but it's not obligatory so I can skip it to save time on most days. Notice I can also have multiple logs in a single day, but maybe the time can be replaced with `morning` and `afternoon` if I log my mood at the same time each day. I could get rid of either the emotion or mood column if I only really care about one of those too, to simplify things.
+
+## Time
+
+Time tracking, specifically tracking duration, can also be tricky. I've seen a lot of ways of doing it.
+
+The main categories I've seen are tracking the duration directly, or extracting it from a start and end time. I personally prefer tracking duration directly because of a few reasons, but I'll also outline its disadvantages.
+
+For one, direct duration means that I can directly see my productivity by looking at my raw data. Secondly, my time is not perfectly divided between productive and unproductive tasks. What if I 'work' for 1 hour, but half of that was spent daydreaming? I like to work on a loose schedule, and I don't think it's realistic for me to explicitly decide it's time for me to be distracted and input an end time for my productivity.
+
+On the other hand, duration is subject to inherent self-reporting biases. I might *feel* like I worked for 2 hours, but I completely forgot I was unproductive and distracted for half of it. It can also take a bit of extra mental effort to figure out the duration of my work versus a set it and forget it approach. It's simply not as accurate as a strict and disciplined start-end time system.
+
+I'm willing to live with that drawback. I only track in half hour increments to reduce the mental load, and what I'm mostly looking for is a general idea of how much time I've spent working. Sacrificing a bit of granularity is actually relaxing, I don't need the data to be *perfect*.
+
+## Visualizations
+
+Without a doubt the coolest and most eye-catching part of tracking is the data visualization.
+
+![Screenshot of a calendar chart showcasing daily productivity over time.](log/7.png)
+![Bar and ring pie charts showcasing productivity over time.](log/5.png)
+![Treemap chart showcasing productivity time for different projects.](log/8.png)
+
+And I get it, I generally really like charts and data visualization for the pure beauty of it. But! I also think the value of visualization is overstated and provides the smallest return for the effort involved.
+
+I'd argue the *biggest* advantage is how it gamifies the process and provides direct visual feedback for your tracking, like a reward. It can help with intuitively spotting possible trends, but equally (or better) results can be achieved by just doing a bit of data processing. Like the sum of all productive hours each year, or the percentage of visual work versus coding work done on different projects.
+
+The actual act of tracking provides *at least* 50% of the benefits, some simple data processing provides another 40%, and visualizations are the 10% cherry on top (for like 5x the work).
+
+## Platform
+
+It's important to consider *where* your data is tracked. Is it accessible in the moments you need to log something? Is it backed up in case of a hardware failure? Does it require internet access? Is it private or publically accessible? Is it locked into a proprietary format with no export options?
+
+I tend to prefer digital solutions, they're easy to backup, often accessible, and data processing is more straightforward with compute power. That being said, I value the longevity and security that *simple, open, and local formats* allow, so I avoid online-only solutions and proprietary formats governed by corporations. If I want my data to last my lifetime and be easily transferable to new platforms, I wouldn't entrust a corporation I have zero control over to be the single point of failure.
+
+At its core, my log is a collection of `.csv` files. I've tried other stuff, as outlined in the @[Log], but I kept coming back to simpler formats.
+
+&[log]
+
+This minimalist philosophy is something I've written about in my thoughts on @[Simplicity], if you're curious to read more about my approach to software and even lifestyle structures.
+
+&[simplicity]
+
+If you're interested in using my custom solutions to processing your own data, I've published the code for both my [old PHP and SQL based system](https://github.com/vi-ctorivanov/Log), as well as my [current Obsidian and SQLSeal solution](https://github.com/vi-ctorivanov/SQLSeal-Charts-Examples).
+
+---
+
+# Final Thoughts
+
+Tracking has been a part of my life for a while now. At some point, I will have spent a larger part of my life tracking than not. And it can be terrifying to try and increase our awareness of time, to think of how one day the hours will stop increasing.
+
+In that time, it's easy to get lost in the chaos, to lose track of the things that matter to us. Tracking, when used responsably, is a tool to keep us on that track and make the most of our lives.
+
+Let's make use of our precious time wisely.

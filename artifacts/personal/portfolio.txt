@@ -37,15 +37,15 @@ If you'd like to get in touch, please send me an email at [vi@v-os.ca](mailto:vi
 
 For a full list of projects, please visit the @[home] page.
 
-&[Time Breaker]
-&[Dpt]
-&[Jagged Orbit]
-&[Kabam]
-&[QU-6]
-&[Iregular]
-&[Toriyomu]
-&[Chroniqueur]
-&[Invictus]
+&[time breaker]
+&[dpt]
+&[jagged orbit]
+&[kabam]
+&[qu-6]
+&[iregular]
+&[toriyomu]
+&[chroniqueur]
+&[invictus]
 
 ---
 
