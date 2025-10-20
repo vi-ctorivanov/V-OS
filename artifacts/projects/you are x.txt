@@ -1,7 +1,7 @@
 name: You Are X
 image: you are x/1.jpg
 imageName: @[You Are X]
-links: [Code Repository](https://github.com/YOU-ARE-X/YOU-ARE-X), [Watch Video](https://www.youtube.com/watch?v=Pk6kRKgpXrQ)
+links: [Watch Video](https://www.youtube.com/watch?v=Pk6kRKgpXrQ)
 tags: project, code, interactive
 title: @[You Are X] is an interactive VR installation focusing on microscopic environments.
 
