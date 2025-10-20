@@ -6,44 +6,50 @@ title: Thoughts on @[simplicity].
 
 ===
 
-My parents introduced me to computers before I was 5 years old. In the time since then and now, my life (and that of many others) has evolved to revolve largely around computers, which is really magical in a sense. We've created this made-up world with its own simple rules that's grown complex and lively. It's fantastical, and for better or for worse it's changed us forever.
+My parents introduced me to computers when I was around 4 years old. In the time since then and now, my life (and that of many others) has evolved to revolve largely around computers, which is really magical in a sense. We've created this made-up world with its own simple rules that's grown complex and lively. It's fantastical, and for better or for worse it's changed us forever.
 
-Increasingly, the internet, software at large, and our participation in these systems are monopolized by large corporations whose interests do not align with individual users. Socio-economic opinions aside, I don't think this is good for the healthy growth of personalized, unique, and *simple* software - and by extension, our lives which are now inextricably integrated with these systems.
+Software and hardware have grown complex and become difficult to construct and maintain at existing scales. We build an ever-taller tower of technology which we grow ever-reliant on. When will the shoulders of giants be so high that it will take our entire lives to climb them? When will we forget the nature of the first giant's work?
 
-In parallel, software and hardware has grown complex and difficult to construct and maintain at the scales at which it's deployed. We build an ever-taller tower of technology which we grow ever-reliant on. When will the shoulders of giants be so high that it will take our entire lives to climb them? Or rather, when will we forget the details of the first giant's work?
-
-I want to avoid the burden of this complexity and move the control of technology from corporate entities to individuals.
-
----
-
-# Open Source & Ownership
-
-Over the course of my relationship with computers, I've slowly gravitated towards open source software for my computing needs. I'm far from a purist, but I am cautious with programs dependent on the continued support of corporations I don't trust to care for me.
-
-Open source, with all its shortcomings, gives us the ability to *own* and *modify* our software. The convenience (and market monopolization) of subscriptions has made it difficult to have a say in the digital spaces that we inhabit in our daily lives, hobbies, and work. Subscription services often funnel our money through controlling intermediaries whose interests are rarely aligned with consumers and creators.
-
-We should be able to customize, maintain, and extend the longevity of the programs that we live with. At the very least, we shouldn't be held hostage with rent-only online-only models. With enough organization and funding, open source and decentralized sharing of software can be a solution.
-
----
-
-# Self Hosting & Staying Local
-
-Self hosting is hosting a web service on your own private computer as opposed to being handled by a third party's server (usually a corporation offering a service). The concept has existed since the dawn of the internet, but it seems to be gaining popularity among those frustrated with the tightening squeeze on consumers. For many, I think this is a fantastic solution and an amazing step towards independence. Many open source self-hosting projects exist to give you similar accessability and convenience as large corporation services.
-
-I also think that not *everything* needs to be hosted.
-
-To further push for simplicity, does everyone *really* benefit from uninturrupted online access to a media library, or data tracking apps, or an office suite, or streamable games? It's certainly useful for individual cases, but but the obsession with having every document and movie at our fingertips at all times on our dozen devices feels excessive. Lots of those 'services' can be just as effective while remaining a local file accessible on only one machine, backed up for safety.
-
-I think that's a simple system worth considering.
+The burden and debt of this complexity will bury us. We need to value simplicity.
 
 ---
 
 # Minimalism
 
-If a lot of this sounds like a sort of digital minimalism, you'd be right. I really appreciate minimalism, and simplicity is a major part of it. I figure everything about minimalism has already been said elsewhere, but for completeness' sake, here's my summarized take on it: let go of the items, thoughts, and behaviors that don't enrich your life. Simple.
+In essence, this is a call for a sort of digital minimalism. Minimalism at large is an ideology I generally agree with, though its popular definition has shifted and branched into a number of ideas.
+
+My take on minimalism is the practice of letting go of the items, thoughts, and behaviors that don't enrich your life. Simple. It is an effort to minimize the use of consumption, collection, and unhelpful habits as a form of emotional regulation.
+
+For developers, minimalism is an effort to avoid over-engineering by writing code as architecturally and syntactically light, consistent, and simple as possible. Software should also target specific families of problems with equally specific solutions rather than bloat into multitools. For users, this means choosing software that's light and focused.
+
+---
+
+# Self-Hosting & Staying Local
+
+Self-hosting is a fantastic way of avoiding the complexity overhead that exists with involving third parties, often large corporations. Arguably, it's more complex to handle hosting your own services than offloading it to someone else. I would counter with the fact that self-hosting can help you find and develop cleaner solutions specific to your problems, rather than relying on existing multi-function services.
+
+I also think that not *everything* needs to be hosted.
+
+To further push for simplicity, does everyone *really* benefit from uninturrupted online access to a media library, or data tracking apps, or an office suite, or streamable games? It's certainly useful for individual cases, but but the obsession with having every document and movie at our fingertips at all times on our dozen devices feels excessive. Lots of those 'services' can be just as effective while remaining a local file accessible on only one machine.
+
+I think that's a simple system worth considering.
+
+---
+
+# A Note On Open Source & Ownership
+
+Increasingly, software at large and our participation in its systems are monopolized by large corporations whose interests do not align with individual users. Our lives are now inextricably integrated with this technology, and the creation of personalized and *simple* software fades each day.
+
+I am cautious with programs dependent on the continued support of corporations I don't trust to care for me. Open source, with all its shortcomings, gives us the ability to *own* and *modify* the software we use. And with this control we can develop and share simpler software.
+
+The convenience (and market monopolization) of subscriptions and rent models has made it difficult for individuals to have an impact in the digital spaces that we inhabit. These services often funnel our money through controlling intermediaries who don't genuinely care for consumers and creators. Cases range from cancelling services used by thousands, to closing authentication servers for DRM-locked media, to shuffling the hosting of media between platforms, to slowly extracting money out of users while their software rights dwindle.
+
+We shouldn't be held hostage with rent-only, online-only, vendor-locked models. We should be able to customize and extend the longevity of the programs we live with.
+
+I am *not* suggesting that everything needs to be open source, or self-hosted, or offer no possibility for rental. Open source software doesn't need to be volunteer work for developers and a monetarily free item for consumers. It is obvious to me that to fully embrace the idea of complete software freedom, deep changes to our economic and law enforcement systems need to be made. In the meantime, creating and using more open source software is nonetheless a step towards a free-er world.
 
 ---
 
 # Permacomputing
 
-The thoughts above are only a narrow slice of topics discussed in [permacomputing](https://permacomputing.net/), for further reading. My values don't entirely align with the concept of permacomputing as presented in the linked site, but I completely support the efforts to increase accessability, reduce hardware and computational waste, avoid bloat and inefficiency, and encourage sharing and openness.
+The thoughts above are only a narrow slice of topics discussed in [permacomputing](https://permacomputing.net/), for further reading. My values don't entirely align with the concepts as presented in the linked site, but I completely support the efforts to increase accessability, reduce hardware and computational waste, avoid bloat and inefficiency, and encourage sharing and openness.
