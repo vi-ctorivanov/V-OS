@@ -1,5 +1,5 @@
-let follow = document.getElementById("mouseFar");
-let icon = document.getElementById("mouseIcon");
+const follow = document.getElementById("mouseFar");
+const icon = document.getElementById("mouseIcon");
 
 let cursorX = -1;
 let cursorY = -1;
@@ -7,17 +7,20 @@ let fCursorX = -1;
 let fCursorY = -1;
 
 const ease = 0.2;
-
 const followSize = 40;
 const iconSize = 25;
-
 const opacity = 0.25;
 
 let reset = true;
 
-document.addEventListener('mousemove', function(e) {
+document.addEventListener('mousemove', (e) => {
 	cursorX = e.clientX;
 	cursorY = e.clientY;
+});
+
+document.addEventListener('touchmove', (e) => {
+	cursorX = e.touches[0].clientX;
+	cursorY = e.touches[0].clientY;
 });
 
 window.requestAnimationFrame(run);
