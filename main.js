@@ -4,9 +4,9 @@ Takes all .txt artifact files, parses them, and outputs an .html page for each.
 
 */
 
-import {globals} from './assets/bundle/globals.js';
-import {parse, secondParse} from './assets/bundle/parser.js';
-import {formatHTMLPage} from './assets/bundle/formatter.js';
+import {globals} from './assets/build/globals.js';
+import {parse, secondParse} from './assets/build/parser.js';
+import {formatHTMLPage} from './assets/build/formatter.js';
 
 import * as fs from 'node:fs';
 import * as readline from 'node:readline';

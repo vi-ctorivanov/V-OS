@@ -129,7 +129,7 @@ export function formatHTMLPage(artifact) {
 	if (artifact.links) {
 		let links = '';
 		for (let i = 0; i < artifact.links.length; i++) {
-			links += `<a href="${artifact.links[i][1]}" class="sideLinkHolder"><span class="neutralLink sideLink">${artifact.links[i][0]}</span></a>`;
+			links += `<a href="${artifact.links[i][1]}" class="sideLinkHolder" target="_blank"><span class="neutralLink sideLink">${artifact.links[i][0]}</span></a>`;
 		}
 		page = page.replace(/\$links/g, `${links}<div class="sideDivider"></div>`);
 	} else page = page.replace(/\$links/g, '');
