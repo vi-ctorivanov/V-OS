@@ -23,7 +23,7 @@ html {
 	margin: 0;
 	background-color: var(--default);
 	scrollbar-width: thin;
-	scrollbar-color: var(--dark) transparent;
+	scrollbar-color: var(--dark) var(--background);
 }
 
 *,:before,:after {
@@ -99,15 +99,6 @@ a[href^='http'].neutralLink:after {
 ::selection {
 	color: var(--default);
 	background: var(--bright);
-}
-
-::-webkit-scrollbar {
-	width: 6px;
-	background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-	background-color: transparent;
 }
 
 /*
