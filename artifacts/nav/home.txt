@@ -18,7 +18,7 @@ Interested in my [professional](#Professional) experience? Check out my @[portfo
 
 # Recent
 
-*[7]
+^[7]
 ?[3]
 
 ---
@@ -60,3 +60,9 @@ Interested in my [professional](#Professional) experience? Check out my @[portfo
 
 # Professional
 =[professional]
+
+---
+
+@[V-OS] and the rest of my work have no affiliation to *any* crypto projects, and are made without the use of AI *at any stage*.
+
+I am not active on social media. Do not trust any profiles unless there is a direct link to them on this website.
