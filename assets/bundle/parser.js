@@ -59,8 +59,8 @@ export function parse(string, type) {
 		//recently updated pages (accompanied by post-process code): ?[]
 		[/(?<!\\)\?\[([^\]]+)\]/g, '<div recentlyUpdatedPages="$1"></div>'],
 
-		//recent logs (accompanied by post-process code): *[]
-		[/(?<!\\)\*\[([^\]]+)\]/g, '<div recentLogs="$1"></div>'],
+		//recent logs (accompanied by post-process code): ^[]
+		[/(?<!\\)\^\[([^\]]+)\]/g, '<div recentLogs="$1"></div>'],
 
 		//escape characters: \
 		[/\\(?!\\)/g, ""],
