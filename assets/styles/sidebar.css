@@ -30,7 +30,7 @@
 	display: block;
 	width: 100%;
 	background-color: var(--bright);
-	height: 0.65px;
+	height: 1px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
