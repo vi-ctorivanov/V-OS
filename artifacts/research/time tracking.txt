@@ -20,7 +20,7 @@ I started because it felt like a fun project at the time, because of a desire to
 
 # Why Track?
 
-As much as I'd like to argue that tracking my time has definitively made me more productive, it's a hard to confidently draw that conclusion from only a handful of self-reports. I don't have a control group to compare with either, for all I know I'd be just as productive without any tracking. I do *feel* though, on a more general level, that it's helpful to track something if you're interested in controlling it, specifically because of the *awareness* that it brings.
+As much as I'd like to argue that tracking my time has definitively made me more productive, it's hard to confidently draw that conclusion from only a handful of self-reports. I don't have a control group to compare with either, for all I know I'd be just as productive without any tracking. I do *feel* though, on a more general level, that it's helpful to track something if you're interested in controlling it, specifically because of the *awareness* that it brings.
 
 Tracking is an opportunity to gain valuable insights, to spot trends, and to manage what you're tracking.
 
@@ -34,7 +34,7 @@ Everything so far is applicable to all sorts of tracking. Calories, sleep, mood,
 
 What I want to stress is that this tracking can also be a *compulsive* behavior, at which point it's more harm than good.
 
-Productivity, whatever you decide that even means for you, is not the absolute goal. For me, it's a means to achieving other fulfilling and self-actualizing goals, like making art, or improving my quality of life and that of others. Not to mention the anxiety-inducing and reality-warping downsides of compulsive tracking of health and body.
+Productivity, whatever you decide that even means for you, is not the absolute goal. For me, it's a means to achieving other fulfilling and self-actualizing goals, like making art, or improving my quality of life and that of others. Not to mention the anxiety-inducing and reality-warping downsides of the compulsive tracking of health and body.
 
 It's really important to know *why* we're tracking, so we don't fall into the trap of enabling existing insecurities and harmful habits.
 
@@ -89,7 +89,7 @@ The main categories I've seen are tracking the duration directly, or extracting 
 
 For one, direct duration means that I can directly see my productivity by looking at my raw data. Secondly, my time is not perfectly divided between productive and unproductive tasks. What if I 'work' for 1 hour, but half of that was spent daydreaming? I like to work on a loose schedule, and I don't think it's realistic for me to explicitly decide it's time for me to be distracted and input an end time for my productivity.
 
-On the other hand, duration is subject to inherent self-reporting biases. I might *feel* like I worked for 2 hours, but I completely forgot I was unproductive and distracted for half of it. It can also take a bit of extra mental effort to figure out the duration of my work versus a set it and forget it approach. It's simply not as accurate as a strict and disciplined start-end time system.
+On the other hand, duration is subject to inherent self-reporting biases. I might *feel* like I worked for 2 hours, but I completely forgot I was unproductive and distracted for half of it. It can also take a bit of extra mental effort to figure out the duration of my work versus a set-it-and-forget-it approach. It's simply not as accurate as a strict and disciplined start-end time system.
 
 I'm willing to live with that drawback. I only track in half hour increments to reduce the mental load, and what I'm mostly looking for is a general idea of how much time I've spent working. Sacrificing a bit of granularity is actually relaxing, I don't need the data to be *perfect*.
 
@@ -109,7 +109,7 @@ The actual act of tracking provides *at least* 50% of the benefits, some simple 
 
 ## Platform
 
-It's important to consider *where* your data is tracked. Is it accessible in the moments you need to log something? Is it backed up in case of a hardware failure? Does it require internet access? Is it private or publically accessible? Is it locked into a proprietary format with no export options?
+It's important to consider *where* your data is tracked. Is it accessible in the moments you need to log something? Is it backed up in case of a hardware failure? Does it require internet access? Is it private or publicly accessible? Is it locked into a proprietary format with no export options?
 
 I tend to prefer digital solutions, they're easy to backup, often accessible, and data processing is more straightforward with compute power. That being said, I value the longevity and security that *simple, open, and local formats* allow, so I avoid online-only solutions and proprietary formats governed by corporations. If I want my data to last my lifetime and be easily transferable to new platforms, I wouldn't entrust a corporation I have zero control over to be the single point of failure.
 
@@ -117,11 +117,11 @@ At its core, my log is a collection of `.csv` files. I've tried other stuff, as 
 
 &[log]
 
-This minimalist philosophy is something I've written about in my thoughts on @[Simplicity], if you're curious to read more about my approach to software and even lifestyle structures.
+This minimalist philosophy is something I've written about in my thoughts on @[simplicity], if you're curious to read more about my approach to software and even lifestyle structures.
 
 &[simplicity]
 
-If you're interested in using my custom solutions to processing your own data, I've published the code for both my [old PHP and SQL based system](https://github.com/vi-ctorivanov/Log), as well as my [current Obsidian and SQLSeal solution](https://github.com/vi-ctorivanov/SQLSeal-Charts-Examples).
+If you're interested in using my custom solutions to track and visualize your own data, I've published the code for both my [old PHP and SQL based system](https://github.com/vi-ctorivanov/Log), as well as my [current Obsidian and SQLSeal solution](https://github.com/vi-ctorivanov/SQLSeal-Charts-Examples).
 
 ---
 
@@ -129,6 +129,6 @@ If you're interested in using my custom solutions to processing your own data, I
 
 Tracking has been a part of my life for a while now. At some point, I will have spent a larger part of my life tracking than not. And it can be terrifying to try and increase our awareness of time, to think of how one day the hours will stop increasing.
 
-In that time, it's easy to get lost in the chaos, to lose track of the things that matter to us. Tracking, when used responsably, is a tool to keep us on that track and make the most of our lives.
+In that time, it's easy to get lost in the chaos, to lose track of the things that matter to us. Tracking, when used responsibly, is a tool to keep us on that track and make the most of our lives.
 
 Let's make use of our precious time wisely.
