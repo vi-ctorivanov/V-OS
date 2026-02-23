@@ -9,7 +9,7 @@ title: @[Invictus] is a collection of branding, publicity, and web projects for 
 
 [Invictus Gloves](https://www.invictusgloves.com) specializes in creating custom sports gloves for players looking to personalize their play equipment.
 
-They was looking to create an e-commerce experience that showcased the quality of their gloves in the form of static 3D renders, video publicity, and an interactive realtime 3D web application where users can create their own custom gloves.
+They were looking to create an e-commerce experience that showcased the quality of their gloves in the form of static 3D renders, video publicity, and an interactive realtime 3D web application where users can create their own custom gloves.
 
 Working in collaboration with [Vartan Timourdjian](https://www.linkedin.com/in/vartan-timourdjian-bb2476a4/), we produced a large selection of 3D glove models for both high-resolution pre-rendered sequences and optimized realtime rendering. Renders of these high resolution models were used in Invcitus' [website](https://www.invictusgloves.com/) as videos and images to showcase their products, and optimized models were used for Invcitus' [custom glove creator app](https://invictusgloves.com/golf-gloves-creator/).
 

@@ -7,14 +7,18 @@ title: @[Dpt] is a collection of AR, VR, web, and interactive installation proje
 
 ===
 
-I worked at Dpt on various projects as a technical artist, producing content in collaboration with and for clients like Meta, Jeld-Wen, NASA, Mandai Wildlife Reserve, Felix & Paul, and Calgary Stampede.
+I worked at Dpt as a technical artist, producing interactive installation, AR, and VR experiences for clients like Meta, Jeld-Wen, Mandai Wildlife Reserve, Felix & Paul, and Calgary Stampede.
+
+![Earth viewed from space with the sun in the background.](dpt/4.png)
+![Assortment of tropical animals surrounded by jungle plants.](dpt/3.png)
+![Colorful indoor exhibition of calgary stampede-themed showcases.](dpt/2.png)
 
 ---
 
-As a technical artist, my work involved:
+My work involved:
 
-\- programming (game systems, shaders), asset production (VFX, level design, lighting), optimization (rendering, assets), integration - Unity, Unreal, and web platforms.
+\- programming (interaction systems, shaders), in-engine asset production (VFX, level design, lighting), optimization (rendering, 3D and VFX assets), integration - Unity, Unreal, and web platforms.
 
-\- asset production (3D models, textures rigging, technical animations) - Maya, Blender, Substance and Adobe suites, and others.
+\- asset production (3D models, textures, rigging, technical animation) - Maya, Blender, Substance and Adobe suites.
 
-\- project management, client requirements, technical documentation, supervision of other technical artists.
+\- project management, client requirements, documentation, supervision of technical and vfx artists.
