@@ -15,13 +15,10 @@ My main role was based around scoring the movie with key pieces of music and mot
 
 The soundtrack features orchestral instruments in lo-fi soundscapes, with slight usage of electronic elements. It outlines the relationship between father and daughter, and explores both the bitter and sweet particularities of their connection.
 
-Trailer track.
-![alt](fruits of labour/trailer.wav)
+![Trailer](fruits of labour/trailer.wav)
 
-Track 'droplets'.
-![alt](fruits of labour/droplets.wav)
+![Droplets](fruits of labour/droplets.wav)
 
-Track 'fields'.
-![alt](fruits of labour/fields.wav)
+![Fields](fruits of labour/fields.wav)
 
 ![Poster for film "FRUITS OF LABOUR".](fruits of labour/3.png)

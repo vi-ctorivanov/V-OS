@@ -68,7 +68,7 @@ But it also opens a path towards sin and harm through exploitation.
 
 # 02 - The Machinist
 
-//![alt](navmos/2.png)
+//![](navmos/2.png)
 
 The Machinist crafts pets and partners and infuses them with life.
 She raises them, grows up with them, and develops deep relationships with them.
@@ -109,7 +109,7 @@ When losing that stability, the emotions can become overwhelming, and the mask c
 
 # 04 - The City
 
-//![alt](navmos/4.png)
+//![](navmos/4.png)
 
 The City is a testament to a control over chaos.
 It is a showcase of chaos under governence, as imperfect as it may be.
@@ -129,7 +129,7 @@ But it can also exploit those it aims to protect and shelter them from the truth
 
 # 05 - The Oculum
 
-//![alt](navmos/5.png)
+//![](navmos/5.png)
 
 The Oculum upholds the biological laws of fairness.
 She holds a strong sense of justice, and fights for her ideals to reign supreme.
@@ -149,7 +149,7 @@ As with all strong senses of justice, only a small tinge of corruption can turn 
 
 # 06 - The Traveler
 
-//![alt](navmos/6.png)
+//![](navmos/6.png)
 
 The Traveler wanders through the world, looking for meaning.
 She explores uncharted territories and grows comfortable navigating a world without structure.
@@ -168,7 +168,7 @@ She may become lost, or out of fear of the unknown, settle for unfulfilling safe
 ---
 
 # 07 - The Void
-//![alt](navmos/7.png)
+//![](navmos/7.png)
 
 The Void encompasses all.
 It existed before time, and will continue to exist beyond it.
@@ -189,7 +189,7 @@ To fight it is to go against the very nature of reality.
 
 # 08 - The Paradoxalist
 
-//![alt](navmos/8.png)
+//![](navmos/8.png)
 
 The Paradoxalist stands in the face of absurdity and joins it in laughter.
 He is playful and sees the world for the chaos it is.
@@ -210,7 +210,7 @@ He may fall into deep thinking of meaning and quickly lose his vision.
 
 # 09 - The Processor
 
-//![alt](navmos/9.png)
+//![](navmos/9.png)
 
 The Processor is a hands-on machine ready to get the work done.
 He is diligent, dutiful, and responsable.
@@ -230,7 +230,7 @@ This heaviness can cause wear and tear, and lead to coldness as defense, and hig
 
 # 10 - The Linguist
 
-//![alt](navmos/10.png)
+//![](navmos/10.png)
 
 The Linguist commits her life to studying the utterances of meaning between living things.
 She builds lexicons of empathy and strives to eradicate loneliness.
@@ -270,7 +270,7 @@ Their qualities may clash, forming an unresolvable conflict between two ideals.
 
 # 12 - The Technomancer
 
-//![alt](navmos/12.png)
+//![](navmos/12.png)
 
 The Technomancer harnesses the world around him to create new complexity.
 He is organized and focused on making his vision become a reality.
@@ -310,7 +310,7 @@ In fear, it can lead to personal stagnation and feelings of meaninglessness.
 
 # 14 - The Singularity
 
-//![alt](navmos/14.png)
+//![](navmos/14.png)
 
 The Singularity is a step in a direction of increased complexity.
 For the better or for worse, this change brings a new era to all of humanity.
@@ -329,7 +329,7 @@ This acquisition of knowledge is also a step towards destroying the old in, at t
 
 # 15 - The Melancholist
 
-//![alt](navmos/15.png)
+//![](navmos/15.png)
 
 The Melancholist ponders on the nature of reality.
 He lets the feelings associated with these thoughts pass through him.
@@ -368,7 +368,7 @@ But when left unguarded, it sneaks through the cracks and takes control of anyth
 
 # 17 - The Designer
 
-//![alt](navmos/17.png)
+//![](navmos/17.png)
 
 The Designer weaves strands of experience for those who walk through his constructs.
 He is vigilant to keep an accurate vision of the future, and stays close to his principles.
@@ -389,7 +389,7 @@ It may breed unhealthy idealism and pressure, resulting in a fear of failure and
 
 # 18 - The Soulkeeper
 
-//![alt](navmos/18.png)
+//![](navmos/18.png)
 
 The Soulkeeper is connected to the ethereal realm like no other.
 Her own cognition slips between physical space and the immaterial.
@@ -409,7 +409,7 @@ But as with all things immaterial, she cannot grasp them fully, nor internalize 
 
 # 19 - The Corp
 
-//![alt](navmos/19.png)
+//![](navmos/19.png)
 
 The Corp exudes confidence and stability.
 He leads others, and maintains loyalty towards everyone who he deems worthy of his respect.
@@ -429,7 +429,7 @@ And he wages wars with violence beyond natural means.
 
 # 20 - The Hypervisor
 
-//![alt](navmos/20.png)
+//![](navmos/20.png)
 
 The Hypervisor analyses and deconstructs the connection between body and mind.
 He is a scientist with an interest and familiarity of the ethereal.
@@ -449,7 +449,7 @@ And he may grow resentful of his newfound knowledge of the limits of his physica
 
 # 21 - The Hash
 
-//![alt](navmos/21.png)
+//![](navmos/21.png)
 
 The Hash is a key holder to worlds unknown.
 He respects each world's privacy, and lets them live on in isolation.

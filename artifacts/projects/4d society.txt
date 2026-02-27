@@ -11,7 +11,7 @@ Inspired by games like [Memories of a Broken Dimension](https://store.steampower
 
 Currently, @[4D SOCIETY] is purely a proof of concept.
 
-![alt](4d society/1.mp4)
+![](4d society/1.mp4)
 
 You are Research Officer Jazz, sent on a mission to investigate a paranormal phenomenon. Explore environments hidden behind the veil. Uncover surfaces where you look, and paint the world around you into existence. Embody the essence of curiosity: venture as far as you can, learn about the nature of this space, navigate non-euclidian environments, and discover the entities who created this new world.
 

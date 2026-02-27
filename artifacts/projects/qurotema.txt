@@ -13,7 +13,7 @@ title: @[Qurotema] is an off-limits construct universe.
 @[Qurotema] is currently in development.
 ```
 
-![alt](qurotema/1.mp4)
+![](qurotema/1.mp4)
 
 ---
 

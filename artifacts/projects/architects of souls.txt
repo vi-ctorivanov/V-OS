@@ -6,5 +6,4 @@ title: @[Architects of Souls] is a WIP album revolving around the creation of AI
 
 ===
 
-Track 1: Wherein Titans Fall.
-![alt](architects of souls/1.wav)
+![Wherein Titans Fall](architects of souls/1.wav)

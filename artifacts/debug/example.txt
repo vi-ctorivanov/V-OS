@@ -139,8 +139,8 @@ Creates a stylized link to an artifact.
 Creates a media element, supports images, videos, audio, and files. The root directory of these files must be defined in the bundler.
 
 ![alt](aquaform/1.jpg)
-![alt](mythaphil/1.mp3)
-![alt](dotcycle/1.mp4)
+![audio caption](mythaphil/1.mp3)
+![video caption](dotcycle/1.mp4)
 
 ---
 

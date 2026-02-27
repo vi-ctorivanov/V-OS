@@ -29,12 +29,27 @@ video:focus {
 .audio {
 	width: 100%;
 	border-radius: var(--radius);
-	margin: 0 0 var(--gap) 0;
+	margin: 0 0 calc(var(--gap) / 6) 0;
 }
 
 li .textImage {
 	width: 100%;
 	margin: 0 0 5px 0;
+}
+
+.caption {
+	display: block;
+	margin: 0 0 calc(var(--gap) / 6 * 5) 0;
+	font-size: 14px;
+	color: var(--medium);
+}
+
+.caption:before {
+	content: '+ ';
+}
+
+.caption:empty:before {
+	content: '';
 }
 
 .pageCard {

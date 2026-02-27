@@ -1,6 +1,7 @@
 /*
 
 Takes all .txt artifact files, parses them, and outputs an .html page for each.
+Also takes assets and copies them to distribution folder.
 
 */
 

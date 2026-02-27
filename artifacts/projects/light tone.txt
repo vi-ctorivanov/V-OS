@@ -9,7 +9,7 @@ title: @[Light Tone] is an interactive audio sculpture and experimental musical 
 
 @[Light Tone] allows users to play music on an imaginary piano roll in the air.
 
-![alt](light tone/1.mp4)
+![](light tone/1.mp4)
 
 @[Light Tone] aims to create an etheral feeling of playing music simply by extending one's hands, without touching anything, and to allow just about anyone to experience the joy of creating music on-the-fly.
 

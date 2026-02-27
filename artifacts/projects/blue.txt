@@ -8,6 +8,6 @@ title: @[Blue] begins the amber voyage.
 
 After falling through the clouds, the blue ember found its mirror realm.
 
-![alt](blue/1.wav)
+![Blue](blue/1.wav)
 
-![alt](blue/1.mov)
+![](blue/1.mov)

@@ -2,7 +2,7 @@ name: Portfolio
 image: portfolio/1.png
 imageName: @[Portfolio]
 tags: personal
-links: ![Download Resume](https://v-os.nyc3.cdn.digitaloceanspaces.com/files/portfolio/cv.pdf)
+links: ![Download Resume](https://v-os.nyc3.cdn.digitaloceanspaces.com/files/portfolio/Victor%20Ivanov%20CV.pdf)
 title: Victor's @[portfolio].
 
 ===
@@ -15,11 +15,11 @@ In my %[new Date().getFullYear() - 2019;] years of work, I've put my artistic an
 
 My experience covers:
 
-\- Development of full stack websites and realtime 3D web applications
-\- Offline and realtime rendering for games and video
+\- Offline and realtime graphics for games and video
 \- Full pipeline offline and realtime 3D art production
 \- Realtime shaders and VFX
-\- Procedural generation systems, 3D pipeline design, and tool development
+\- Procedural generation systems, 3D art pipeline design, and tool development
+\- Development of full stack websites and realtime 3D web applications
 
 I love all digital media, and I value creative exploration and novelty in my work. I feel most motivated and fulfilled when I'm forced to learn new things and solve problems I'm not familiar with. I'm always looking for new opportunities to create something original and innovative, and to solve unique problems with unique solutions.
 
@@ -27,7 +27,7 @@ I also keep my traditional art skillsets sharp by producing a lot of personal wo
 
 ---
 
-Check out my ![resume](portfolio/cv.pdf) for more formal documentation of my work experience.
+Check out my ![resume](portfolio/Victor Ivanov CV.pdf) for more formal documentation of my work experience.
 
 If you'd like to get in touch, please send me an email at [vi@v-os.ca](mailto:vi@v-os.ca)!
 
@@ -38,14 +38,13 @@ If you'd like to get in touch, please send me an email at [vi@v-os.ca](mailto:vi
 For a full list of projects, please visit the @[home] page.
 
 &[time breaker]
-&[dpt]
+&[sustained light chain]
 &[jagged orbit]
-&[kabam]
 &[qu-6]
 &[iregular]
 &[toriyomu]
-&[chroniqueur]
 &[invictus]
+&[chroniqueur]
 
 ---
 

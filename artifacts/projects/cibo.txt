@@ -1,23 +1,16 @@
 name: Cibo
 image: cibo/2.gif
 imageName: @[Cibo]
-links: [Watch Video](https://youtu.be/-Y01IHjy3w4?si=VqyQeA-zO_ZK3iOl)
 tags: project, visual, graphic
 title: Log 9: End's @[Cibo].
 
 ===
 
-![alt](cibo/1.mp4)
-
-```
-The video above has a very high bitrate.
-
-If you're having trouble loading it, please check out the [compressed video on Youtube](https://youtu.be/-Y01IHjy3w4?si=VqyQeA-zO_ZK3iOl).
-```
+![](cibo/1.mp4)
 
 This piece was created for [Clinton Jones](https://www.youtube.com/channel/UCWIfzAYHyNSyHmT2AO-54yg)' ["Eternal Ascent" challenge](https://www.youtube.com/watch?v=UNjMSFLkMZA) over the course of a month, from concept to final render. Participants were given a template animation to work with. All models, textures, animations, and shaders beyond that were made for this challence.
 
-![alt](cibo/2.mp4)
+![](cibo/2.mp4)
 
 ---
 
