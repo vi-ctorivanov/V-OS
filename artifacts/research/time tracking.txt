@@ -1,7 +1,7 @@
 name: Time Tracking
 image: log/9.png
 imageName: @[Log]
-tags: research
+tags: abstract, research
 title: Thoughts on @[time tracking].
 
 ===

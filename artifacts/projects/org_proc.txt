@@ -2,7 +2,7 @@ name: Org_Proc
 image: org proc/1.jpg
 imageName: @[Org_Proc]
 links: ![Read Booklet](org_proc/Architecting_Worlds.pdf)
-tags: project, visual, graphic
+tags: project, visual, graphic, abstract, writing
 title: @[Org_Proc] is an organic synthesis model.
 
 ===

@@ -1,7 +1,7 @@
 name: RE_I AM THE LIGHT
 image: techform/1.jpg
 imageName: @[Techform]
-tags: project, writing, code, interactive
+tags: project, abstract, writing, code, interactive
 links: ![Read Story](re_i am the light/re_i am the light.pdf)
 title: @[RE_I AM THE LIGHT].
 

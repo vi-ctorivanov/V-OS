@@ -2,7 +2,7 @@ name: Ethera's Word
 image: ethera's word/1.png
 imageName: @[Ethera's Word]
 links: ![Read Story](ethera's%20word/ethera's%20word.pdf)
-tags: project, writing, visual, graphic
+tags: project, abstract, writing, visual, graphic
 title: @[Ethera's Word], the temporal trigger.
 
 ===

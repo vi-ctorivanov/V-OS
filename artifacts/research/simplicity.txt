@@ -1,7 +1,7 @@
 name: Simplicity
 image: i-tema/5.png
 imageName: @[i-tema]
-tags: research
+tags: abstract, research
 title: Thoughts on @[simplicity].
 
 ===

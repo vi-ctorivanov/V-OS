@@ -2,7 +2,7 @@ name: VOIDNET
 image: voidnet/1.png
 imageName: @[VOIDNET]
 links: [Visit VOIDNET](https://voidnet.ca)
-tags: project, code, interactive, writing
+tags: project, code, interactive, abstract, writing
 title: @[VOIDNET] is a wiki of narratives.
 
 ===

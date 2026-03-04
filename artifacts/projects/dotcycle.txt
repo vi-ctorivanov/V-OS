@@ -2,7 +2,7 @@ name: DotCycle
 image: dotcycle/4.gif
 imageName: @[DotCycle]
 links: ![Download Game](dotcycle/dotcycle_windows.zip), [Code Repository](https://github.com/vi-ctorivanov/DotCycle), [VOIDNET](https://voidnet.ca/#atomic ai)
-tags: project, code, interactive, audio, single
+tags: project, code, interactive, audio, single, abstract, writing
 title: @[DotCycle] is a narrative game taking place in archived memories of an @[atomic AI].
 
 ===

@@ -2,7 +2,7 @@ name: i-tema
 image: i-tema/6.png
 imageName: @[i-tema]
 links: [VOIDNET](https://voidnet.ca/i-tema)
-tags: project, visual, graphic
+tags: project, visual, graphic, abstract, writing
 title: @[i-tema] is a morphologically minimal synthetic language.
 
 ===

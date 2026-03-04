@@ -59,7 +59,6 @@ export function formatHTMLPage(artifact) {
 			hours = globals.db.prepare("SELECT SUM(Time) AS hours FROM Productivity").all()[0].hours;
 			logs = globals.db.prepare("SELECT COUNT(*) AS logs FROM Productivity").all()[0].logs;
 			days = globals.db.prepare("SELECT COUNT(DISTINCT(Date)) AS days FROM Productivity").all()[0].days;
-			hoursPerDay = (hours / days).toFixed(1);
 		} else {
 			startDate = globals.db.prepare(`SELECT Date AS start FROM Productivity WHERE lower(Project) = '${a}' ORDER BY Date ASC LIMIT 1`).all()[0].start.replaceAll('-', '.');
 			endDate = globals.db.prepare(`SELECT Date AS end FROM Productivity WHERE lower(Project) = '${a}' ORDER BY Date DESC LIMIT 1`).all()[0].end.replaceAll('-', '.');
@@ -73,8 +72,9 @@ export function formatHTMLPage(artifact) {
 			hours = globals.db.prepare(`SELECT SUM(Time) AS hours FROM Productivity WHERE lower(Project) = '${a}'`).all()[0].hours;
 			logs = globals.db.prepare(`SELECT COUNT(*) AS logs FROM Productivity WHERE lower(Project) = '${a}'`).all()[0].logs;
 			days = globals.db.prepare(`SELECT COUNT(DISTINCT(Date)) AS days FROM Productivity WHERE lower(Project) = '${a}'`).all()[0].days;
-			hoursPerDay = (hours / days).toFixed(1);
 		}
+
+		hoursPerDay = (hours / days).toFixed(1);
 
 		sector = divisions[0].DIV;
 
@@ -95,14 +95,13 @@ export function formatHTMLPage(artifact) {
 
 	//sector
 	if (!artifact.tags.includes('project')) sector = 'DEF';
-	if ((artifact.tags.includes('writing') && sector == 'ABS') || artifact.tags.includes('research')) sector = 'WRI';
+	if ((artifact.tags.includes('writing') && sector == 'ABS') || artifact.tags.includes('research')) sector = 'ABS';
 	if (artifact.tags.includes('professional')) sector = 'PRO';
 	page = page.replace(/\$sectorIcon/g, `../assets/ui/${sector.toLowerCase()}.svg`);
 
 	let link = '';
 	switch(sector) {
 		case 'ABS':
-		case 'WRI':
 			link = 'Writing';
 			break;
 
@@ -138,7 +137,7 @@ export function formatHTMLPage(artifact) {
 	let related = '';
 	for (let i = 0; i < globals.artifacts.length; i++) {
 		const intersection = artifact.tags.filter(value => globals.artifacts[i].tags.includes(value));
-		const filtered = intersection.filter((value) => value !== 'project' && value !== 'nav' && value !== 'debug' && value !== 'personal');
+		const filtered = intersection.filter((value) => !['nav', 'debug', 'personal', 'project', 'abstract', 'audio', 'code', 'visual'].includes(value));
 		if (filtered.length > 0) {
 			if (globals.artifacts[i] == artifact) related += `<span class="sidebarRelatedTitle sidebarRelatedSame">${globals.artifacts[i].title}</span>`;
 			else related += `<span class="sidebarRelatedTitle">${globals.artifacts[i].title}</span>`;
@@ -172,6 +171,7 @@ export function formatHTMLPage(artifact) {
 				link = 'Graphic';
 				break;
 
+			case 'abstract':
 			case 'writing':
 			case 'research':
 				link = 'Writing';
