@@ -6,15 +6,22 @@ When we click a page card tag, a sidebar tag, a selector tag, a sector link, we 
 and then read the URL to define the filter. This way, no matter where we are on the site,
 we go through the same logic path.
 
+We expect a URL with an extra '?base' so that when it's empty, it doesn't scroll all the way up the window.
+
 */
 
 //sector link behavior is already preset inside sector link href
 //sidebar tag behavior is already preset inside sidebar tag link href
 
-const tags = document.getElementsByClassName('projectModuleTags')[0].children;
+let tags = document.getElementsByClassName('projectModuleTags')[0];
+if (tags) tags = tags.children;
+else tags = [];
+
+let projects = document.getElementsByClassName('projectModuleList')[0];
+if (projects) projects = projects.children;
+else projects = [];
+
 const cards = document.getElementsByClassName('pageCard');
-const projects = document.getElementsByClassName('projectModuleList')[0].children;
-const preset = window.location.hash.split('?');
 
 //page card tag
 for (let card of cards) {
@@ -35,13 +42,22 @@ for (let tag of tags) {
 }
 
 //read URL to find potential preset filters
-for (let tag of tags) {
-	for (let p of preset) {
-		if (p == tag.getElementsByClassName('blockLink')[0].innerText) tag.classList.add('active');
-	}
-}
+function readFilters () {
+	let preset = window.location.hash.split('?');
 
-redraw();
+	for (let tag of tags) {
+		let active = false;
+		for (let p of preset) {
+			if (p == tag.getElementsByClassName('blockLink')[0].innerText) {
+				tag.classList.add('active');
+				active = true;
+			}
+		}
+		if (!active) tag.classList.remove('active');
+	}
+
+	redraw();
+}
 
 //add or remove projects from view
 //also highlight currently active tags on project taglist
@@ -49,7 +65,6 @@ redraw();
 function redraw() {
 	//if no tags are selected, make all projects visible
 	let allInactive = true;
-
 	for (let t of tags) {
 		if (t.classList.contains('active')) allInactive = false;
 	}
@@ -61,41 +76,50 @@ function redraw() {
 				l.classList.remove('active');
 			}
 		}
-		return;
-	}
+	} else
+		//otherwise...
+		for (let project of projects) {
+			let links = project.getElementsByClassName('blockLinkHolder');
+			let safe = false;
 
-	//otherwise...
-	for (let project of projects) {
-		let links = project.getElementsByClassName('blockLinkHolder');
-		let safe = false;
-
-		for (let t of tags) {
-			for (let l of links) {
-				if (l.getElementsByClassName('blockLink')[0].innerText == t.getElementsByClassName('blockLink')[0].innerText) {
-					if (t.classList.contains('active')) {
-						safe = true;
-						l.classList.add('active');
-					} else l.classList.remove('active');
+			for (let t of tags) {
+				for (let l of links) {
+					if (l.getElementsByClassName('blockLink')[0].innerText == t.getElementsByClassName('blockLink')[0].innerText) {
+						if (t.classList.contains('active')) {
+							safe = true;
+							l.classList.add('active');
+						} else l.classList.remove('active');
+					}
 				}
 			}
+
+			if (!safe) project.style.display = 'none';
+			else project.style.display = '';
 		}
 
-		if (!safe) project.style.display = 'none';
-		else project.style.display = '';
-	}
-
 	//scroll to projects title
-	document.getElementById('Projects').scrollIntoView({behavior: "smooth"});
+	if (window.location.hash.includes("?base")) document.getElementById('Projects').scrollIntoView({behavior: "smooth"});
 }
 
 function modifyURI(string) {
 	let URI = window.location.hash.split('?');
 	let finalURI = '';
 	for (let i = 1; i < URI.length; i++) {
+		if (URI[i] == 'base') continue;
 		finalURI += '?' + URI[i];
 	}
 	if (finalURI.includes('?' + string)) finalURI = finalURI.replace('?' + string, '');
 	else finalURI += '?' + string;
 
-	window.location = window.location.origin + '/home#' + finalURI;
+	//replace() if not home to avoid writing to history
+	if (window.location.pathname != '/home') window.location = window.location.origin + '/home#?base' + finalURI;
+	else window.location.replace(window.location.origin + '/home#?base' + finalURI); 
+	readFilters();
 }
+
+//sometimes a link will modify filters too
+window.addEventListener("hashchange", () => {
+	readFilters();
+});
+
+readFilters();

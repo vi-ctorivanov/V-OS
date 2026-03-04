@@ -102,23 +102,23 @@ export function formatHTMLPage(artifact) {
 	let link = '';
 	switch(sector) {
 		case 'ABS':
-			link = '?writing?research';
+			link = '?base?writing?research';
 			break;
 
 		case 'AUD':
-			link = '?album?single';
+			link = '?base?album?single';
 			break;
 
 		case 'COD':
-			link = '?display?interactive?tool';
+			link = '?base?display?interactive?tool';
 			break;
 
 		case 'PRO':
-			link = '?professional';
+			link = '?base?professional';
 			break;
 
 		case 'VIS':
-			link = '?graphic?photography';
+			link = '?base?graphic?photography';
 			break;
 	}
 
@@ -154,27 +154,31 @@ export function formatHTMLPage(artifact) {
 			case 'debug':
 			case 'personal':
 			case 'nav':
+				//...
+				break;
+
 			case 'project':
+				link = 'Projects';
 				break;
 
 			case 'abstract':
-				link = '?writing?research';
+				link = '?base?writing?research';
 				break;
 
 			case 'audio':
-				link = '?album?single';
+				link = '?base?album?single';
 				break;
 
 			case 'code':
-				link = '?display?interactive?tool';
+				link = '?base?display?interactive?tool';
 				break;
 
 			case 'visual':
-				link = '?graphic?photography';
+				link = '?base?graphic?photography';
 				break;
 
 			default:
-				link = '?' + artifact.tags[i];
+				link = '?base?' + artifact.tags[i];
 				break;
 		}
 

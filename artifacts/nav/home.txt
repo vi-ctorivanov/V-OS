@@ -2,17 +2,18 @@ name: Home
 image: cibo/7.png
 imageName: @[Cibo]
 tags: nav
-title: @[V-OS] is a virtual library of [projects](#Graphic), [narratives](https://voidnet.ca), and experiments.
+title: @[V-OS] is a virtual library of [projects](#Projects), [narratives](https://voidnet.ca), and experiments.
 
 ===
 
-I'm [Victor Ivanov](portfolio) [vi], and @[V-OS] is a wiki of my digital artwork where *all bold text is clickable*. Please enjoy exploring.
+I'm [Victor Ivanov](portfolio) [vi], and @[V-OS] is a wiki of my digital artwork where *all bold text is clickable*.
+Please enjoy exploring.
 
-Feel lost? Start by browing some [projects](#Graphic) down below.
+Feel lost? Start by browing some [projects](#Projects) down below.
 
 Curious about the narrative counterpart to V-OS? Visit [VOIDNET](https://voidnet.ca).
 
-Interested in my [professional](#Professional) experience? Check out my @[portfolio].
+Interested in my [professional](/home#?base?professional) experience? Check out my @[portfolio].
 
 ---
 
