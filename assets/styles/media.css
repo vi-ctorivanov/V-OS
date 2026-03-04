@@ -40,10 +40,14 @@
 	}
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
 	.condensedList {
 		columns: 2;
 		-webkit-columns: 2;
 		-moz-columns: 2;
+	}
+
+	#content {
+		padding: var(--gap) calc(var(--gap) / 2) 0 calc(var(--gap) / 2);
 	}
 }
