@@ -115,7 +115,7 @@ function Wire(newX, newY, newSizeX, newSizeY, newGlitchAmount, newStableGlitchAm
 		V.ctx.lineCap = 'round';
 		V.ctx.lineJoin = 'round';
 		V.ctx.lineWidth = 8;
-		V.ctx.strokeStyle = "rgba(" + V.colorR + ", " + V.colorG + ", " + V.colorB + ", 1)";
+		V.ctx.strokeStyle = 'rgba(' + V.colorR + ', ' + V.colorG + ', ' + V.colorB + ', 1)';
 
 		V.ctx.moveTo(this.coords[0], this.coords[1]);
 		V.ctx.lineTo(this.coords[2], this.coords[3]);
@@ -206,6 +206,6 @@ setInterval(function() {
 }, V.downTime);
 
 //on page load, call setup to start animation
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener('DOMContentLoaded', function () {
 	setup();
 });

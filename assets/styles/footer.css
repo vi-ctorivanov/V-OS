@@ -30,7 +30,7 @@
 
 .footerLeft a:hover,
 .footerRight a:hover {
-	background-color: var(--ultraDark);
+	background-color: var(--dark);
 }
 
 .footerLeft {

@@ -102,23 +102,23 @@ export function formatHTMLPage(artifact) {
 	let link = '';
 	switch(sector) {
 		case 'ABS':
-			link = 'Writing';
+			link = '?writing?research';
 			break;
 
 		case 'AUD':
-			link = 'Single';
+			link = '?album?single';
 			break;
 
 		case 'COD':
-			link = 'Tool';
+			link = '?display?interactive?tool';
 			break;
 
 		case 'PRO':
-			link = 'Professional';
+			link = '?professional';
 			break;
 
 		case 'VIS':
-			link = 'Graphic';
+			link = '?graphic?photography';
 			break;
 	}
 
@@ -128,7 +128,7 @@ export function formatHTMLPage(artifact) {
 	if (artifact.links) {
 		let links = '';
 		for (let i = 0; i < artifact.links.length; i++) {
-			links += `<a href="${artifact.links[i][1]}" class="sideLinkHolder" target="_blank"><span class="neutralLink sideLink">${artifact.links[i][0]}</span></a>`;
+			links += `<a href="${artifact.links[i][1]}" class="blockLinkHolder" target="_blank"><span class="neutralLink blockLink">${artifact.links[i][0]}</span></a>`;
 		}
 		page = page.replace(/\$links/g, `${links}<div class="sideDivider"></div>`);
 	} else page = page.replace(/\$links/g, '');
@@ -151,38 +151,34 @@ export function formatHTMLPage(artifact) {
 	for (let i = 0; i < artifact.tags.length; i++) {
 		let link = '';
 		switch (artifact.tags[i]) {
-			case 'audio':
-			case 'album':
-			case 'single':
-				link = 'Single';
-				break;
-
-			case 'code':
-			case 'tool':
-			case 'interactive':
-			case 'display':
-				link = 'Tool';
-				break;
-
-			case 'visual':
-			case 'graphic':
-			case 'photography':
+			case 'debug':
+			case 'personal':
+			case 'nav':
 			case 'project':
-				link = 'Graphic';
 				break;
 
 			case 'abstract':
-			case 'writing':
-			case 'research':
-				link = 'Writing';
+				link = '?writing?research';
 				break;
 
-			case 'professional':
-				link = 'Professional';
+			case 'audio':
+				link = '?album?single';
+				break;
+
+			case 'code':
+				link = '?display?interactive?tool';
+				break;
+
+			case 'visual':
+				link = '?graphic?photography';
+				break;
+
+			default:
+				link = '?' + artifact.tags[i];
 				break;
 		}
 
-		tags += `<a href="home#${link}" class="sideLinkHolder"><span class="neutralLink sideLink">${artifact.tags[i]}</span></a>`;
+		tags += `<a href="home#${link}" class="blockLinkHolder"><span class="neutralLink blockLink">${artifact.tags[i]}</span></a>`;
 	}
 	page = page.replace(/\$tags/g, tags + '<div class="sideDivider"></div>');
 

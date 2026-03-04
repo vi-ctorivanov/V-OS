@@ -1,5 +1,5 @@
-const follow = document.getElementById("mouseFar");
-const icon = document.getElementById("mouseIcon");
+const follow = document.getElementById('mouseFar');
+const icon = document.getElementById('mouseIcon');
 
 let cursorX = -1;
 let cursorY = -1;

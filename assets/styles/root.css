@@ -6,14 +6,15 @@
 	--highlight: #dadada;
 	--bright: #ccc;
 	--medium: #aaa;
-	--dark: #bbb;
-	--ultraDark: #777;
+	--dark: #777;
 
 	--gap: 40px;
 	--radius: 2px;
 
 	--contentWidth: 1000px;
 	--sidebarWidth: 320px;
+	--cardHeight: 140px;
+	--tallCardExtra: 40px;
 }
 
 html {
@@ -23,7 +24,7 @@ html {
 	margin: 0;
 	background-color: var(--default);
 	scrollbar-width: thin;
-	scrollbar-color: var(--dark) var(--background);
+	scrollbar-color: var(--medium) var(--background);
 }
 
 *,:before,:after {
@@ -86,9 +87,9 @@ a[href^='http']:after {
 	font-weight: 400;
 }
 
-a[href^='http'].sideLinkHolder:after,
+a[href^='http'].blockLinkHolder:after,
 a[href^='http'].neutralLink:after {
-	content: '';
+	content: '' !important;
 }
 
 ::-moz-selection {

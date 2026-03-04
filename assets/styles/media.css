@@ -14,6 +14,18 @@
 		-webkit-columns: 1;
 		-moz-columns: 1;
 	}
+
+	.projectModuleList {
+		grid-template: auto / 100%;
+	}
+
+	.pageCard.tall {
+		height: var(--cardHeight);
+	}
+
+	.tall .pageCardContent {
+		grid-template: auto 30px / auto;
+	}
 }
 
 @media (max-width: 900px) {

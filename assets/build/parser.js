@@ -62,6 +62,9 @@ export function parse(string, type) {
 		//recent logs (accompanied by post-process code): ^[]
 		[/(?<!\\)\^\[([^\]]+)\]/g, '<div recentLogs="$1"></div>'],
 
+		//projects module (accompanied by post-process code): +[]
+		[/(?<!\\)\+\[([^\]]?)\]/g, '<div class="projectModule"></div>'],
+
 		//escape characters: \
 		[/\\(?!\\)/g, ""],
 
@@ -69,10 +72,9 @@ export function parse(string, type) {
 		[/^/g, '<p>'],
 		[/$/g, '</p>'],
 
-		//add paragraph open tags after paragraph blocking elements
+		//add paragraph open tags after and before paragraph blocking elements
+		//note - this doesn't work great for nested elements, like <div><div></div></div>, so we avoid those in earlier parsing rules
 		[/(<\/div>|<\/h1>|<\/h2>|<\/h3>|<\/h4>|<\/blockquote>|<\/ol>|<\/ul>|<\/code class="codeBlock">|<hr>|<span class="caption">.*?<\/span>)/g, '$1<p>'],
-
-		//add paragraph close tags before paragraph blocking elements
 		[/(<div|<h1|<h2|<h3|<h4|<blockquote|<ol|<ul|<code class="codeBlock"|<hr|<img|<video|<audio)/g, '</p>$1'],
 
 		//remove empty <p> tags
@@ -138,6 +140,7 @@ export function secondParse(string) {
 	string = stylizedLinks(string);
 	string = fixQuoteAndListSyntax(string);
 	string = addListItems(string);
+	string = projectModule(string);
 	string = executeJS(string);
 
 	return string;
@@ -200,6 +203,50 @@ function addListItems(string) {
 	return string;
 }
 
+//creates project module
+function projectModule(string) {
+	const m = [...string.matchAll(/(<div class="projectModule"><\/div>)/gs)];
+
+	//create tags list to populate module with
+	let tags = [];
+	globals.artifacts.forEach(artifact => {
+		artifact.tags.forEach(tag => {
+			if (!tags.includes(tag)) tags.push(tag);
+		});
+	});
+	tags = tags.filter((value) => !['nav', 'debug', 'personal', 'project', 'abstract', 'audio', 'code', 'visual'].includes(value));
+	tags = tags.sort();
+	let tagsList = '';
+	tags.forEach(tag => {
+		tagsList += `<a href="#" class="blockLinkHolder"><span class="neutralLink blockLink">${tag}</span></a>`;
+	});
+
+	//create projects list to populate module with
+	let items = '';
+	globals.artifacts.forEach(artifact => {
+		if (artifact.tags != null) {
+			if (artifact.tags.includes("project") || artifact.tags.includes("research")) {
+
+				let projectTags = artifact.tags;
+				projectTags = projectTags.filter((value) => !['nav', 'debug', 'personal', 'project', 'abstract', 'audio', 'code', 'visual'].includes(value));
+				projectTags = projectTags.sort();
+				let projectTagsList = '';
+				projectTags.forEach(tag => {
+					projectTagsList += `<a href="#" class="blockLinkHolder"><span class="neutralLink blockLink">${tag}</span></a>`;
+				});
+				
+				items += `<div class="pageCard tall"><a href="${artifact.name}" class="pageCardImage" href="${artifact.name}" style="background-image:url(${artifact.image})"></a><div class="pageCardContent"><div class="pageCardTitle"><span>${artifact.title}</span></div><div class="pageCardTags">${projectTagsList}</div></div></div>`;
+			}
+		}
+	});
+
+	for (let i = 0; i < m.length; i++) {
+		string = string.replace(m[i][0], `<div class="projectModule"><div class="projectModuleTags">${tagsList}</div><div class="projectModuleList">${items}</div></div>`);
+	}
+
+	return string;
+}
+
 //finds and executes requested js code
 function executeJS(string) {
 	const elements = [...string.matchAll(/(<span class="execute" execute="([^"]*?)"[^>]*?>)(.*?)(?:<\/span>)/gs)];
@@ -239,7 +286,18 @@ function stylizedLinks(string) {
 		for (let i = 0; i < globals.artifacts.length; i++) {
 			if (globals.artifacts[i].name.toLowerCase() === href.toLowerCase()) artifact = globals.artifacts[i];
 		}
-		if (artifact != null) string = string.replace(elements[i][1], `<div class="pageCard"><a href="${href}" class="pageCardImage" href="${href}" style="background-image:url(${artifact.image})"></a><div class="pageCardTitle"><span>${artifact.title}</span></div></div>`);
+		if (artifact != null) {
+
+			let projectTags = artifact.tags;
+			projectTags = projectTags.filter((value) => !['nav', 'debug', 'personal', 'project', 'abstract', 'audio', 'code', 'visual'].includes(value));
+			projectTags = projectTags.sort();
+			let projectTagsList = '';
+			projectTags.forEach(tag => {
+				projectTagsList += `<a href="#" class="blockLinkHolder"><span class="neutralLink blockLink">${tag}</span></a>`;
+			});
+
+			string = string.replace(elements[i][1], `<div class="pageCard"><a href="${href}" class="pageCardImage" href="${href}" style="background-image:url(${artifact.image})"></a><div class="pageCardContent"><div class="pageCardTitle"><span>${artifact.title}</span></div><div class="pageCardTags">${projectTagsList}</div></div></div>`);
+		}
 	}
 
 	return string;

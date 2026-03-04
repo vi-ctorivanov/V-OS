@@ -53,7 +53,8 @@ li .textImage {
 }
 
 .pageCard {
-	display: block;
+	display: grid;
+	grid-template: 100% / 33.33% auto;
 	position: relative;
 	width: 100%;
 	height: 140px;
@@ -63,10 +64,11 @@ li .textImage {
 	overflow: hidden;
 }
 
+.pageCard.tall {
+	height: calc(var(--cardHeight) + var(--tallCardExtra));
+}
+
 .pageCardImage {
-	display: inline-block;
-	height: 100%;
-	width: 33.33%;
 	min-width: 80px;
 	border-right: solid 1px var(--bright);
 	border-radius: 0;
@@ -79,12 +81,30 @@ li .textImage {
 	filter: brightness(0.75);
 }
 
+.pageCardContent {
+	display: inline-grid;
+	grid-template: auto 30px / auto;
+	padding: calc(var(--gap) / 2) var(--gap) calc(var(--gap) / 2) var(--gap);
+}
+
+.tall .pageCardContent {
+	grid-template: auto 45px / auto;
+}
+
 .pageCardTitle {
-	display: inline-block;
+	position: relative;
+}
+
+.pageCardTitle span {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	padding: 0 var(--gap) 0 var(--gap);
+	overflow: hidden;
+	display: -webkit-box;
+  	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	line-clamp: 3;
+	text-overflow: ellipsis;
 }
 
 code,
@@ -156,4 +176,34 @@ blockquote {
 
 .condensedList li a {
 	font-weight: 400;
+}
+
+.blockLinkHolder {
+	display: inline-block;
+	padding: 1px;
+	margin-right: 8px;
+	margin-top: 2px;
+	border-radius: var(--radius);
+	border-bottom: dotted 1px var(--dark);
+	color: var(--medium);
+	font-size: 13px;
+	font-family: 'Roboto Mono';
+}
+
+.blockLink:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.blockLinkHolder.active {
+	color: var(--default);
+}
+
+.projectModuleList {
+	display: grid;
+	grid-template: auto / repeat(2, calc(50% - var(--gap) / 2));
+  	grid-column-gap: var(--gap);
+}
+
+.projectModuleTags {
+	margin-bottom: var(--gap);
 }

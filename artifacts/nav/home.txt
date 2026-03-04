@@ -23,43 +23,8 @@ Interested in my [professional](#Professional) experience? Check out my @[portfo
 
 ---
 
-# Graphic
-=[graphic]
-
-# Photography
-=[photography]
-
----
-
-# Single
-=[single]
-
-# Album
-=[album]
-
----
-
-# Tool
-=[tool]
-
-# Interactive
-=[interactive]
-
-# Display
-=[display]
-
----
-
-# Writing
-=[writing]
-
-# Research
-=[research]
-
----
-
-# Professional
-=[professional]
+# Projects
++[]
 
 ---
 
