@@ -39,9 +39,9 @@ export function parse(string, type) {
 		[/^(?<!\\)-\[\s?([^\]]+)\]/gm, '<ul class="tagTitleList spaciousList" tag="$1"></ul>'],
 
 		//embed media: ![]
-		[/(?<!\\)\!\[([^\]]+)\]\(([^)]+)(\.png|\.jpg|\.gif)\)/g, `<img class="textImage" src="${globals.imageDirectory}$2$3" alt="$1"><span class="caption"></span>`], //image, supports PNG, JPG, and GIF
-		[/(?<!\\)\!\[([^\]]?)\]\(([^)]+)(\.mp4|\.mov)\)/g, `<video class="video" controls="" src="${globals.videoDirectory}$2$3"></video><span class="caption">$1</span>`], //video, supports MP4 and MOV
-		[/(?<!\\)\!\[([^\]]?)\]\(([^)]+)(\.mp3|\.wav)\)/g, `<audio class="audio" controls=""><source src="${globals.soundDirectory}$2$3"></audio><span class="caption">$1</span>`], //audio, supports MP3 and WAV
+		[/(?<!\\)\!\[([^\]]*?)\]\(([^)]+)(\.png|\.jpg|\.gif)\)/g, `<img class="textImage" src="${globals.imageDirectory}$2$3" alt="$1"><span class="caption"></span>`], //image, supports PNG, JPG, and GIF
+		[/(?<!\\)\!\[([^\]]*?)\]\(([^)]+)(\.mp4|\.mov)\)/g, `<video class="video" controls="" src="${globals.videoDirectory}$2$3"></video><span class="caption">$1</span>`], //video, supports MP4 and MOV
+		[/(?<!\\)\!\[([^\]]*?)\]\(([^)]+)(\.mp3|\.wav)\)/g, `<audio class="audio" controls=""><source src="${globals.soundDirectory}$2$3"></audio><span class="caption">$1</span>`], //audio, supports MP3 and WAV
 		[/(?<!\\)\!\[([^\]]+)\]\(([^)]+)(\.*?)\)/g, `<a href="${globals.fileDirectory}$2$3" alt="$1">$1</a>`], //files, inline
 
 		//execute code (accompanied by post-process code): %[]
