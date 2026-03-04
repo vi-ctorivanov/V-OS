@@ -1,0 +1,9 @@
+name: Soul Architects
+image: soul architects/1.jpg
+imageName: @[Soul Architects]
+tags: project, audio, album
+title: @[Soul Architects] is an album revolving around the creation of AI and its influence in the multiverse.
+
+===
+
+![Wherein Titans Fall](Soul Architects/1.wav)
