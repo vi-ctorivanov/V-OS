@@ -203,7 +203,6 @@ function addListItems(string) {
 	return string;
 }
 
-//creates project module
 function projectModule(string) {
 	const m = [...string.matchAll(/(<div class="projectModule"><\/div>)/gs)];
 
@@ -222,29 +221,45 @@ function projectModule(string) {
 	});
 
 	//create projects list to populate module with
-	let items = '';
+	let projects = '';
 	globals.artifacts.forEach(artifact => {
 		if (artifact.tags != null) {
 			if (artifact.tags.includes("project") || artifact.tags.includes("research")) {
-
-				let projectTags = artifact.tags;
-				projectTags = projectTags.filter((value) => !['nav', 'debug', 'personal', 'project', 'abstract', 'audio', 'code', 'visual'].includes(value));
-				projectTags = projectTags.sort();
-				let projectTagsList = '';
-				projectTags.forEach(tag => {
-					projectTagsList += `<a href="#" class="blockLinkHolder"><span class="neutralLink blockLink">${tag}</span></a>`;
-				});
-				
-				items += `<div class="pageCard tall"><a href="${artifact.name}" class="pageCardImage" href="${artifact.name}" style="background-image:url(${artifact.image})"></a><div class="pageCardContent"><div class="pageCardTitle"><span>${artifact.title}</span></div><div class="pageCardTags">${projectTagsList}</div></div></div>`;
+				let card = constructStylizedLink(artifact.name, true);
+				projects += card;
 			}
 		}
 	});
 
 	for (let i = 0; i < m.length; i++) {
-		string = string.replace(m[i][0], `<div class="projectModule"><div class="projectModuleTags">${tagsList}</div><div class="projectModuleList">${items}</div></div>`);
+		string = string.replace(m[i][0], `<div class="projectModule"><div class="projectModuleTags">${tagsList}</div><div class="projectModuleList">${projects}</div></div>`);
 	}
 
 	return string;
+}
+
+function constructStylizedLink(string, tall=false) {
+	let artifact = null;
+
+	for (let i = 0; i < globals.artifacts.length; i++) {
+		if (globals.artifacts[i].name.toLowerCase() === string.toLowerCase()) artifact = globals.artifacts[i];
+	}
+
+	if (artifact != null) {
+
+		let artifactTags = artifact.tags;
+		artifactTags = artifactTags.filter((value) => !['nav', 'debug', 'personal', 'project', 'abstract', 'audio', 'code', 'visual'].includes(value));
+		artifactTags = artifactTags.sort();
+		let artifactTagsList = '';
+		artifactTags.forEach(tag => {
+			artifactTagsList += `<a href="#" class="blockLinkHolder"><span class="neutralLink blockLink">${tag}</span></a>`;
+		});
+
+		if (tall) return `<div class="pageCard tall"><a href="${artifact.name}" class="pageCardImage" href="${artifact.name}" style="background-image:url(${artifact.image})"></a><div class="pageCardContent"><div class="pageCardTitle"><span>${artifact.title}</span></div><div class="pageCardTags">${artifactTagsList}</div></div></div>`;
+		else return `<div class="pageCard"><a href="${artifact.name}" class="pageCardImage" href="${artifact.name}" style="background-image:url(${artifact.image})"></a><div class="pageCardContent"><div class="pageCardTitle"><span>${artifact.title}</span></div><div class="pageCardTags">${artifactTagsList}</div></div></div>`;
+	}
+
+	return '';
 }
 
 //finds and executes requested js code
@@ -277,27 +292,11 @@ function tagList(tag, title=false) {
 	return items;
 }
 
-//finds and creates stylized link
 function stylizedLinks(string) {
 	const elements = [...string.matchAll(/(<div href="([^"]*?)" class="stylizedLink">(.*?)<\/div>)/gs)];
 	for (let i = 0; i < elements.length; i++) {
-		const href = elements[i][2];
-		let artifact = null;
-		for (let i = 0; i < globals.artifacts.length; i++) {
-			if (globals.artifacts[i].name.toLowerCase() === href.toLowerCase()) artifact = globals.artifacts[i];
-		}
-		if (artifact != null) {
-
-			let projectTags = artifact.tags;
-			projectTags = projectTags.filter((value) => !['nav', 'debug', 'personal', 'project', 'abstract', 'audio', 'code', 'visual'].includes(value));
-			projectTags = projectTags.sort();
-			let projectTagsList = '';
-			projectTags.forEach(tag => {
-				projectTagsList += `<a href="#" class="blockLinkHolder"><span class="neutralLink blockLink">${tag}</span></a>`;
-			});
-
-			string = string.replace(elements[i][1], `<div class="pageCard"><a href="${href}" class="pageCardImage" href="${href}" style="background-image:url(${artifact.image})"></a><div class="pageCardContent"><div class="pageCardTitle"><span>${artifact.title}</span></div><div class="pageCardTags">${projectTagsList}</div></div></div>`);
-		}
+		let card = constructStylizedLink(elements[i][2]);
+		string = string.replace(elements[i][1], card);
 	}
 
 	return string;
