@@ -11,7 +11,7 @@ I'm Victor Ivanov [vi], and I'm the creator of this space, currently residing in
 
 I design, develop, and produce static and interactive media, focusing to create *unique, innovative, aesthetically powerful, polished, and imaginative* experiences.
 
-In my %[new Date().getFullYear() - 2019;] years of work, I've put my artistic and programming skills to use across the realm of digital media for various clients and studios, tackling challenges that balance technical expertise and artistic expression.
+In my %[new Date().getFullYear() - 2020;] years of work, I've put my artistic and programming skills to use across the realm of digital media for various clients and studios, tackling challenges that balance technical expertise and artistic expression.
 
 My experience covers:
 
