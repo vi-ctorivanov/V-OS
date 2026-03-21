@@ -307,7 +307,7 @@ function getRecentlyUpdatedPages(string) {
 	const elements = [...string.matchAll(/(<div recentlyUpdatedPages="([^"]*?)"><\/div>)/gs)];
 
 	let sortedArtifacts = globals.artifacts.slice().sort((a, b) => b.lastModified.getTime() - a.lastModified.getTime()); //avoid changing original array
-	sortedArtifacts = sortedArtifacts.filter((value) => !value.tags.includes('nav') && !value.tags.includes('debug'));
+	sortedArtifacts = sortedArtifacts.filter((value) => !value.tags.includes('nav') && !value.tags.includes('debug') && !value.tags.includes('personal'));
 		
 	for (let i = 0; i < elements.length; i++) {
 		const entries = elements[i][2];

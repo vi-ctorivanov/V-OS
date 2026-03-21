@@ -12,7 +12,7 @@ The markup language supports nesting and is based off of Markdown, but includes 
 
 ---
 
-=\[tag] link list
+\=[tag] link list
 
 Creates a list of artifacts that have this tag.
 
@@ -20,11 +20,21 @@ Creates a list of artifacts that have this tag.
 
 ---
 
--\[tag] title list
+\-[tag] title list
 
 Creates a list of artifacts' titles that have this tag.
 
 =[visual]
+
+---
+
+\+[] project list
+
+Creates a list of all projects as cards.
+
+Note that this module is made to work only on the home page, as clicking on tags is meant to always redirect to it.
+
++[]
 
 ---
 

@@ -10,9 +10,7 @@ I'm [Victor Ivanov](portfolio) [vi], and @[V-OS] is a wiki of my digital artwork
 Please enjoy exploring.
 
 Feel lost? Start by browing some [projects](#Projects) down below.
-
 Curious about the narrative counterpart to V-OS? Visit [VOIDNET](https://voidnet.ca).
-
 Interested in my [professional](/home#?base?professional) experience? Check out my @[portfolio].
 
 ---
@@ -25,6 +23,7 @@ Interested in my [professional](/home#?base?professional) experience? Check out 
 ---
 
 # Projects
+
 +[]
 
 ---
