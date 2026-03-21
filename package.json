@@ -5,7 +5,8 @@
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
-		"build": "node main.js"
+		"build": "node main.js",
+		"push": ". ./config.sh && rsync -avP --delete --rsh=\"ssh -i $KEY\" ./dist/ $SERVER"
 	},
 	"repository": {
 		"type": "git",
