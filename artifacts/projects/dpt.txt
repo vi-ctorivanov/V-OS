@@ -1,0 +1,30 @@
+name: Dpt
+image: dpt/1.png
+imageName: @[Dpt]
+links: [Visit Dpt](https://dpt.co/)
+tags: project, professional, visual, graphic, code, interactive, display
+title: @[Dpt] is a studio which creates interactive experiences across virtual and physical spaces.
+
+===
+
+![Photograph of 2 people at a museum observing a spherical projection of zoomed-in insects.](dpt/8.jpg)
+
+During my time at Dpt, I had the chance to work on projects for clients and organizations like Meta, Felix & Paul, Jeld-Wen, Mandai Wildlife Reserve, and Calgary Stampede.
+
+![Astronaut at night on a desert plane with a rover near them.](dpt/5.jpg)
+
+I handled shaders, rigs, post processing effects, particle systems, and optimization of assets and rendering on interactive experiences covering XR platforms on Unity and Unreal and installations both small and large. I even got to play with some really fun and... *promise you won't tell anyone*... ***unreleased hardware***.
+
+![First person view of a miniature model of the ISS floating in a living room with a cosmic arm reaching towards it.](dpt/7.png)
+![Large room with a globe in its center around which are gathered a dozen people, the ceiling curving inwards at the center.](dpt/16.jpg)
+
+I also really enjoyed working with my amazing team, where I learned so much from my mentors, collaborated closely with our animator while iterating on character rigs, and helped manage two artists (technical and VFX) to help them grow their technical expertise in their respective areas of work.
+
+![Dark room with statues of rock-embedded dinosaurs and a person standing in front of a large screen showing the face of a dinosaur.](dpt/12.jpg)
+![Bright orange room with small dunes as the floor, each wall is a mirror, two people conversing and smiling in it.](dpt/13.jpg)
+
+And ultimately, I was (still am) very grateful to have had the opportunity to turn playing with interesting forms of interaction and 3D tech into real, culturally enriching, educational projects!
+
+![View of the planet Earth from space.](dpt/4.png)
+
+Photo credits go to Mandai Wildlife Reserve and Felix & Paul.

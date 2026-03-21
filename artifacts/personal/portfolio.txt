@@ -2,32 +2,33 @@ name: Portfolio
 image: portfolio/1.png
 imageName: @[Portfolio]
 tags: personal
-links: ![Download Resume](https://v-os.nyc3.cdn.digitaloceanspaces.com/files/portfolio/Victor%20Ivanov%20CV.pdf)
+links: ![Download Resume](portfolio/Victor Ivanov CV.pdf)
 title: Victor's @[portfolio].
 
 ===
 
-I'm Victor Ivanov [vi], and I'm the creator of this space, currently residing in Montreal. I've worked as a developer, artist, and technical artist for games, publicity, web, and art installations.
+I'm Victor Ivanov [vi], and I'm the creator of this space, currently residing in Montreal. I've worked as a developer, artist, and technical artist for games, publicity, web, VR & AR experiences, and art installations.
 
 I design, develop, and produce static and interactive media, focusing to create *unique, innovative, aesthetically powerful, polished, and imaginative* experiences.
 
-In my %[new Date().getFullYear() - 2020;] years of work, I've put my artistic and programming skills to use across the realm of digital media for various clients and studios, tackling challenges that balance technical expertise and artistic expression.
+In my %[new Date().getFullYear() - 2020;] years of work, I've put my art and programming skills to use across the realm of digital media for clients and studios like Meta, Felix & Paul, Dpt, Kabam, Iregular, and Desjardins, tackling challenges that balance technical expertise and artistic expression.
 
 My experience covers:
 
-\- Offline and realtime graphics for games and video
-\- Full pipeline offline and realtime 3D art production
-\- Realtime shaders and VFX
-\- Procedural generation systems, 3D art pipeline design, and tool development
+\- Offline and realtime graphics for games and film
+\- Full pipeline 3D art production and optimization
+\- Shaders, realtime VFX, physics simulations, materials, and post processing
+\- Procedural generation systems, art production pipeline design, and tool development
 \- Development of full stack websites and realtime 3D web applications
+\- Teaching all of the above
 
-I love all digital media, and I value creative exploration and novelty in my work. I feel most motivated and fulfilled when I'm forced to learn new things and solve problems I'm not familiar with. I'm always looking for new opportunities to create something original and innovative, and to solve unique problems with unique solutions.
+I feel most motivated and fulfilled when I'm learning new things, solving problems I'm not familiar with, and supporting other artists. I'm always looking for new opportunities to create something original and innovative, and to solve unique problems with unique solutions. If you think I can help with your project, regardless of size, send me an email at [vi@v-os.ca](mailto:vi@v-os.ca)!
 
 I also keep my traditional art skillsets sharp by producing a lot of personal work, found on the @[home] page. I craft stories and art often focused on alternate realities and fictional worlds where technology is used as a narrative catalyst to explore existential questions.
 
 ---
 
-Check out my ![resume](portfolio/Victor Ivanov CV.pdf) for more formal documentation of my work experience.
+Check out my ![resume](portfolio/Victor Ivanov CV.pdf) for a more formal documentation of my work experience.
 
 If you'd like to get in touch, please send me an email at [vi@v-os.ca](mailto:vi@v-os.ca)!
 
@@ -35,16 +36,16 @@ If you'd like to get in touch, please send me an email at [vi@v-os.ca](mailto:vi
 
 # Curated Projects
 
-For a full list of projects, please visit the @[home] page.
-
 &[time breaker]
+&[dpt]
 &[sustained light chain]
 &[jagged orbit]
 &[qu-6]
 &[iregular]
 &[toriyomu]
 &[invictus]
-&[chroniqueur]
+
+Looking for more projects? Click a tag of interest in the project card or visit the @[home] page for all [projects](home#Projects).
 
 ---
 
