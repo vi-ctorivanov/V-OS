@@ -1,0 +1,19 @@
+name: Daran Joyo
+image: daran joyo/2.png
+imageName: @[Daran Joyo]
+links: [Visit Daran Joyo](https://daranjoyo.com)
+tags: project, code, interactive, professional
+title: @[Daran Joyo]'s portfolio.
+
+===
+
+I worked with Daran to realize and implement her portfolio design, check it out [here](https://daranjoyo.com)!
+
+I also helped define the behavior of its more technical elements; the design featured a fun challenge with a sparse grid and hero image which smoothly swapped its photo as the page scrolled.
+
+We also pondered on an interactive background which felt both dynamic yet not too gimmicky. Ultimately, we settled on a subtle and calm multi-point gradient with primitive repulsive forces where the user can push the points around using their mouse.
+
+Developed using [Astro](https://astro.build/) as I've grown to favor static websites.
+
+![Screenshot of bright beige website with an off-center square image and list of projects, each slicing the square block and showcasing their image in that slice.](daran joyo/3.png)
+![Layout of writing on website.](daran joyo/4.png)

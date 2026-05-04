@@ -23,7 +23,10 @@ export function formatHTMLPage(artifact) {
 	//image
 	if (artifact.image != null) {
 		page = page.replace(/\$image/g, artifact.image);
-		page = page.replace(/\$noHeader/g, '');
+
+		if (artifact.tags.includes('personal')) page = page.replace(/\$noHeader/g, '<style>#header{height:20vh;}</style>');
+		else page = page.replace(/\$noHeader/g, '');
+	
 	} else page = page.replace(/\$noHeader/g, '<style>#header{height:140px;background-color:var(--default);}</style>');
 
 	//log data

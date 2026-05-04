@@ -7,7 +7,11 @@ title: @[Sanea Ima]'s portfolio.
 
 ===
 
-Designed with and for friend and collaborator [Sanea Ima](https://saneaima.com).
+I designed and developed my good friend and collaborator [Sanea Ima](https://saneaima.com)'s portfolio website.
+
+The goal was to create a fairly traditional project showcase space with a style that highlights the structure of the site's layout. For that purpose, I opted for a clean construction sketch look with heavy use of full-page dotted lines across major layout elements.
+
+Because Sanea Ima is a composer, I also handcrafted a music player interface for their audio files.
 
 Developed with the help of [GRAV CMS](https://getgrav.org/).
 

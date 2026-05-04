@@ -7,11 +7,29 @@ title: Victor's @[portfolio].
 
 ===
 
-I'm Victor Ivanov [vi], and I'm the creator of this space, currently residing in Montreal. I've worked as a developer, artist, and technical artist for games, publicity, web, VR & AR experiences, and art installations.
+# Technical Art - Shaders & Tools
 
-I design, develop, and produce static and interactive media, focusing to create *unique, innovative, aesthetically powerful, polished, and imaginative* experiences.
+&[dpt]
+&[sustained light chain]
+&[invictus]
+&[iregular]
 
-In my %[new Date().getFullYear() - 2020;] years of work, I've put my art and programming skills to use across the realm of digital media for clients and studios like Meta, Felix & Paul, Dpt, Kabam, Iregular, and Desjardins, tackling challenges that balance technical expertise and artistic expression.
+---
+
+# Offline 3D & Procedural Generation
+
+&[time breaker]
+&[toriyomu]
+&[jagged orbit]
+&[qu-6]
+
+---
+
+I'm Victor Ivanov [vi], and I'm the creator of this space, based in Montreal. I've worked as a technical artist for games, publicity, web, VR & AR experiences, and art installations.
+
+I design, develop, and produce static and interactive media to create *unique, polished, and imaginative* experiences.
+
+In my %[new Date().getFullYear() - 2020;] years of work, I've put my art and programming skills to use across the realm of digital media for clients and studios like Meta, Felix & Paul, Dpt, Kabam, Haply Robotics, Iregular, Heavy Cav, and Desjardins, tackling challenges that balance technical expertise and artistic expression.
 
 My experience covers:
 
@@ -24,34 +42,8 @@ My experience covers:
 
 I feel most motivated and fulfilled when I'm learning new things, solving problems I'm not familiar with, and supporting other artists. I'm always looking for new opportunities to create something original and innovative, and to solve unique problems with unique solutions. If you think I can help with your project, regardless of size, send me an email at [vi@v-os.ca](mailto:vi@v-os.ca)!
 
-I also keep my traditional art skillsets sharp by producing a lot of personal work, found on the @[home] page. I craft stories and art often focused on alternate realities and fictional worlds where technology is used as a narrative catalyst to explore existential questions.
-
 ---
 
 Check out my ![resume](portfolio/Victor Ivanov CV.pdf) for a more formal documentation of my work experience.
 
 If you'd like to get in touch, please send me an email at [vi@v-os.ca](mailto:vi@v-os.ca)!
-
----
-
-# Curated Projects
-
-&[time breaker]
-&[dpt]
-&[sustained light chain]
-&[jagged orbit]
-&[qu-6]
-&[iregular]
-&[toriyomu]
-&[invictus]
-
-Looking for more projects? Click a tag of interest in the project card or visit the @[home] page for all [projects](home#Projects).
-
----
-
-# Links
-
-1. [LinkedIn](https://www.linkedin.com/in/victor-ivanov/): Professional profile containing work experience, education, skills, and other work-related information.
-2. [GitHub](https://github.com/vi-ctorivanov): Code projects repository.
-3. [Bandcamp](https://victorivanov.bandcamp.com/releases): Released albums and featured music repository.
-4. [vi@v-os.ca](mailto:vi@v-os.ca): Email address.

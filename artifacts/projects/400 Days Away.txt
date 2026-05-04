@@ -1,0 +1,95 @@
+name: 400 Days Away
+image: 400 days away/13.jpg
+imageName: @[400 Days Away]
+tags: project, visual, photography
+title: @[400 Days Away] is a photo album covering a year of travel across 15 countries.
+
+===
+
+In the end of 2025, I decided to take a year away from usual life to do a slow lap around the planet.
+
+![Photograph from above of urban shoreline in Japan with a bridge crossing over to an island.](400 days away/3.jpg)
+![Mount Fuji at night with its reflection in a lake, bright lights at its foot and dimmer stars in the sky.](400 days away/16.jpg)
+![Densely packed decrepit buildings falling apart.](400 days away/26.jpg)
+
+```
+日本; 한국; Indonesia; Australia; Ελλάδα; България; Magyarország; Österreich; Slovensko; Česko; Polska; Deutschland; Nederland; Belgique; France.
+
+Japan; Korea; Indonesia; Australia; Greece; Bulgaria; Hungary; Austria; Slovakia; Czechia; Poland; Germany; Netherlands; Belgium; France.
+```
+
+![Orange cat sitting besides a tree in the woods.](400 days away/14.jpg)
+![Lone lighthouse at the edge of a pier, surrounded by water and sky.](400 days away/25.jpg)
+
+I spent half a year in Japan, where I had already lived for a year as an exchange student, explored in the older, cringier album @[Loveletter To Japan].
+
+&[loveletter to japan]
+
+![Dense and staggered layout of a few buildings and utility boxes in an alley's end.](400 days away/7.jpg)
+![Mount Fuji during sunset with its reflection in a lake and a family of ducks swimming by.](400 days away/18.jpg)
+![The moon during the day with utility wires and birds intersecting the sky, surrounded by a tight alley and trees.](400 days away/6.jpg)
+![Group of boats parked near a concrete pier, a mountain and bridge far in the background peek above the water.](400 days away/13.jpg)
+
+Many of my old friends there made this lifestyle change easier. I was also lucky to make many new friends, especially during my time in a rural town teaching English, playing volleyball, and for some odd reason learning to make mochi in a garage.
+
+![Small round bird sitting on a branch looking down.](400 days away/8.jpg)
+![Two wooden forest trails zigzagging between trees, surrounded by a floor of densely packed plants.](400 days away/9.jpg)
+![View of a valley from its bottom, water at its base and tall mountains on its sides.](400 days away/10.jpg)
+![View of a valley from its bottom, rocks at its base with a person standing on them and a suspension bridge in the distance.](400 days away/11.jpg)
+![City landscape nestled between two hills in the foreground.](400 days away/12.jpg)
+
+I went back and forth nonstop for those six months. Tokyo, Nikko, Kagawa, Hiroshima, Osaka, back to Tokyo, then back down south to Nagasaki and Fukuoka. Japan hadn't changed much, I felt. But I did. It felt good seeing it again without a yearning to go back. Like I had moved on.
+
+![Old man in formal clothes walking up a staircase.](400 days away/2.jpg)
+![Foggy view from above of the sea and a lone island in the distance.](400 days away/15.jpg)
+![Two fishermen on a rock, one whipping their fishing rod forward.](400 days away/5.jpg)
+
+Korea was a fresh change of pace. I loved the liveliness. People seemed straightforward. That also meant you saw when they were bored, or pissed, or tired. But I liked that, it's honest, it's transparent.
+
+![Packed small buildings on the water's shore with larger apartment buildings standing right behind them.](400 days away/23.jpg)
+![Foggy industrial dock with tall mountains in the background fading into the clouds.](400 days away/24.jpg)
+![Snowy mountaintop view of a winter forest with another mountain in the distant fog.](400 days away/19.jpg)
+![Concrete building ruins.](400 days away/28.jpg)
+
+Indonesia was more of a challenge to my world view. I felt so odd being the (relatively) rich tourist. This year-long trip was motivated in part by my growing interest in how capitalism and economics at large affected our lives.
+
+The example that Indonesia's tourism-heavy economy presented really clarified, for me, the processes of gentrification in various forms, the zero-sum games we play in our economies (and relatedly race-to-the-bottom style business), and how economical classes are formed both nationally and around the globe. Everyone I met there was amazing, and I wish the world was different.
+
+![Hawk and raven pecking at a dead fish on the edge of a beach during sunset.](400 days away/17.jpg)
+![Docked military ship with houses stacked on the mountain behind it.](400 days away/21.jpg)
+![Zoomed view of two hawks at their nest in a ruined concrete building window.](400 days away/27.jpg)
+![Array of large orange cranes on an industrial dock.](400 days away/22.jpg)
+![Rubble surrounded by lush growth of plants.](400 days away/29.jpg)
+
+Australia was far more familiar to Canada, excluding the wildlife. I went snorkling and could barely see through the tears in my mask because of the blinding beauty. Oceans are amazing and terrifying, just like space. If they had documentaries about deep space creatures I would be considering a career change.
+
+![Kangaroo yawning.](400 days away/32.jpg)
+![Groggy looking kangaroo who just finished yawning.](400 days away/31.jpg)
+
+A month of my time in Australia was spent in a campervan, which I loved everything about, except for the campervan. Scouting for a cold shower every few days can be a bit exhausting. It also made me realize how much of my life revolved around my computer, which I had limited access to. I learned how much I took for granted. To those who live in cars or boats, you are strong.
+
+![Ibis with red spots on the back of its neck carefully walking through muddy land.](400 days away/35.jpg)
+![Densely packed group of orange trees sticking out of and reflectd in swampy water.](400 days away/30.jpg)
+![Kangaroo leaning down and eating grass, with a family of kangaroos behind it laying down.](400 days away/33.jpg)
+
+Then the final 3 months in Europe went by quickly. Like the shrines in Japan, there's only so many cathedrals you can visit before they all start to look the same. I'd trash talk the tourists if it didn't make me a hypocrite. There are so many good places, places sometimes better than what's currently popular, that just don't have the same marketing hype. It's really worth exploring for yourself and getting a local opinion.
+
+![Calm swampy waters with small growing shoots framed by larger thin twisted trees.](400 days away/34.jpg)
+
+After a year abroad, can I even summarize all the lessons I learned? The answer is yes.
+
+People are the same, no matter where you go.
+
+A huge part of my life is centered around computers, and that's super weird and kinda scary.
+
+Everyone is a slave to whoever's money or attention they desire. I'd like to fight for a world where we need less of both.
+
+There's still loads of places to visit on my list, maybe even more now that I've grown interested in the less mainstream spots.
+
+It feels good to be home :)
+
+![Long urban shoreline fading into the foggy distance with mountains barely visible in the background.](400 days away/4.jpg)
+
+---
+
+Photos in this album are exclusively from Japan and Australia, despite discussing many other places.
