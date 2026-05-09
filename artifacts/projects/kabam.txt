@@ -1,0 +1,49 @@
+name: Kabam
+image: kabam/1.jpg
+imageName: @[Kabam]
+links: [Visit Kabam](https://kabam.com)
+tags: project, professional, visual, graphic, code, interactive
+title: @[Kabam] is a mobile game studio.
+
+===
+
+I joined Kabam as a technical artist and spent two years building internal tools, systems, and visuals to support artists and developers alike in working quickly and smoothly. I began work on Shadows of Valdora (unreleased), contributed to the live service [Shop Titans](https://play.google.com/store/apps/details?id=com.ripostegames.shopr&pcampaignid=web_share), and continued on a third unannounced title.
+
+---
+
+# Lighting Overhaul (Unity, C#, HLSL)
+
+![Game screenshot of an isometric view of a cartoony town with afternoon shadows and a bright river.](kabam/3.png)
+![Portrait top-down view of heroes fighting a mechanical enemy in a mineshaft, with UI on the bottom of character abilities.](kabam/2.png)
+
+I led a complete overhaul of the lighting pipeline in Shadows of Valdora, implementing a baked and mixed lighting setup alongside an automated light probe and reflection probe workflow. I also developed a matcap-based shader as a cheaper and stylized alternative to real-time reflections.
+
+---
+
+# Clothing Deformation Pipeline (Blender, 3dsMax, Unity)
+
+One of the unannounced project's core challenges was fitting a standard clothing mesh across vastly different character bodies, each with additional sliders for body variations like muscle, fat, and bone structure. Doing this manually per asset across a library of over a hundred clothing pieces wasn't viable.
+
+So, I designed and built a lattice-based deformation pipeline to solve this. A lattice modifier with blendshapes handles the broad large-scale body shape changes, with a second set of blendshapes layered on top for body variation sliders. Artists use only a single standard mesh, run it through the lattice system to get an appropriate fit, then are left only with some targeted manual cleanup before baking and exporting. In Unity, the correct asset variant is loaded and its blendshapes are driven to match the underlying character body at runtime.
+
+---
+
+# Skin Texture System & Substance Painter Shader (Substance Painter, Unity, HLSL/GLSL)
+
+Character customization on multiple of Kabam's games required skin textures that worked across a range of skin tones. I designed a custom texture map and a corresponding shader with our graphics programmer: each channel encodes a different skin property, such as skin thinness (affecting blush presentation across different complexions) and independently pigmented details like tattoos and scars.
+
+It worked well in Unity, but the custom texture map was unintuitive for artists to author blind in Substance Painter, as they had no way to preview their work without going through the full integration process. I rebuilt the same shader in Substance Painter so artists could see an accurate preview of their final result without ever leaving the app.
+
+---
+
+# Asset Preprocessing Pipeline (Unity, C#)
+
+Texture integration was a consistent source of errors: wrong naming, missed import settings, incorrect presets. Small mistakes that added up across the production.
+
+I built a Unity preprocessing script that intercepts textures at import time and automatically applies the correct settings based on naming conventions and the relevant preset. Artists name their maps correctly, with the added motivation that the pipeline now handles the rest! It removed a whole category of avoidable human error from the integration process.
+
+---
+
+Additional contributions: VFX production, environment and VFX shaders, render optimization, cinemachine cutscene integration, technical documentation, general technical support, and all the communcation bridging between art and dev teams expected of a good tech artist!
+
+![Illustration of a warrior facing a purple beast with two heads, both characters on floating rocky islands in a purple cosmos.](kabam/4.png)

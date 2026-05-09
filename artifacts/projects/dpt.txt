@@ -9,21 +9,26 @@ title: @[Dpt] is a studio which creates interactive experiences across virtual a
 
 ![Photograph of 2 people at a museum observing a spherical projection of zoomed-in insects.](dpt/8.jpg)
 
-During my time at Dpt, I had the chance to work on projects for clients and organizations like Meta, Felix & Paul, Jeld-Wen, Mandai Wildlife Reserve, and Calgary Stampede.
+During my time at Dpt, I worked on projects for clients and organizations like Meta, Felix & Paul, Jeld-Wen, Mandai Wildlife Reserve, and Calgary Stampede.
 
+![Blue corridor with reflective screens on each side and a projected array of particles on the floor.](dpt/17.jpg)
 ![Astronaut at night on a desert plane with a rover near them.](dpt/5.jpg)
 
-I handled shaders, rigs, post processing effects, particle systems, and optimization of assets and rendering on interactive experiences covering XR platforms on Unity and Unreal and installations both small and large. I even got to play with some really fun and... *promise you won't tell anyone*... ***unreleased hardware***.
+My major project was leading the technical pipeline for Space Explorers, an Unreal VR production for Felix & Paul. I authored master shaders for environmental elements like the ISS and various VFX, which meant producing low-cost materials on a mobile render pipeline that maintained the aesthetic targets for a major production. I also produced VFX for things like navigation and UX feedback, cutscenes, tutorials, XR transitions between in-game and passthrough content, and other stylized elements in the title's scenes.
 
 ![First person view of a miniature model of the ISS floating in a living room with a cosmic arm reaching towards it.](dpt/7.png)
-![Large room with a globe in its center around which are gathered a dozen people, the ceiling curving inwards at the center.](dpt/16.jpg)
+![Large room with a globe in its center around which are gathered a dozen people, the ceiling curving inwards at the center.](dpt/10.jpg)
 
-I also really enjoyed working with my amazing team, where I learned so much from my mentors, collaborated closely with our animator while iterating on character rigs, and helped manage two artists (technical and VFX) to help them grow their technical expertise in their respective areas of work.
+During that time, I also worked directly with the client, understanding the project's requirements, developing artistic concepts, and mapping those ideas to concrete designs. I also managed two other artists (technical and VFX) to help them grow their technical expertise in their respective areas of work.
 
 ![Dark room with statues of rock-embedded dinosaurs and a person standing in front of a large screen showing the face of a dinosaur.](dpt/12.jpg)
 ![Bright orange room with small dunes as the floor, each wall is a mirror, two people conversing and smiling in it.](dpt/13.jpg)
 
-And ultimately, I was (still am) very grateful to have had the opportunity to turn playing with interesting forms of interaction and 3D tech into real, culturally enriching, educational projects!
+Beyond Space Explorers, I contributed to a large scale multi-installation exhibit (87 interactive installations!) at Mandai Wildlife Reserve in Singapore, where I made particle systems and shaders in Unity for environments and UX feedback.
+
+I built character rigs for an interactive exhibit for Calgary Stampede and a web AR project for Jeld-Wen, where I also worked on Maya rigging tools for automating control rigs and helper bones.
+
+Between major projects, I optimized topology and UVs across assets for various other productions, and I even got to work with some really fun and... *promise you won't tell anyone*... ***unreleased hardware***.
 
 ![View of the planet Earth from space.](dpt/4.png)
 
